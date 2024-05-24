@@ -1,0 +1,7 @@
+------------------------------------------------------------------------------------------
+dos2unix corrects formatting error
+find ./confs/ -type f -exec dos2unix {} \;
+find ./ -type f -exec dos2unix {} \;
+------------------------------------------------------------------------------------------
+
+tcpdump -i em1 -w /root/codel_sc1.em1.pcap >& tcpdump.em1.out & ; tcpdump -i em2 -w /root/codel_sc1.em2.pcap >& tcpdump.em2.out & ;
