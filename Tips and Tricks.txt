@@ -1,3 +1,5 @@
+While instaling FreeBSD, do UFS DIsk instalation, it is second option. Auto (UFS) partitioning automatically sets up the disk partitions using the UFS file system.
+Type wheel in login group - Invite user into other groups? - Additional groups to which the user will be added as a member. If the user needs administrative access, type wheel here.
 ------------------------------------------------------------------------------------------
 dos2unix corrects formatting error
 find ./confs/ -type f -exec dos2unix {} \;
