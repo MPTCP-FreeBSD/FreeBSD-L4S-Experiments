@@ -7,3 +7,12 @@ find ./ -type f -exec dos2unix {} \;
 ------------------------------------------------------------------------------------------
 
 tcpdump -i em1 -w /root/codel_sc1.em1.pcap >& tcpdump.em1.out & ; tcpdump -i em2 -w /root/codel_sc1.em2.pcap >& tcpdump.em2.out & ;
+
+ipfw pipe 1 config bw 1mbits/s codel
+ipfw add 100 pipe 1 from any to any
+
+ipfw pipe 1 config bw 10mbits/s
+
+sudo scp -P 3322 -p -i ~/.ssh/mptcprootkey root@192.168.56.1:*.siftr.log ./
+sudo scp -P 3322 -p -i ~/.ssh/mptcprootkey root@192.168.56.1:*.pcap ./
+sudo scp -P 3322 -p -i ~/.ssh/mptcprootkey root@192.168.56.1:*.out ./

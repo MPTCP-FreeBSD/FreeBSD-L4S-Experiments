@@ -25,12 +25,12 @@ set router1port = "4422"
 set router2port = "4423"
 
 # Dummynet data rate
-set vm1drate = "10Mbps"
-set vm2drate = "10Mbps"
+set vm1drate = "1Mbps"
+set vm2drate = "1Mbps"
 
 
-set vm1delay = "40ms"
-set vm2delay = "40ms"
+set vm1delay = "20ms"
+set vm2delay = "20ms"
 
 # File to be transferred
 set rcvfilepath = "/tmp"               # path on the receiver
