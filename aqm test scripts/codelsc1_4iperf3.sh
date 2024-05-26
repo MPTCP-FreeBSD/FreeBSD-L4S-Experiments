@@ -67,10 +67,13 @@ set vmhostaddr = "192.168.56.1"
 # WHat I need
 # ipfw pipe 1 config bw 10mbits/s delay 20ms codel
 echo "Configuring DummynetVM1 for $vm1drate"
+
 ssh -p $router1port -i ~/.ssh/$sshkey root@$vmhostaddr "ipfw pipe 1 config bw $vm1drate delay $vm1delay codel ecn"
+ssh -p $router1port -i ~/.ssh/$sshkey root@$vmhostaddr "ipfw add 100 pipe 1 ip from any to any"
 
 echo "Configuring DummynetVM2 for $vm2drate"
 ssh -p $router2port -i ~/.ssh/$sshkey root@$vmhostaddr "ipfw pipe 1 config bw $vm2drate delay $vm1delay codel ecn"
+ssh -p $router1port -i ~/.ssh/$sshkey root@$vmhostaddr "ipfw add 100 pipe 1 ip from any to any"
 
 
 

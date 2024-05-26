@@ -113,6 +113,7 @@ if ($do_tcpdump == 1) then
     "tcpdump -i em1 -w /root/${testname}.em1.pcap >& tcpdump.em1.out & ; tcpdump -i em2 -w /root/${testname}.em2.pcap >& tcpdump.em2.out & ;"
 endif
 
+
 # initiate test
 
 # initiate test
