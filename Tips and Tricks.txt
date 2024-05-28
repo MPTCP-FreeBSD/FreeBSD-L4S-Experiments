@@ -25,12 +25,10 @@ rm *.log; rm *.pcap; rm *.out;
 
 iperf3 -s --rcv-timeout 3600000 !!! Important to resolve idle timeout error on server side
 
-csh codel1_ecn.sh; csh codel2_ecn.sh; csh fqcodel1_ecn.sh; csh fqcodel2_ecn.sh; csh fqpie1_ecn.sh; csh fqpie2_ecn.sh; csh pie1_ecn.sh; csh pie2_ecn.sh;
 
-csh codel1_noecn.sh; csh codel2_noecn.sh; csh fqcodel1_noecn.sh; csh fqcodel2_noecn.sh; csh fqpie1_noecn.sh; csh fqpie2_noecn.sh; csh pie1_noecn.sh; csh pie2_noecn.sh;
+(csh l4s1_ecn.sh; csh l4s2_ecn.sh; csh l4s1_noecn.sh; csh l4s2_noecn.sh) > l4sterminaloutput.txt
+git checkout --force origin/FQ-PIE-6flows
 
-
-csh codel1_ecn.sh; csh codel2_ecn.sh; csh fqcodel1_ecn.sh; csh fqcodel2_ecn.sh; csh fqpie1_ecn.sh; csh fqpie2_ecn.sh; csh l4s1_ecn.sh; csh l4s2_ecn.sh; csh pie1_ecn.sh; csh pie2_ecn.sh;
 
 Shyamesh@098
 
