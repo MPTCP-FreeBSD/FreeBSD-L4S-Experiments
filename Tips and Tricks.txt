@@ -6,6 +6,10 @@ find ./confs/ -type f -exec dos2unix {} \;
 find ./ -type f -exec dos2unix {} \;
 ------------------------------------------------------------------------------------------
 
+Enable ECN for test1
+sysctl net.inet.tcp.ecn.enable=1
+
+
 tcpdump -i em1 -w /root/codel_sc1.em1.pcap >& tcpdump.em1.out & ; tcpdump -i em2 -w /root/codel_sc1.em2.pcap >& tcpdump.em2.out & ;
 
 ipfw pipe 1 config bw 1mbits/s codel
@@ -27,3 +31,17 @@ csh codel1_noecn.sh; csh codel2_noecn.sh; csh fqcodel1_noecn.sh; csh fqcodel2_no
 
 
 csh codel1_ecn.sh; csh codel2_ecn.sh; csh fqcodel1_ecn.sh; csh fqcodel2_ecn.sh; csh fqpie1_ecn.sh; csh fqpie2_ecn.sh; csh l4s1_ecn.sh; csh l4s2_ecn.sh; csh pie1_ecn.sh; csh pie2_ecn.sh;
+
+Shyamesh@098
+
+sudo sysctl net.ipv4.tcp_congestion_control=bbr
+
+sudo sysctl net.ipv4.tcp_congestion_control=pcc
+
+sudo sysctl net.ipv4.tcp_available_congestion_control
+
+C:\Users\deols\OneDrive\Desktop\Personal\Ent\Download\iperf3.17_64\iperf3.exe -s -p 7575
+
+C:\Users\deols\OneDrive\Desktop\Personal\Ent\Download\iperf3.17_64\iperf3.exe -s -p 3001
+
+Cubic_RED_254_BBR_GREEN_248
