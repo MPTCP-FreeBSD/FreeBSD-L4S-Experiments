@@ -1,0 +1,21 @@
+File Name,Total Throughput (bytes)
+codel1_ecn.em1.pcap,44.26188850402832
+codel1_noecn.em1.pcap,50.00366497039795
+codel2_ecn.em1.pcap,5.027856826782227
+codel2_noecn.em1.pcap,5.787271499633789
+fqcodel1_ecn.em1.pcap,49.04203224182129
+fqcodel1_noecn.em1.pcap,48.71674346923828
+fqcodel2_ecn.em1.pcap,5.762482643127441
+fqcodel2_noecn.em1.pcap,5.927546501159668
+fqpie1_ecn.em1.pcap,52.55769920349121
+fqpie1_noecn.em1.pcap,49.359225273132324
+fqpie2_ecn.em1.pcap,5.774224281311035
+fqpie2_noecn.em1.pcap,5.796730995178223
+l4s1_ecn.em1.pcap,49.87015628814697
+l4s1_noecn.em1.pcap,53.378952980041504
+l4s2_ecn.em1.pcap,5.217669486999512
+l4s2_noecn.em1.pcap,5.172837257385254
+pie1_ecn.em1.pcap,49.976271629333496
+pie1_noecn.em1.pcap,50.73486042022705
+pie2_ecn.em1.pcap,5.8292741775512695
+pie2_noecn.em1.pcap,5.86595344543457
