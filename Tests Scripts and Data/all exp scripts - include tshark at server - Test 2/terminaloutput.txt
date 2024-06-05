@@ -1,0 +1,1670 @@
+Loaded config for single path rysnc
+----
+
+test1 (client) is single-homed, test2 (server) is
+single-homed and we PUSH data from test1 to test2.
+Configuring DummynetVM1 for 10Mbps
+net.inet.tcp.ecn.enable: 2 -> 1
+00100 pipe 1 ip from any to any
+Configuring DummynetVM2 for 10Mbps
+00100 pipe 1 ip from any to any
+Starting siftr on test1
+net.inet.siftr.logfile: /root/codel1_ecn.siftr.log -> /root/codel1_ecn.siftr.log
+net.inet.siftr.enabled: 1 -> 1
+Starting siftr on test2
+net.inet.siftr.logfile: /root/l4s2_noecn.siftr.log -> /root/codel1_ecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting tcpdump on test1
+[1] 3346
+[2] 3347
+Starting tcpdump on test1
+[1] 2642
+[2] 2643
+Starting iperf3 test
+[1] 6236
+[2] 6238
+[3] 6240
+Connecting to host 172.16.3.2, port 5104
+[  5] local 172.16.1.2 port 27486 connected to 172.16.3.2 port 5104
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.01   sec   128 KBytes  1.04 Mbits/sec    0   24.1 KBytes       
+[  5]   1.01-2.01   sec   128 KBytes  1.04 Mbits/sec    0   18.4 KBytes       
+[  5]   2.01-3.02   sec  0.00 Bytes  0.00 bits/sec    5   14.2 KBytes       
+[  5]   3.02-4.02   sec   128 KBytes  1.05 Mbits/sec    2   11.3 KBytes       
+[  5]   4.02-5.01   sec   128 KBytes  1.05 Mbits/sec    2   9.92 KBytes       
+[  5]   5.01-6.02   sec  0.00 Bytes  0.00 bits/sec    0   12.7 KBytes       
+[  5]   6.02-7.01   sec   128 KBytes  1.05 Mbits/sec    0   21.3 KBytes       
+[  5]   7.01-8.01   sec   128 KBytes  1.05 Mbits/sec   10   18.4 KBytes       
+[  5]   8.01-9.01   sec   128 KBytes  1.05 Mbits/sec    0   12.8 KBytes       
+[  5]   9.01-10.01  sec   128 KBytes  1.05 Mbits/sec    0   22.7 KBytes       
+[  5]  10.01-11.02  sec   128 KBytes  1.05 Mbits/sec    0   29.9 KBytes       
+[  5]  11.02-12.02  sec   128 KBytes  1.05 Mbits/sec    3   8.51 KBytes       
+[  5]  12.02-13.01  sec  0.00 Bytes  0.00 bits/sec    0   17.1 KBytes       
+[  5]  13.01-14.01  sec   128 KBytes  1.05 Mbits/sec    0   18.4 KBytes       
+[  5]  14.01-15.01  sec   128 KBytes  1.05 Mbits/sec    1   15.6 KBytes       
+[  5]  15.01-16.02  sec   128 KBytes  1.05 Mbits/sec    0   27.0 KBytes       
+[  5]  16.02-17.02  sec   256 KBytes  2.10 Mbits/sec    4   15.6 KBytes       
+[  5]  17.02-18.02  sec  0.00 Bytes  0.00 bits/sec    0   21.2 KBytes       
+[  5]  18.02-19.02  sec   128 KBytes  1.05 Mbits/sec    8   11.3 KBytes       
+[  5]  19.02-20.02  sec   128 KBytes  1.05 Mbits/sec    1   22.7 KBytes       
+[  5]  20.02-21.02  sec   256 KBytes  2.10 Mbits/sec    0   35.4 KBytes       
+[  5]  21.02-22.02  sec   128 KBytes  1.05 Mbits/sec    0   38.2 KBytes       
+[  5]  22.02-23.02  sec   128 KBytes  1.05 Mbits/sec   21   1.41 KBytes       
+[  5]  23.02-24.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  24.01-25.02  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  25.02-26.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  26.01-27.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  27.01-28.02  sec  0.00 Bytes  0.00 bits/sec    0   2.85 KBytes       
+[  5]  28.02-29.01  sec   128 KBytes  1.05 Mbits/sec    4   4.25 KBytes       
+[  5]  29.01-30.01  sec  0.00 Bytes  0.00 bits/sec    0   14.2 KBytes       
+[  5]  30.01-31.01  sec   128 KBytes  1.05 Mbits/sec    0   24.2 KBytes       
+[  5]  31.01-32.02  sec   128 KBytes  1.05 Mbits/sec    0   17.0 KBytes       
+[  5]  32.02-33.02  sec   128 KBytes  1.05 Mbits/sec    0   25.5 KBytes       
+[  5]  33.02-34.01  sec   256 KBytes  2.10 Mbits/sec    0   25.5 KBytes       
+[  5]  34.01-35.02  sec  0.00 Bytes  0.00 bits/sec    4   38.2 KBytes       
+[  5]  35.02-36.01  sec   256 KBytes  2.10 Mbits/sec    3   18.5 KBytes       
+[  5]  36.01-37.02  sec   128 KBytes  1.05 Mbits/sec    0   28.5 KBytes       
+[  5]  37.02-38.02  sec   256 KBytes  2.10 Mbits/sec    0   26.9 KBytes       
+[  5]  38.02-39.01  sec  0.00 Bytes  0.00 bits/sec   11   1.41 KBytes       
+[  5]  39.01-40.02  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  40.02-41.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  41.01-42.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  42.01-43.02  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  43.02-44.02  sec  0.00 Bytes  0.00 bits/sec    0   8.51 KBytes       
+[  5]  44.02-45.02  sec   128 KBytes  1.05 Mbits/sec    0   19.9 KBytes       
+[  5]  45.02-46.02  sec   128 KBytes  1.05 Mbits/sec    0   28.5 KBytes       
+[  5]  46.02-47.01  sec   256 KBytes  2.10 Mbits/sec    0   33.9 KBytes       
+[  5]  47.01-48.01  sec   256 KBytes  2.10 Mbits/sec    4   28.3 KBytes       
+[  5]  48.01-49.01  sec   256 KBytes  2.10 Mbits/sec    0   39.7 KBytes       
+[  5]  49.01-50.01  sec   512 KBytes  4.19 Mbits/sec    0   52.5 KBytes       
+[  5]  50.01-51.02  sec   384 KBytes  3.14 Mbits/sec    0   62.5 KBytes       
+[  5]  51.02-52.01  sec   512 KBytes  4.20 Mbits/sec    0   72.5 KBytes       
+[  5]  52.01-53.01  sec   512 KBytes  4.20 Mbits/sec    0    167 KBytes       
+[  5]  53.01-54.02  sec   384 KBytes  3.14 Mbits/sec   63    147 KBytes       
+[  5]  54.02-55.02  sec   512 KBytes  4.19 Mbits/sec   49   60.9 KBytes       
+[  5]  55.02-56.01  sec   384 KBytes  3.15 Mbits/sec    0   70.8 KBytes       
+[  5]  56.01-57.01  sec   512 KBytes  4.19 Mbits/sec    0   62.3 KBytes       
+[  5]  57.01-58.02  sec   384 KBytes  3.14 Mbits/sec   12   33.9 KBytes       
+[  5]  58.02-59.02  sec   384 KBytes  3.14 Mbits/sec    0   45.4 KBytes       
+[  5]  59.02-60.02  sec   384 KBytes  3.15 Mbits/sec    0   56.8 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-60.02  sec  9.75 MBytes  1.36 Mbits/sec  207             sender
+[  5]   0.00-60.15  sec  9.50 MBytes  1.32 Mbits/sec                  receiver
+
+iperf Done.
+[3]  - Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[2]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[1]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+Stop siftr on test1
+net.inet.siftr.enabled: 1 -> 0
+Stop siftr on test2
+net.inet.siftr.enabled: 1 -> 0
+Stop tcpdump on test1
+Stop tcpdump on test1
+Test complete
+Loaded config for single path rysnc
+----
+
+test1 (client) is single-homed, test2 (server) is
+single-homed and we PUSH data from test1 to test2.
+Configuring DummynetVM1 for 1Mbps
+net.inet.tcp.ecn.enable: 1 -> 1
+00100 pipe 1 ip from any to any
+Configuring DummynetVM2 for 1Mbps
+00100 pipe 1 ip from any to any
+Starting siftr on test1
+net.inet.siftr.logfile: /root/codel1_ecn.siftr.log -> /root/codel2_ecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting siftr on test2
+net.inet.siftr.logfile: /root/codel1_ecn.siftr.log -> /root/codel2_ecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting tcpdump on test1
+[1] 3402
+[2] 3403
+Starting tcpdump on test1
+[1] 2678
+[2] 2679
+Starting iperf3 test
+[1] 6269
+[2] 6271
+[3] 6273
+Connecting to host 172.16.3.2, port 5104
+[  5] local 172.16.1.2 port 37221 connected to 172.16.3.2 port 5104
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.01   sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  5]   1.01-2.02   sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]   2.02-3.02   sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  5]   3.02-4.01   sec   128 KBytes  1.05 Mbits/sec    0   49.5 KBytes       
+[  5]   4.01-5.02   sec  0.00 Bytes  0.00 bits/sec    0   49.5 KBytes       
+[  5]   5.02-6.01   sec  0.00 Bytes  0.00 bits/sec    3   2.83 KBytes       
+[  5]   6.01-7.01   sec  0.00 Bytes  0.00 bits/sec    4   8.48 KBytes       
+[  5]   7.01-8.02   sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  5]   8.02-9.01   sec  0.00 Bytes  0.00 bits/sec   12   4.24 KBytes       
+[  5]   9.01-10.02  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  10.02-11.01  sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  5]  11.01-12.02  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  12.02-13.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  13.01-14.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  14.01-15.02  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  15.02-16.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  16.01-17.02  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  17.02-18.02  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  18.02-19.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  19.01-20.02  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  20.02-21.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  21.01-22.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  22.01-23.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  23.01-24.02  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  24.02-25.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  25.01-26.02  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  26.02-27.02  sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  5]  27.02-28.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  28.01-29.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  29.01-30.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  30.01-31.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  31.01-32.02  sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  5]  32.02-33.01  sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  5]  33.01-34.02  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  34.02-35.01  sec   128 KBytes  1.05 Mbits/sec    0   1.41 KBytes       
+[  5]  35.01-36.02  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  36.02-37.02  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  37.02-38.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  38.01-39.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  39.01-40.02  sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  5]  40.02-41.02  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  41.02-42.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  42.01-43.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  43.01-44.02  sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  5]  44.02-45.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  45.01-46.02  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  46.02-47.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  47.01-48.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  48.01-49.02  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  49.02-50.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  50.01-51.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  51.01-52.02  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  52.02-53.01  sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  5]  53.01-54.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  54.01-55.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  55.01-56.02  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  56.02-57.02  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  57.02-58.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  58.01-59.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]  59.01-60.01  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-60.01  sec   256 KBytes  34.9 Kbits/sec   25             sender
+[  5]   0.00-60.16  sec   180 KBytes  24.5 Kbits/sec                  receiver
+
+iperf Done.
+[3]  - Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[2]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[1]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+Stop siftr on test1
+net.inet.siftr.enabled: 1 -> 0
+Stop siftr on test2
+net.inet.siftr.enabled: 1 -> 0
+Stop tcpdump on test1
+Stop tcpdump on test1
+Test complete
+Loaded config for single path rysnc
+----
+
+test1 (client) is single-homed, test2 (server) is
+single-homed and we PUSH data from test1 to test2.
+net.inet.tcp.ecn.enable: 1 -> 1
+00100 queue 1 ip from any to any
+Configuring DummynetVM2 for 10Mbps
+00100 queue 1 ip from any to any
+Starting siftr on test1
+net.inet.siftr.logfile: /root/codel2_ecn.siftr.log -> /root/fqcodel1_ecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting siftr on test2
+net.inet.siftr.logfile: /root/codel2_ecn.siftr.log -> /root/fqcodel1_ecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting tcpdump on test1
+[1] 3456
+[2] 3457
+Starting tcpdump on test1
+[1] 2712
+[2] 2713
+Starting iperf3 test
+[1] 6307
+[2] 6309
+[3] 6311
+Connecting to host 172.16.3.2, port 5104
+[  5] local 172.16.1.2 port 48794 connected to 172.16.3.2 port 5104
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.01   sec   128 KBytes  1.04 Mbits/sec    0   21.3 KBytes       
+[  5]   1.01-2.01   sec   128 KBytes  1.05 Mbits/sec    0   28.4 KBytes       
+[  5]   2.01-3.01   sec   128 KBytes  1.05 Mbits/sec    0   35.5 KBytes       
+[  5]   3.01-4.01   sec   256 KBytes  2.10 Mbits/sec    2   22.7 KBytes       
+[  5]   4.01-5.01   sec   128 KBytes  1.05 Mbits/sec    0   31.2 KBytes       
+[  5]   5.01-6.01   sec   128 KBytes  1.05 Mbits/sec    3   18.4 KBytes       
+[  5]   6.01-7.01   sec   128 KBytes  1.05 Mbits/sec    0   28.4 KBytes       
+[  5]   7.01-8.01   sec   128 KBytes  1.05 Mbits/sec    7   18.4 KBytes       
+[  5]   8.01-9.01   sec   256 KBytes  2.10 Mbits/sec    0   25.5 KBytes       
+[  5]   9.01-10.01  sec   128 KBytes  1.05 Mbits/sec    4   18.4 KBytes       
+[  5]  10.01-11.01  sec   128 KBytes  1.05 Mbits/sec    0   27.0 KBytes       
+[  5]  11.01-12.01  sec   128 KBytes  1.05 Mbits/sec    0   34.1 KBytes       
+[  5]  12.01-13.01  sec   128 KBytes  1.05 Mbits/sec    5   29.7 KBytes       
+[  5]  13.01-14.01  sec   256 KBytes  2.10 Mbits/sec    0   26.9 KBytes       
+[  5]  14.01-15.01  sec  0.00 Bytes  0.00 bits/sec    5   18.4 KBytes       
+[  5]  15.01-16.01  sec   128 KBytes  1.05 Mbits/sec    3   8.48 KBytes       
+[  5]  16.01-17.01  sec   128 KBytes  1.05 Mbits/sec    0   19.9 KBytes       
+[  5]  17.01-18.01  sec   128 KBytes  1.05 Mbits/sec    0   28.4 KBytes       
+[  5]  18.01-19.01  sec   128 KBytes  1.05 Mbits/sec    3   19.9 KBytes       
+[  5]  19.01-20.01  sec   128 KBytes  1.05 Mbits/sec    0   27.0 KBytes       
+[  5]  20.01-21.01  sec   128 KBytes  1.05 Mbits/sec    2   19.9 KBytes       
+[  5]  21.01-22.01  sec   128 KBytes  1.05 Mbits/sec    0   27.0 KBytes       
+[  5]  22.01-23.01  sec   128 KBytes  1.05 Mbits/sec    0   34.1 KBytes       
+[  5]  23.01-24.01  sec   128 KBytes  1.05 Mbits/sec    1   22.7 KBytes       
+[  5]  24.01-25.01  sec   128 KBytes  1.05 Mbits/sec    3   14.1 KBytes       
+[  5]  25.01-26.01  sec   128 KBytes  1.05 Mbits/sec    1   14.2 KBytes       
+[  5]  26.01-27.01  sec   128 KBytes  1.05 Mbits/sec    0   21.3 KBytes       
+[  5]  27.01-28.01  sec  0.00 Bytes  0.00 bits/sec    5   12.8 KBytes       
+[  5]  28.01-29.01  sec   128 KBytes  1.05 Mbits/sec    4   8.50 KBytes       
+[  5]  29.01-30.01  sec  0.00 Bytes  0.00 bits/sec    0   15.6 KBytes       
+[  5]  30.01-31.01  sec   128 KBytes  1.05 Mbits/sec    0   25.6 KBytes       
+[  5]  31.01-32.01  sec   128 KBytes  1.05 Mbits/sec    1   18.4 KBytes       
+[  5]  32.01-33.01  sec   256 KBytes  2.10 Mbits/sec    0   27.0 KBytes       
+[  5]  33.01-34.01  sec   128 KBytes  1.05 Mbits/sec    0   35.5 KBytes       
+[  5]  34.01-35.01  sec   128 KBytes  1.05 Mbits/sec    3   22.7 KBytes       
+[  5]  35.01-36.01  sec   256 KBytes  2.10 Mbits/sec    0   29.8 KBytes       
+[  5]  36.01-37.01  sec   128 KBytes  1.04 Mbits/sec    0   36.9 KBytes       
+[  5]  37.01-38.01  sec   128 KBytes  1.05 Mbits/sec    4   26.9 KBytes       
+[  5]  38.01-39.01  sec   128 KBytes  1.05 Mbits/sec    0   34.1 KBytes       
+[  5]  39.01-40.01  sec   256 KBytes  2.10 Mbits/sec    7   19.8 KBytes       
+[  5]  40.01-41.01  sec   128 KBytes  1.05 Mbits/sec    0   31.2 KBytes       
+[  5]  41.01-42.01  sec   256 KBytes  2.10 Mbits/sec    0   39.8 KBytes       
+[  5]  42.01-43.01  sec   256 KBytes  2.09 Mbits/sec    0   48.3 KBytes       
+[  5]  43.01-44.01  sec   256 KBytes  2.10 Mbits/sec    0   55.5 KBytes       
+[  5]  44.01-45.01  sec   256 KBytes  2.10 Mbits/sec    2   35.4 KBytes       
+[  5]  45.01-46.01  sec   256 KBytes  2.09 Mbits/sec    1   4.24 KBytes       
+[  5]  46.01-47.01  sec   128 KBytes  1.05 Mbits/sec    2   26.9 KBytes       
+[  5]  47.01-48.01  sec   128 KBytes  1.05 Mbits/sec    0   35.5 KBytes       
+[  5]  48.01-49.01  sec   256 KBytes  2.10 Mbits/sec    0   45.5 KBytes       
+[  5]  49.01-50.01  sec   384 KBytes  3.15 Mbits/sec    0   54.0 KBytes       
+[  5]  50.01-51.01  sec   256 KBytes  2.10 Mbits/sec    1   35.4 KBytes       
+[  5]  51.01-52.01  sec   256 KBytes  2.10 Mbits/sec    0   46.8 KBytes       
+[  5]  52.01-53.01  sec   512 KBytes  4.20 Mbits/sec    0   58.2 KBytes       
+[  5]  53.01-54.01  sec   384 KBytes  3.14 Mbits/sec    0   68.2 KBytes       
+[  5]  54.01-55.01  sec   512 KBytes  4.19 Mbits/sec    0   76.8 KBytes       
+[  5]  55.01-56.01  sec   512 KBytes  4.19 Mbits/sec    0   85.3 KBytes       
+[  5]  56.01-57.01  sec   512 KBytes  4.20 Mbits/sec    0   93.9 KBytes       
+[  5]  57.01-58.01  sec   512 KBytes  4.20 Mbits/sec    1   52.4 KBytes       
+[  5]  58.01-59.01  sec   384 KBytes  3.14 Mbits/sec    0   62.3 KBytes       
+[  5]  59.01-60.01  sec   512 KBytes  4.20 Mbits/sec    0   73.7 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-60.01  sec  11.9 MBytes  1.66 Mbits/sec   70             sender
+[  5]   0.00-60.15  sec  11.8 MBytes  1.64 Mbits/sec                  receiver
+
+iperf Done.
+[3]  - Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[2]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[1]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+Stop siftr on test1
+net.inet.siftr.enabled: 1 -> 0
+Stop siftr on test2
+net.inet.siftr.enabled: 1 -> 0
+Stop tcpdump on test1
+Stop tcpdump on test1
+Test complete
+Loaded config for single path rysnc
+----
+
+test1 (client) is single-homed, test2 (server) is
+single-homed and we PUSH data from test1 to test2.
+Configuring DummynetVM1 for 1Mbps
+net.inet.tcp.ecn.enable: 1 -> 1
+00100 queue 1 ip from any to any
+Configuring DummynetVM2 for 1Mbps
+00100 queue 1 ip from any to any
+Starting siftr on test1
+net.inet.siftr.logfile: /root/fqcodel1_ecn.siftr.log -> /root/fqcodel2_ecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting siftr on test2
+net.inet.siftr.logfile: /root/fqcodel1_ecn.siftr.log -> /root/fqcodel2_ecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting tcpdump on test1
+[1] 3519
+[2] 3520
+Starting tcpdump on test1
+[1] 2755
+[2] 2756
+Initiating iperf3 test
+[1] 6353
+[2] 6355
+[3] 6357
+Connecting to host 172.16.3.2, port 5104
+[  5] local 172.16.1.2 port 21852 connected to 172.16.3.2 port 5104
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.01   sec  0.00 Bytes  0.00 bits/sec    0   7.03 KBytes       
+[  5]   1.01-2.01   sec  0.00 Bytes  0.00 bits/sec    0   9.86 KBytes       
+[  5]   2.01-3.01   sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  5]   3.01-4.01   sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  5]   4.01-5.01   sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  5]   5.01-6.01   sec  0.00 Bytes  0.00 bits/sec    0   12.7 KBytes       
+[  5]   6.01-7.02   sec  0.00 Bytes  0.00 bits/sec    0   14.1 KBytes       
+[  5]   7.02-8.01   sec  0.00 Bytes  0.00 bits/sec    0   14.1 KBytes       
+[  5]   8.01-9.01   sec  0.00 Bytes  0.00 bits/sec    0   15.6 KBytes       
+[  5]   9.01-10.01  sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  5]  10.01-11.01  sec  0.00 Bytes  0.00 bits/sec    4   7.07 KBytes       
+[  5]  11.01-12.01  sec  0.00 Bytes  0.00 bits/sec    0   8.51 KBytes       
+[  5]  12.01-13.01  sec   128 KBytes  1.05 Mbits/sec    0   9.93 KBytes       
+[  5]  13.01-14.01  sec  0.00 Bytes  0.00 bits/sec    0   11.4 KBytes       
+[  5]  14.01-15.01  sec  0.00 Bytes  0.00 bits/sec    0   12.8 KBytes       
+[  5]  15.01-16.01  sec  0.00 Bytes  0.00 bits/sec    0   14.2 KBytes       
+[  5]  16.01-17.01  sec  0.00 Bytes  0.00 bits/sec    0   14.2 KBytes       
+[  5]  17.01-18.01  sec  0.00 Bytes  0.00 bits/sec    0   15.6 KBytes       
+[  5]  18.01-19.01  sec  0.00 Bytes  0.00 bits/sec    0   17.1 KBytes       
+[  5]  19.01-20.01  sec  0.00 Bytes  0.00 bits/sec    0   17.1 KBytes       
+[  5]  20.01-21.01  sec  0.00 Bytes  0.00 bits/sec    0   17.1 KBytes       
+[  5]  21.01-22.01  sec  0.00 Bytes  0.00 bits/sec    5   8.48 KBytes       
+[  5]  22.01-23.01  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  5]  23.01-24.01  sec  0.00 Bytes  0.00 bits/sec    0   9.92 KBytes       
+[  5]  24.01-25.01  sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  5]  25.01-26.01  sec  0.00 Bytes  0.00 bits/sec    0   12.8 KBytes       
+[  5]  26.01-27.01  sec   128 KBytes  1.05 Mbits/sec    0   14.2 KBytes       
+[  5]  27.01-28.01  sec  0.00 Bytes  0.00 bits/sec    0   15.6 KBytes       
+[  5]  28.01-29.01  sec  0.00 Bytes  0.00 bits/sec    0   17.1 KBytes       
+[  5]  29.01-30.01  sec  0.00 Bytes  0.00 bits/sec    0   18.5 KBytes       
+[  5]  30.01-31.01  sec  0.00 Bytes  0.00 bits/sec    0   18.5 KBytes       
+[  5]  31.01-32.01  sec  0.00 Bytes  0.00 bits/sec    0   19.9 KBytes       
+[  5]  32.01-33.01  sec  0.00 Bytes  0.00 bits/sec    0   21.3 KBytes       
+[  5]  33.01-34.01  sec   128 KBytes  1.05 Mbits/sec    0   22.8 KBytes       
+[  5]  34.01-35.01  sec  0.00 Bytes  0.00 bits/sec    0   24.2 KBytes       
+[  5]  35.01-36.01  sec  0.00 Bytes  0.00 bits/sec    0   24.2 KBytes       
+[  5]  36.01-37.01  sec  0.00 Bytes  0.00 bits/sec    0   25.6 KBytes       
+[  5]  37.01-38.01  sec  0.00 Bytes  0.00 bits/sec    0   27.0 KBytes       
+[  5]  38.01-39.01  sec  0.00 Bytes  0.00 bits/sec    0   27.0 KBytes       
+[  5]  39.01-40.01  sec  0.00 Bytes  0.00 bits/sec    2   12.7 KBytes       
+[  5]  40.01-41.01  sec   128 KBytes  1.05 Mbits/sec    0   15.6 KBytes       
+[  5]  41.01-42.01  sec  0.00 Bytes  0.00 bits/sec    0   18.4 KBytes       
+[  5]  42.01-43.01  sec  0.00 Bytes  0.00 bits/sec    0   19.9 KBytes       
+[  5]  43.01-44.01  sec  0.00 Bytes  0.00 bits/sec    0   21.3 KBytes       
+[  5]  44.01-45.01  sec  0.00 Bytes  0.00 bits/sec    0   22.7 KBytes       
+[  5]  45.01-46.01  sec   128 KBytes  1.05 Mbits/sec    0   24.1 KBytes       
+[  5]  46.01-47.01  sec  0.00 Bytes  0.00 bits/sec    0   27.0 KBytes       
+[  5]  47.01-48.01  sec  0.00 Bytes  0.00 bits/sec    0   28.4 KBytes       
+[  5]  48.01-49.01  sec  0.00 Bytes  0.00 bits/sec    0   29.8 KBytes       
+[  5]  49.01-50.01  sec  0.00 Bytes  0.00 bits/sec    0   29.8 KBytes       
+[  5]  50.01-51.01  sec   128 KBytes  1.05 Mbits/sec    0   31.3 KBytes       
+[  5]  51.01-52.01  sec  0.00 Bytes  0.00 bits/sec    0   34.1 KBytes       
+[  5]  52.01-53.01  sec   128 KBytes  1.05 Mbits/sec    0   35.6 KBytes       
+[  5]  53.01-54.01  sec  0.00 Bytes  0.00 bits/sec    0   38.4 KBytes       
+[  5]  54.01-55.01  sec   128 KBytes  1.05 Mbits/sec    0   39.8 KBytes       
+[  5]  55.01-56.01  sec  0.00 Bytes  0.00 bits/sec    0   42.7 KBytes       
+[  5]  56.01-57.01  sec   128 KBytes  1.05 Mbits/sec    0   44.1 KBytes       
+[  5]  57.01-58.01  sec  0.00 Bytes  0.00 bits/sec    0   45.5 KBytes       
+[  5]  58.01-59.01  sec  0.00 Bytes  0.00 bits/sec    0   47.0 KBytes       
+[  5]  59.01-60.01  sec   128 KBytes  1.05 Mbits/sec    0   49.8 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-60.01  sec  1.25 MBytes   175 Kbits/sec   13             sender
+[  5]   0.00-60.79  sec  1.12 MBytes   155 Kbits/sec                  receiver
+
+iperf Done.
+[3]  - Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[2]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[1]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+Stop siftr on test1
+net.inet.siftr.enabled: 1 -> 0
+Stop siftr on test2
+net.inet.siftr.enabled: 1 -> 0
+Stop tcpdump on test1
+Stop tcpdump on test1
+Test complete
+Loaded config for single path rysnc
+----
+
+test1 (client) is single-homed, test2 (server) is
+single-homed and we PUSH data from test1 to test2.
+Configuring DummynetVM1 for 10Mbps
+net.inet.tcp.ecn.enable: 1 -> 1
+00100 queue 1 ip from 172.16.0.0/16 to 172.16.0.0/16
+Configuring DummynetVM2 for 10Mbps
+00100 queue 1 ip from 172.16.0.0/16 to 172.16.0.0/16
+Starting siftr on test1
+net.inet.siftr.logfile: /root/fqcodel2_ecn.siftr.log -> /root/fqpie1_ecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting siftr on test2
+net.inet.siftr.logfile: /root/fqcodel2_ecn.siftr.log -> /root/fqpie1_ecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting tcpdump on test1
+[1] 3575
+[2] 3576
+Starting tcpdump on test1
+[1] 2791
+[2] 2792
+Starting iperf3 test
+[1] 6392
+[2] 6394
+[3] 6396
+Connecting to host 172.16.3.2, port 5104
+[  5] local 172.16.1.2 port 64861 connected to 172.16.3.2 port 5104
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.02   sec  0.00 Bytes  0.00 bits/sec    1   11.4 KBytes       
+[  5]   1.02-2.02   sec   128 KBytes  1.05 Mbits/sec    0   18.5 KBytes       
+[  5]   2.02-3.02   sec  0.00 Bytes  0.00 bits/sec    3   15.6 KBytes       
+[  5]   3.02-4.02   sec   128 KBytes  1.05 Mbits/sec    0   24.2 KBytes       
+[  5]   4.02-5.02   sec   128 KBytes  1.05 Mbits/sec    2   14.1 KBytes       
+[  5]   5.02-6.02   sec   128 KBytes  1.05 Mbits/sec    0   24.1 KBytes       
+[  5]   6.02-7.02   sec   128 KBytes  1.05 Mbits/sec    0   31.3 KBytes       
+[  5]   7.02-8.02   sec   256 KBytes  2.10 Mbits/sec    3   21.3 KBytes       
+[  5]   8.02-9.02   sec   128 KBytes  1.05 Mbits/sec    3   4.24 KBytes       
+[  5]   9.02-10.02  sec   128 KBytes  1.05 Mbits/sec    2   22.7 KBytes       
+[  5]  10.02-11.02  sec   128 KBytes  1.05 Mbits/sec    0   29.8 KBytes       
+[  5]  11.02-12.02  sec   128 KBytes  1.05 Mbits/sec    2   21.3 KBytes       
+[  5]  12.02-13.02  sec   128 KBytes  1.05 Mbits/sec    3   12.7 KBytes       
+[  5]  13.02-14.02  sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  5]  14.02-15.02  sec   128 KBytes  1.05 Mbits/sec    1   17.0 KBytes       
+[  5]  15.02-16.02  sec   128 KBytes  1.05 Mbits/sec    0   24.2 KBytes       
+[  5]  16.02-17.02  sec   128 KBytes  1.05 Mbits/sec    0   31.3 KBytes       
+[  5]  17.02-18.02  sec   128 KBytes  1.05 Mbits/sec   10   18.4 KBytes       
+[  5]  18.02-19.02  sec   128 KBytes  1.05 Mbits/sec    0   27.0 KBytes       
+[  5]  19.02-20.02  sec   128 KBytes  1.05 Mbits/sec    1   17.0 KBytes       
+[  5]  20.02-21.02  sec   128 KBytes  1.05 Mbits/sec    2   11.3 KBytes       
+[  5]  21.02-22.02  sec  0.00 Bytes  0.00 bits/sec    0   19.9 KBytes       
+[  5]  22.02-23.02  sec   128 KBytes  1.05 Mbits/sec    0   25.6 KBytes       
+[  5]  23.02-24.02  sec   128 KBytes  1.05 Mbits/sec    2   18.4 KBytes       
+[  5]  24.02-25.02  sec   128 KBytes  1.05 Mbits/sec    0   25.6 KBytes       
+[  5]  25.02-26.02  sec   128 KBytes  1.05 Mbits/sec    0   32.7 KBytes       
+[  5]  26.02-27.02  sec   256 KBytes  2.10 Mbits/sec    0   39.8 KBytes       
+[  5]  27.02-28.02  sec   128 KBytes  1.05 Mbits/sec    2   25.5 KBytes       
+[  5]  28.02-29.02  sec   128 KBytes  1.05 Mbits/sec    0   34.1 KBytes       
+[  5]  29.02-30.02  sec   256 KBytes  2.10 Mbits/sec    0   42.6 KBytes       
+[  5]  30.02-31.02  sec   256 KBytes  2.10 Mbits/sec    0   51.2 KBytes       
+[  5]  31.02-32.02  sec   256 KBytes  2.09 Mbits/sec    6   28.3 KBytes       
+[  5]  32.02-33.02  sec   256 KBytes  2.10 Mbits/sec    0   36.9 KBytes       
+[  5]  33.02-34.02  sec   128 KBytes  1.05 Mbits/sec    4   22.7 KBytes       
+[  5]  34.02-35.02  sec   128 KBytes  1.05 Mbits/sec    0   32.6 KBytes       
+[  5]  35.02-36.02  sec   256 KBytes  2.10 Mbits/sec    0   41.2 KBytes       
+[  5]  36.02-37.02  sec   256 KBytes  2.10 Mbits/sec    0   49.8 KBytes       
+[  5]  37.02-38.02  sec   256 KBytes  2.10 Mbits/sec    6   28.3 KBytes       
+[  5]  38.02-39.02  sec   128 KBytes  1.05 Mbits/sec    0   34.0 KBytes       
+[  5]  39.02-40.02  sec   256 KBytes  2.10 Mbits/sec    0   42.6 KBytes       
+[  5]  40.02-41.02  sec   256 KBytes  2.10 Mbits/sec    0   51.1 KBytes       
+[  5]  41.02-42.02  sec   384 KBytes  3.15 Mbits/sec    0   58.2 KBytes       
+[  5]  42.02-43.02  sec   256 KBytes  2.10 Mbits/sec    8   34.0 KBytes       
+[  5]  43.02-44.02  sec   256 KBytes  2.09 Mbits/sec    0   44.0 KBytes       
+[  5]  44.02-45.02  sec   256 KBytes  2.10 Mbits/sec    0   52.5 KBytes       
+[  5]  45.02-46.02  sec   384 KBytes  3.15 Mbits/sec    0   62.5 KBytes       
+[  5]  46.02-47.02  sec   512 KBytes  4.19 Mbits/sec    0   71.1 KBytes       
+[  5]  47.02-48.02  sec   512 KBytes  4.19 Mbits/sec    0   81.0 KBytes       
+[  5]  48.02-49.02  sec   512 KBytes  4.16 Mbits/sec    0   89.6 KBytes       
+[  5]  49.02-50.01  sec   384 KBytes  3.20 Mbits/sec   10   48.1 KBytes       
+[  5]  50.01-51.02  sec   512 KBytes  4.15 Mbits/sec    0   59.5 KBytes       
+[  5]  51.02-52.02  sec   384 KBytes  3.14 Mbits/sec    0   69.5 KBytes       
+[  5]  52.02-53.02  sec   512 KBytes  4.19 Mbits/sec    0   78.0 KBytes       
+[  5]  53.02-54.02  sec   384 KBytes  3.15 Mbits/sec    0   86.6 KBytes       
+[  5]  54.02-55.02  sec   512 KBytes  4.19 Mbits/sec    0   93.7 KBytes       
+[  5]  55.02-56.02  sec   640 KBytes  5.24 Mbits/sec    0    102 KBytes       
+[  5]  56.02-57.02  sec   512 KBytes  4.20 Mbits/sec    0    111 KBytes       
+[  5]  57.02-58.02  sec   640 KBytes  5.20 Mbits/sec   13   58.0 KBytes       
+[  5]  58.02-59.01  sec   384 KBytes  3.20 Mbits/sec    0   68.0 KBytes       
+[  5]  59.01-60.02  sec   512 KBytes  4.16 Mbits/sec    0   76.5 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-60.02  sec  14.2 MBytes  1.99 Mbits/sec   86             sender
+[  5]   0.00-60.18  sec  14.0 MBytes  1.95 Mbits/sec                  receiver
+
+iperf Done.
+[3]  - Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[2]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[1]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+Stop siftr on test1
+net.inet.siftr.enabled: 1 -> 0
+Stop siftr on test2
+net.inet.siftr.enabled: 1 -> 0
+Stop tcpdump on test1
+Stop tcpdump on test1
+Test complete
+Loaded config for single path rysnc
+----
+
+test1 (client) is single-homed, test2 (server) is
+single-homed and we PUSH data from test1 to test2.
+Configuring DummynetVM1 for 1Mbps
+net.inet.tcp.ecn.enable: 1 -> 1
+00100 queue 1 ip from 172.16.0.0/16 to 172.16.0.0/16
+Configuring DummynetVM2 for 1Mbps
+00100 queue 1 ip from 172.16.0.0/16 to 172.16.0.0/16
+Starting siftr on test1
+net.inet.siftr.logfile: /root/fqpie1_ecn.siftr.log -> /root/fqpie2_ecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting siftr on test2
+net.inet.siftr.logfile: /root/fqpie1_ecn.siftr.log -> /root/fqpie2_ecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting tcpdump on test1
+[1] 3629
+[2] 3630
+Starting tcpdump on test1
+[1] 2825
+[2] 2826
+Initiating iperf3 test
+[1] 6429
+[2] 6431
+[3] 6433
+Connecting to host 172.16.3.2, port 5104
+[  5] local 172.16.1.2 port 37561 connected to 172.16.3.2 port 5104
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.02   sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]   1.02-2.02   sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]   2.02-3.02   sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  5]   3.02-4.02   sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  5]   4.02-5.02   sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  5]   5.02-6.02   sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  5]   6.02-7.02   sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  5]   7.02-8.02   sec  0.00 Bytes  0.00 bits/sec    0   4.28 KBytes       
+[  5]   8.02-9.02   sec  0.00 Bytes  0.00 bits/sec    0   5.70 KBytes       
+[  5]   9.02-10.02  sec  0.00 Bytes  0.00 bits/sec    0   7.13 KBytes       
+[  5]  10.02-11.02  sec  0.00 Bytes  0.00 bits/sec    0   7.13 KBytes       
+[  5]  11.02-12.02  sec  0.00 Bytes  0.00 bits/sec    0   8.55 KBytes       
+[  5]  12.02-13.02  sec  0.00 Bytes  0.00 bits/sec    0   9.98 KBytes       
+[  5]  13.02-14.02  sec  0.00 Bytes  0.00 bits/sec    0   11.4 KBytes       
+[  5]  14.02-15.02  sec  0.00 Bytes  0.00 bits/sec    0   11.4 KBytes       
+[  5]  15.02-16.02  sec  0.00 Bytes  0.00 bits/sec    0   11.4 KBytes       
+[  5]  16.02-17.02  sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  5]  17.02-18.02  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  5]  18.02-19.02  sec  0.00 Bytes  0.00 bits/sec    0   7.09 KBytes       
+[  5]  19.02-20.02  sec  0.00 Bytes  0.00 bits/sec    0   7.09 KBytes       
+[  5]  20.02-21.02  sec  0.00 Bytes  0.00 bits/sec    0   8.52 KBytes       
+[  5]  21.02-22.02  sec  0.00 Bytes  0.00 bits/sec    0   9.95 KBytes       
+[  5]  22.02-23.02  sec   128 KBytes  1.05 Mbits/sec    0   11.4 KBytes       
+[  5]  23.02-24.02  sec  0.00 Bytes  0.00 bits/sec    0   12.8 KBytes       
+[  5]  24.02-25.02  sec  0.00 Bytes  0.00 bits/sec    0   14.2 KBytes       
+[  5]  25.02-26.02  sec  0.00 Bytes  0.00 bits/sec    0   15.6 KBytes       
+[  5]  26.02-27.02  sec  0.00 Bytes  0.00 bits/sec    0   17.1 KBytes       
+[  5]  27.02-28.02  sec  0.00 Bytes  0.00 bits/sec    0   18.5 KBytes       
+[  5]  28.02-29.02  sec  0.00 Bytes  0.00 bits/sec    0   19.9 KBytes       
+[  5]  29.02-30.02  sec  0.00 Bytes  0.00 bits/sec    0   19.9 KBytes       
+[  5]  30.02-31.02  sec  0.00 Bytes  0.00 bits/sec    0   21.4 KBytes       
+[  5]  31.02-32.02  sec   128 KBytes  1.05 Mbits/sec    0   22.8 KBytes       
+[  5]  32.02-33.02  sec  0.00 Bytes  0.00 bits/sec    0   22.8 KBytes       
+[  5]  33.02-34.02  sec  0.00 Bytes  0.00 bits/sec    0   24.2 KBytes       
+[  5]  34.02-35.02  sec  0.00 Bytes  0.00 bits/sec    0   25.6 KBytes       
+[  5]  35.02-36.02  sec  0.00 Bytes  0.00 bits/sec    0   25.6 KBytes       
+[  5]  36.02-37.02  sec  0.00 Bytes  0.00 bits/sec    0   27.1 KBytes       
+[  5]  37.02-38.02  sec  0.00 Bytes  0.00 bits/sec    2   12.7 KBytes       
+[  5]  38.02-39.02  sec   128 KBytes  1.05 Mbits/sec    0   15.6 KBytes       
+[  5]  39.02-40.02  sec  0.00 Bytes  0.00 bits/sec    0   17.0 KBytes       
+[  5]  40.02-41.02  sec  0.00 Bytes  0.00 bits/sec    0   18.4 KBytes       
+[  5]  41.02-42.02  sec  0.00 Bytes  0.00 bits/sec    0   19.9 KBytes       
+[  5]  42.02-43.02  sec  0.00 Bytes  0.00 bits/sec    0   21.3 KBytes       
+[  5]  43.02-44.02  sec   128 KBytes  1.05 Mbits/sec    0   24.1 KBytes       
+[  5]  44.02-45.02  sec  0.00 Bytes  0.00 bits/sec    0   24.1 KBytes       
+[  5]  45.02-46.02  sec  0.00 Bytes  0.00 bits/sec    0   25.6 KBytes       
+[  5]  46.02-47.02  sec  0.00 Bytes  0.00 bits/sec    0   28.4 KBytes       
+[  5]  47.02-48.02  sec  0.00 Bytes  0.00 bits/sec    0   28.4 KBytes       
+[  5]  48.02-49.02  sec   128 KBytes  1.05 Mbits/sec    0   29.8 KBytes       
+[  5]  49.02-50.02  sec  0.00 Bytes  0.00 bits/sec    0   31.3 KBytes       
+[  5]  50.02-51.02  sec  0.00 Bytes  0.00 bits/sec    0   32.7 KBytes       
+[  5]  51.02-52.02  sec   128 KBytes  1.05 Mbits/sec    0   35.6 KBytes       
+[  5]  52.02-53.02  sec  0.00 Bytes  0.00 bits/sec    0   37.0 KBytes       
+[  5]  53.02-54.02  sec   128 KBytes  1.05 Mbits/sec    0   39.8 KBytes       
+[  5]  54.02-55.02  sec  0.00 Bytes  0.00 bits/sec    0   41.3 KBytes       
+[  5]  55.02-56.02  sec   128 KBytes  1.05 Mbits/sec    0   42.7 KBytes       
+[  5]  56.02-57.02  sec  0.00 Bytes  0.00 bits/sec    0   45.5 KBytes       
+[  5]  57.02-58.02  sec   128 KBytes  1.05 Mbits/sec    0   47.0 KBytes       
+[  5]  58.02-59.02  sec  0.00 Bytes  0.00 bits/sec    0   48.4 KBytes       
+[  5]  59.02-60.02  sec  0.00 Bytes  0.00 bits/sec    0   49.8 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-60.02  sec  1.12 MBytes   157 Kbits/sec    5             sender
+[  5]   0.00-60.86  sec  1.12 MBytes   155 Kbits/sec                  receiver
+
+iperf Done.
+[3]  - Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[2]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[1]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+Stop siftr on test1
+net.inet.siftr.enabled: 1 -> 0
+Stop siftr on test2
+net.inet.siftr.enabled: 1 -> 0
+Stop tcpdump on test1
+Stop tcpdump on test1
+Test complete
+Loaded config for single path rysnc
+----
+
+test1 (client) is single-homed, test2 (server) is
+single-homed and we PUSH data from test1 to test2.
+Configuring DummynetVM1 for 10Mbps
+net.inet.tcp.ecn.enable: 1 -> 1
+00100 pipe 1 ip from any to any
+Configuring DummynetVM2 for 10Mbps
+00100 pipe 1 ip from any to any
+Starting siftr on test1
+net.inet.siftr.logfile: /root/fqpie2_ecn.siftr.log -> /root/pie1_ecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting siftr on test2
+net.inet.siftr.logfile: /root/fqpie2_ecn.siftr.log -> /root/pie1_ecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting tcpdump on test1
+[1] 3692
+[2] 3693
+Starting tcpdump on test1
+[1] 2868
+[2] 2869
+Starting iperf3 test
+[1] 6463
+[2] 6465
+[3] 6467
+Connecting to host 172.16.3.2, port 5104
+[  5] local 172.16.1.2 port 35960 connected to 172.16.3.2 port 5104
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  0.00 Bytes  0.00 bits/sec    8   9.92 KBytes       
+[  5]   1.00-2.01   sec   128 KBytes  1.04 Mbits/sec    0   18.5 KBytes       
+[  5]   2.01-3.01   sec   128 KBytes  1.05 Mbits/sec    0   25.6 KBytes       
+[  5]   3.01-4.01   sec   128 KBytes  1.05 Mbits/sec    0   34.2 KBytes       
+[  5]   4.01-5.01   sec   256 KBytes  2.10 Mbits/sec    2   19.8 KBytes       
+[  5]   5.01-6.02   sec   128 KBytes  1.05 Mbits/sec    1   14.2 KBytes       
+[  5]   6.02-7.02   sec  0.00 Bytes  0.00 bits/sec    0   22.7 KBytes       
+[  5]   7.02-8.02   sec   128 KBytes  1.05 Mbits/sec    4   14.2 KBytes       
+[  5]   8.02-9.02   sec   128 KBytes  1.05 Mbits/sec    0   21.3 KBytes       
+[  5]   9.02-10.02  sec   128 KBytes  1.05 Mbits/sec    0   29.8 KBytes       
+[  5]  10.02-11.02  sec   128 KBytes  1.05 Mbits/sec    3   18.4 KBytes       
+[  5]  11.02-12.02  sec   128 KBytes  1.05 Mbits/sec    0   27.0 KBytes       
+[  5]  12.02-13.01  sec   128 KBytes  1.05 Mbits/sec    2   18.4 KBytes       
+[  5]  13.01-14.01  sec   128 KBytes  1.05 Mbits/sec    0   27.0 KBytes       
+[  5]  14.01-15.02  sec   128 KBytes  1.05 Mbits/sec    1   17.0 KBytes       
+[  5]  15.02-16.01  sec   128 KBytes  1.05 Mbits/sec    0   24.1 KBytes       
+[  5]  16.01-17.01  sec   128 KBytes  1.05 Mbits/sec    2   18.5 KBytes       
+[  5]  17.01-18.02  sec  0.00 Bytes  0.00 bits/sec    3   11.3 KBytes       
+[  5]  18.02-19.01  sec   128 KBytes  1.05 Mbits/sec    2   9.92 KBytes       
+[  5]  19.01-20.02  sec   128 KBytes  1.05 Mbits/sec    0   18.5 KBytes       
+[  5]  20.02-21.01  sec  0.00 Bytes  0.00 bits/sec    1   12.8 KBytes       
+[  5]  21.01-22.02  sec   128 KBytes  1.05 Mbits/sec    0   19.9 KBytes       
+[  5]  22.02-23.02  sec   128 KBytes  1.05 Mbits/sec    4   14.2 KBytes       
+[  5]  23.02-24.02  sec  0.00 Bytes  0.00 bits/sec    0   21.3 KBytes       
+[  5]  24.02-25.02  sec   256 KBytes  2.09 Mbits/sec    0   29.9 KBytes       
+[  5]  25.02-26.02  sec   128 KBytes  1.05 Mbits/sec    2   17.0 KBytes       
+[  5]  26.02-27.02  sec   128 KBytes  1.05 Mbits/sec    0   27.0 KBytes       
+[  5]  27.02-28.02  sec   128 KBytes  1.05 Mbits/sec    3   18.4 KBytes       
+[  5]  28.02-29.01  sec   128 KBytes  1.05 Mbits/sec    0   27.0 KBytes       
+[  5]  29.01-30.02  sec   128 KBytes  1.05 Mbits/sec    1   18.4 KBytes       
+[  5]  30.02-31.02  sec   128 KBytes  1.05 Mbits/sec    0   27.0 KBytes       
+[  5]  31.02-32.02  sec   128 KBytes  1.05 Mbits/sec    0   35.5 KBytes       
+[  5]  32.02-33.01  sec   256 KBytes  2.10 Mbits/sec    2   27.0 KBytes       
+[  5]  33.01-34.01  sec   128 KBytes  1.05 Mbits/sec    0   35.5 KBytes       
+[  5]  34.01-35.01  sec   256 KBytes  2.10 Mbits/sec    0   42.6 KBytes       
+[  5]  35.01-36.02  sec   256 KBytes  2.09 Mbits/sec    0   52.6 KBytes       
+[  5]  36.02-37.01  sec   384 KBytes  3.15 Mbits/sec    0   59.8 KBytes       
+[  5]  37.01-38.02  sec   256 KBytes  2.09 Mbits/sec    1   1.41 KBytes       
+[  5]  38.02-39.02  sec   256 KBytes  2.10 Mbits/sec    9   34.0 KBytes       
+[  5]  39.02-40.02  sec   256 KBytes  2.10 Mbits/sec    0   42.5 KBytes       
+[  5]  40.02-41.02  sec   384 KBytes  3.15 Mbits/sec    0   53.9 KBytes       
+[  5]  41.02-42.02  sec   384 KBytes  3.15 Mbits/sec    0   63.9 KBytes       
+[  5]  42.02-43.02  sec   384 KBytes  3.15 Mbits/sec    0   71.0 KBytes       
+[  5]  43.02-44.01  sec   384 KBytes  3.15 Mbits/sec    7   42.5 KBytes       
+[  5]  44.01-45.01  sec   256 KBytes  2.10 Mbits/sec    0   51.0 KBytes       
+[  5]  45.01-46.02  sec   256 KBytes  2.10 Mbits/sec    3   29.7 KBytes       
+[  5]  46.02-47.01  sec   256 KBytes  2.10 Mbits/sec    0   41.1 KBytes       
+[  5]  47.01-48.01  sec   256 KBytes  2.10 Mbits/sec    0   49.7 KBytes       
+[  5]  48.01-49.02  sec   384 KBytes  3.14 Mbits/sec    0   56.8 KBytes       
+[  5]  49.02-50.02  sec   256 KBytes  2.10 Mbits/sec    3   38.3 KBytes       
+[  5]  50.02-51.01  sec   384 KBytes  3.15 Mbits/sec    0   49.7 KBytes       
+[  5]  51.01-52.01  sec   384 KBytes  3.15 Mbits/sec    0   61.1 KBytes       
+[  5]  52.01-53.02  sec   512 KBytes  4.19 Mbits/sec    0   71.1 KBytes       
+[  5]  53.02-54.02  sec   512 KBytes  4.19 Mbits/sec    0   81.0 KBytes       
+[  5]  54.02-55.02  sec   512 KBytes  4.20 Mbits/sec    3   7.07 KBytes       
+[  5]  55.02-56.02  sec   384 KBytes  3.14 Mbits/sec    0   55.3 KBytes       
+[  5]  56.02-57.01  sec   512 KBytes  4.20 Mbits/sec    0   65.2 KBytes       
+[  5]  57.01-58.02  sec   384 KBytes  3.14 Mbits/sec    0   75.2 KBytes       
+[  5]  58.02-59.02  sec   512 KBytes  4.20 Mbits/sec    0   83.8 KBytes       
+[  5]  59.02-60.02  sec   512 KBytes  4.19 Mbits/sec    0   90.9 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-60.02  sec  13.2 MBytes  1.85 Mbits/sec   67             sender
+[  5]   0.00-60.22  sec  13.1 MBytes  1.83 Mbits/sec                  receiver
+
+iperf Done.
+[3]  - Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[2]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[1]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+Stop siftr on test1
+net.inet.siftr.enabled: 1 -> 0
+Stop siftr on test2
+net.inet.siftr.enabled: 1 -> 0
+Stop tcpdump on test1
+Stop tcpdump on test1
+Test complete
+Loaded config for single path rysnc
+----
+
+test1 (client) is single-homed, test2 (server) is
+single-homed and we PUSH data from test1 to test2.
+Configuring DummynetVM1 for 1Mbps
+net.inet.tcp.ecn.enable: 1 -> 1
+00100 pipe 1 ip from any to any
+Configuring DummynetVM2 for 1Mbps
+00100 pipe 1 ip from any to any
+Starting siftr on test1
+net.inet.siftr.logfile: /root/pie1_ecn.siftr.log -> /root/pie2_ecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting siftr on test2
+net.inet.siftr.logfile: /root/pie1_ecn.siftr.log -> /root/pie2_ecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting tcpdump on test1
+[1] 3757
+[2] 3758
+Starting tcpdump on test1
+[1] 2913
+[2] 2914
+Starting iperf3 test
+[1] 6496
+[2] 6498
+[3] 6500
+Connecting to host 172.16.3.2, port 5104
+[  5] local 172.16.1.2 port 58539 connected to 172.16.3.2 port 5104
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.01   sec  0.00 Bytes  0.00 bits/sec    0   7.03 KBytes       
+[  5]   1.01-2.02   sec  0.00 Bytes  0.00 bits/sec    0   8.45 KBytes       
+[  5]   2.02-3.02   sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  5]   3.02-4.02   sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]   4.02-5.02   sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  5]   5.02-6.02   sec  0.00 Bytes  0.00 bits/sec    0   4.28 KBytes       
+[  5]   6.02-7.02   sec  0.00 Bytes  0.00 bits/sec    0   5.70 KBytes       
+[  5]   7.02-8.02   sec  0.00 Bytes  0.00 bits/sec    0   5.70 KBytes       
+[  5]   8.02-9.02   sec  0.00 Bytes  0.00 bits/sec    0   7.13 KBytes       
+[  5]   9.02-10.02  sec  0.00 Bytes  0.00 bits/sec    0   8.55 KBytes       
+[  5]  10.02-11.02  sec  0.00 Bytes  0.00 bits/sec    0   8.55 KBytes       
+[  5]  11.02-12.02  sec  0.00 Bytes  0.00 bits/sec    0   9.98 KBytes       
+[  5]  12.02-13.02  sec  0.00 Bytes  0.00 bits/sec    0   9.98 KBytes       
+[  5]  13.02-14.02  sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  5]  14.02-15.02  sec  0.00 Bytes  0.00 bits/sec    3   4.24 KBytes       
+[  5]  15.02-16.02  sec  0.00 Bytes  0.00 bits/sec    0   4.25 KBytes       
+[  5]  16.02-17.02  sec  0.00 Bytes  0.00 bits/sec    0   5.68 KBytes       
+[  5]  17.02-18.02  sec  0.00 Bytes  0.00 bits/sec    0   7.11 KBytes       
+[  5]  18.02-19.02  sec  0.00 Bytes  0.00 bits/sec    0   8.53 KBytes       
+[  5]  19.02-20.02  sec  0.00 Bytes  0.00 bits/sec    0   9.96 KBytes       
+[  5]  20.02-21.02  sec  0.00 Bytes  0.00 bits/sec    0   9.96 KBytes       
+[  5]  21.02-22.02  sec  0.00 Bytes  0.00 bits/sec    0   11.4 KBytes       
+[  5]  22.02-23.02  sec  0.00 Bytes  0.00 bits/sec    0   12.8 KBytes       
+[  5]  23.02-24.02  sec   128 KBytes  1.05 Mbits/sec    0   12.8 KBytes       
+[  5]  24.02-25.02  sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  5]  25.02-26.02  sec  0.00 Bytes  0.00 bits/sec    2   7.09 KBytes       
+[  5]  26.02-27.02  sec  0.00 Bytes  0.00 bits/sec    0   8.52 KBytes       
+[  5]  27.02-28.02  sec  0.00 Bytes  0.00 bits/sec    0   9.95 KBytes       
+[  5]  28.02-29.02  sec  0.00 Bytes  0.00 bits/sec    0   11.4 KBytes       
+[  5]  29.02-30.02  sec  0.00 Bytes  0.00 bits/sec    0   12.8 KBytes       
+[  5]  30.02-31.02  sec  0.00 Bytes  0.00 bits/sec    0   14.2 KBytes       
+[  5]  31.02-32.02  sec  0.00 Bytes  0.00 bits/sec    0   15.6 KBytes       
+[  5]  32.02-33.02  sec  0.00 Bytes  0.00 bits/sec    0   17.1 KBytes       
+[  5]  33.02-34.02  sec  0.00 Bytes  0.00 bits/sec    0   18.5 KBytes       
+[  5]  34.02-35.02  sec   128 KBytes  1.05 Mbits/sec    0   19.9 KBytes       
+[  5]  35.02-36.02  sec  0.00 Bytes  0.00 bits/sec    0   19.9 KBytes       
+[  5]  36.02-37.02  sec  0.00 Bytes  0.00 bits/sec    0   21.4 KBytes       
+[  5]  37.02-38.02  sec  0.00 Bytes  0.00 bits/sec    0   22.8 KBytes       
+[  5]  38.02-39.02  sec  0.00 Bytes  0.00 bits/sec    0   22.8 KBytes       
+[  5]  39.02-40.02  sec  0.00 Bytes  0.00 bits/sec    0   24.2 KBytes       
+[  5]  40.02-41.02  sec   128 KBytes  1.05 Mbits/sec    0   25.6 KBytes       
+[  5]  41.02-42.02  sec  0.00 Bytes  0.00 bits/sec    0   27.1 KBytes       
+[  5]  42.02-43.02  sec  0.00 Bytes  0.00 bits/sec    0   28.5 KBytes       
+[  5]  43.02-44.02  sec  0.00 Bytes  0.00 bits/sec    0   29.9 KBytes       
+[  5]  44.02-45.02  sec   128 KBytes  1.05 Mbits/sec    0   31.3 KBytes       
+[  5]  45.02-46.02  sec  0.00 Bytes  0.00 bits/sec    0   32.8 KBytes       
+[  5]  46.02-47.02  sec  0.00 Bytes  0.00 bits/sec    0   34.2 KBytes       
+[  5]  47.02-48.02  sec  0.00 Bytes  0.00 bits/sec    0   35.6 KBytes       
+[  5]  48.02-49.02  sec   128 KBytes  1.05 Mbits/sec    0   37.0 KBytes       
+[  5]  49.02-50.02  sec  0.00 Bytes  0.00 bits/sec    0   38.5 KBytes       
+[  5]  50.02-51.02  sec  0.00 Bytes  0.00 bits/sec    0   39.9 KBytes       
+[  5]  51.02-52.02  sec   128 KBytes  1.05 Mbits/sec    0   42.7 KBytes       
+[  5]  52.02-53.02  sec  0.00 Bytes  0.00 bits/sec    0   44.2 KBytes       
+[  5]  53.02-54.02  sec   128 KBytes  1.05 Mbits/sec    0   45.6 KBytes       
+[  5]  54.02-55.02  sec  0.00 Bytes  0.00 bits/sec    0   47.0 KBytes       
+[  5]  55.02-56.02  sec   128 KBytes  1.05 Mbits/sec    0   49.9 KBytes       
+[  5]  56.02-57.02  sec  0.00 Bytes  0.00 bits/sec    0   51.3 KBytes       
+[  5]  57.02-58.02  sec   128 KBytes  1.05 Mbits/sec    0   52.7 KBytes       
+[  5]  58.02-59.02  sec  0.00 Bytes  0.00 bits/sec    0   54.1 KBytes       
+[  5]  59.02-60.02  sec   128 KBytes  1.05 Mbits/sec    0   55.6 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-60.02  sec  1.25 MBytes   175 Kbits/sec    9             sender
+[  5]   0.00-60.88  sec  1.12 MBytes   155 Kbits/sec                  receiver
+
+iperf Done.
+[3]  - Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[2]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[1]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+Stop siftr on test1
+net.inet.siftr.enabled: 1 -> 0
+Stop siftr on test2
+net.inet.siftr.enabled: 1 -> 0
+Stop tcpdump on test1
+Stop tcpdump on test1
+Test complete
+Loaded config for single path rysnc
+----
+
+test1 (client) is single-homed, test2 (server) is
+single-homed and we PUSH data from test1 to test2.
+Configuring DummynetVM1 for 10Mbps
+00100 pipe 1 ip from any to any
+Configuring DummynetVM2 for 10Mbps
+00100 pipe 1 ip from any to any
+Starting siftr on test1
+net.inet.siftr.logfile: /root/pie2_ecn.siftr.log -> /root/codel1_noecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting siftr on test2
+net.inet.siftr.logfile: /root/pie2_ecn.siftr.log -> /root/codel1_noecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting tcpdump on test1
+[1] 3811
+[2] 3812
+Starting tcpdump on test1
+[1] 2947
+[2] 2948
+Starting iperf3 test
+[1] 6528
+[2] 6531
+[3] 6533
+Connecting to host 172.16.3.2, port 5104
+[  5] local 172.16.1.2 port 19432 connected to 172.16.3.2 port 5104
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec   128 KBytes  1.04 Mbits/sec    0   19.8 KBytes       
+[  5]   1.00-2.01   sec   128 KBytes  1.04 Mbits/sec    0   29.8 KBytes       
+[  5]   2.01-3.01   sec   128 KBytes  1.05 Mbits/sec    2   17.0 KBytes       
+[  5]   3.01-4.02   sec   128 KBytes  1.04 Mbits/sec    0   27.0 KBytes       
+[  5]   4.02-5.01   sec   256 KBytes  2.12 Mbits/sec    0   35.5 KBytes       
+[  5]   5.01-6.01   sec   128 KBytes  1.05 Mbits/sec    0   42.6 KBytes       
+[  5]   6.01-7.01   sec   256 KBytes  2.10 Mbits/sec    2   28.3 KBytes       
+[  5]   7.01-8.01   sec   256 KBytes  2.10 Mbits/sec    0   35.5 KBytes       
+[  5]   8.01-9.02   sec   128 KBytes  1.05 Mbits/sec    4   12.8 KBytes       
+[  5]   9.02-10.01  sec   128 KBytes  1.05 Mbits/sec    0   21.3 KBytes       
+[  5]  10.01-11.02  sec  0.00 Bytes  0.00 bits/sec    3   14.2 KBytes       
+[  5]  11.02-12.01  sec   128 KBytes  1.05 Mbits/sec    0   21.3 KBytes       
+[  5]  12.01-13.01  sec   128 KBytes  1.05 Mbits/sec    2   15.6 KBytes       
+[  5]  13.01-14.02  sec   128 KBytes  1.05 Mbits/sec    0   24.1 KBytes       
+[  5]  14.02-15.02  sec   128 KBytes  1.05 Mbits/sec    5   14.1 KBytes       
+[  5]  15.02-16.01  sec   128 KBytes  1.05 Mbits/sec    0   22.7 KBytes       
+[  5]  16.01-17.01  sec   128 KBytes  1.05 Mbits/sec    2   14.2 KBytes       
+[  5]  17.01-18.01  sec   128 KBytes  1.05 Mbits/sec    0   22.7 KBytes       
+[  5]  18.01-19.02  sec   128 KBytes  1.05 Mbits/sec    1   15.6 KBytes       
+[  5]  19.02-20.01  sec   128 KBytes  1.05 Mbits/sec    0   24.1 KBytes       
+[  5]  20.01-21.01  sec   128 KBytes  1.05 Mbits/sec    0   31.3 KBytes       
+[  5]  21.01-22.01  sec   256 KBytes  2.10 Mbits/sec    0   38.4 KBytes       
+[  5]  22.01-23.01  sec   128 KBytes  1.05 Mbits/sec    2   26.9 KBytes       
+[  5]  23.01-24.02  sec   128 KBytes  1.05 Mbits/sec    0   35.5 KBytes       
+[  5]  24.02-25.01  sec   256 KBytes  2.10 Mbits/sec    2   25.5 KBytes       
+[  5]  25.01-26.01  sec   128 KBytes  1.05 Mbits/sec    0   34.1 KBytes       
+[  5]  26.01-27.01  sec   128 KBytes  1.05 Mbits/sec    0   39.8 KBytes       
+[  5]  27.01-28.01  sec   256 KBytes  2.10 Mbits/sec    5   25.5 KBytes       
+[  5]  28.01-29.01  sec   128 KBytes  1.05 Mbits/sec    0   34.1 KBytes       
+[  5]  29.01-30.01  sec   128 KBytes  1.05 Mbits/sec    2   24.1 KBytes       
+[  5]  30.01-31.01  sec   128 KBytes  1.05 Mbits/sec    0   32.7 KBytes       
+[  5]  31.01-32.02  sec   256 KBytes  2.10 Mbits/sec    0   39.8 KBytes       
+[  5]  32.02-33.02  sec   128 KBytes  1.05 Mbits/sec    1   25.5 KBytes       
+[  5]  33.02-34.01  sec   128 KBytes  1.05 Mbits/sec    0   32.6 KBytes       
+[  5]  34.01-35.02  sec   256 KBytes  2.10 Mbits/sec    0   39.8 KBytes       
+[  5]  35.02-36.02  sec   128 KBytes  1.05 Mbits/sec    0   46.9 KBytes       
+[  5]  36.02-37.01  sec   256 KBytes  2.10 Mbits/sec    5   29.8 KBytes       
+[  5]  37.01-38.01  sec   256 KBytes  2.10 Mbits/sec    0   38.3 KBytes       
+[  5]  38.01-39.02  sec   128 KBytes  1.05 Mbits/sec    6   18.4 KBytes       
+[  5]  39.02-40.01  sec   256 KBytes  2.10 Mbits/sec    1   29.8 KBytes       
+[  5]  40.01-41.01  sec   256 KBytes  2.10 Mbits/sec    0   39.8 KBytes       
+[  5]  41.01-42.02  sec   256 KBytes  2.09 Mbits/sec    0   49.7 KBytes       
+[  5]  42.02-43.02  sec   256 KBytes  2.10 Mbits/sec    0   56.9 KBytes       
+[  5]  43.02-44.01  sec   256 KBytes  2.10 Mbits/sec    6   25.5 KBytes       
+[  5]  44.01-45.02  sec   128 KBytes  1.05 Mbits/sec    0   28.4 KBytes       
+[  5]  45.02-46.02  sec   256 KBytes  2.10 Mbits/sec    0   36.9 KBytes       
+[  5]  46.02-47.01  sec   128 KBytes  1.05 Mbits/sec    0   44.1 KBytes       
+[  5]  47.01-48.01  sec   256 KBytes  2.10 Mbits/sec    0   51.2 KBytes       
+[  5]  48.01-49.01  sec   384 KBytes  3.14 Mbits/sec    0   59.8 KBytes       
+[  5]  49.01-50.01  sec   256 KBytes  2.10 Mbits/sec    1   34.0 KBytes       
+[  5]  50.01-51.00  sec   256 KBytes  2.12 Mbits/sec    0   45.4 KBytes       
+[  5]  51.00-52.01  sec   384 KBytes  3.12 Mbits/sec    0   55.4 KBytes       
+[  5]  52.01-53.01  sec   512 KBytes  4.19 Mbits/sec    0   66.8 KBytes       
+[  5]  53.01-54.01  sec   512 KBytes  4.20 Mbits/sec    0   76.7 KBytes       
+[  5]  54.01-55.02  sec   512 KBytes  4.19 Mbits/sec    0   85.3 KBytes       
+[  5]  55.02-56.01  sec   512 KBytes  4.20 Mbits/sec    0   93.9 KBytes       
+[  5]  56.01-57.01  sec   512 KBytes  4.19 Mbits/sec    0    101 KBytes       
+[  5]  57.01-58.01  sec   640 KBytes  5.25 Mbits/sec    0    108 KBytes       
+[  5]  58.01-59.02  sec   512 KBytes  4.17 Mbits/sec    0    115 KBytes       
+[  5]  59.02-60.00  sec   640 KBytes  5.32 Mbits/sec    9   62.3 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-60.00  sec  13.5 MBytes  1.89 Mbits/sec   61             sender
+[  5]   0.00-60.12  sec  13.2 MBytes  1.85 Mbits/sec                  receiver
+
+iperf Done.
+[3]  - Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[2]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[1]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+Stop siftr on test1
+net.inet.siftr.enabled: 1 -> 0
+Stop siftr on test2
+net.inet.siftr.enabled: 1 -> 0
+Stop tcpdump on test1
+Stop tcpdump on test1
+Test complete
+Loaded config for single path rysnc
+----
+
+test1 (client) is single-homed, test2 (server) is
+single-homed and we PUSH data from test1 to test2.
+Configuring DummynetVM1 for 1Mbps
+00100 pipe 1 ip from any to any
+Configuring DummynetVM2 for 1Mbps
+00100 pipe 1 ip from any to any
+Starting siftr on test1
+net.inet.siftr.logfile: /root/codel1_noecn.siftr.log -> /root/codel2_noecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting siftr on test2
+net.inet.siftr.logfile: /root/codel1_noecn.siftr.log -> /root/codel2_noecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting tcpdump on test1
+[1] 3867
+[2] 3868
+Starting tcpdump on test1
+[1] 2983
+[2] 2984
+Starting iperf3 test
+[1] 6561
+[2] 6563
+[3] 6565
+Connecting to host 172.16.3.2, port 5104
+[  5] local 172.16.1.2 port 11191 connected to 172.16.3.2 port 5104
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.01   sec  0.00 Bytes  0.00 bits/sec    0   7.03 KBytes       
+[  5]   1.01-2.01   sec  0.00 Bytes  0.00 bits/sec    0   9.86 KBytes       
+[  5]   2.01-3.01   sec  0.00 Bytes  0.00 bits/sec    0   9.86 KBytes       
+[  5]   3.01-4.01   sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  5]   4.01-5.02   sec  0.00 Bytes  0.00 bits/sec    0   5.68 KBytes       
+[  5]   5.02-6.01   sec  0.00 Bytes  0.00 bits/sec    0   7.11 KBytes       
+[  5]   6.01-7.02   sec  0.00 Bytes  0.00 bits/sec    0   8.53 KBytes       
+[  5]   7.02-8.02   sec  0.00 Bytes  0.00 bits/sec    0   8.53 KBytes       
+[  5]   8.02-9.01   sec  0.00 Bytes  0.00 bits/sec    0   9.96 KBytes       
+[  5]   9.01-10.02  sec  0.00 Bytes  0.00 bits/sec    0   11.4 KBytes       
+[  5]  10.02-11.02  sec  0.00 Bytes  0.00 bits/sec    0   12.8 KBytes       
+[  5]  11.02-12.02  sec  0.00 Bytes  0.00 bits/sec    0   12.8 KBytes       
+[  5]  12.02-13.01  sec  0.00 Bytes  0.00 bits/sec    0   14.2 KBytes       
+[  5]  13.01-14.02  sec   128 KBytes  1.05 Mbits/sec    0   15.7 KBytes       
+[  5]  14.02-15.02  sec  0.00 Bytes  0.00 bits/sec    0   15.7 KBytes       
+[  5]  15.02-16.02  sec  0.00 Bytes  0.00 bits/sec    0   17.1 KBytes       
+[  5]  16.02-17.02  sec  0.00 Bytes  0.00 bits/sec    0   18.5 KBytes       
+[  5]  17.02-18.01  sec  0.00 Bytes  0.00 bits/sec    0   19.9 KBytes       
+[  5]  18.01-19.02  sec  0.00 Bytes  0.00 bits/sec    0   21.4 KBytes       
+[  5]  19.02-20.02  sec  0.00 Bytes  0.00 bits/sec    0   22.8 KBytes       
+[  5]  20.02-21.02  sec   128 KBytes  1.05 Mbits/sec    0   24.2 KBytes       
+[  5]  21.02-22.01  sec  0.00 Bytes  0.00 bits/sec    0   24.2 KBytes       
+[  5]  22.01-23.02  sec  0.00 Bytes  0.00 bits/sec    0   25.6 KBytes       
+[  5]  23.02-24.01  sec  0.00 Bytes  0.00 bits/sec    0   27.1 KBytes       
+[  5]  24.01-25.02  sec  0.00 Bytes  0.00 bits/sec    3   9.90 KBytes       
+[  5]  25.02-26.02  sec  0.00 Bytes  0.00 bits/sec    0   14.1 KBytes       
+[  5]  26.02-27.02  sec  0.00 Bytes  0.00 bits/sec    0   14.2 KBytes       
+[  5]  27.02-28.01  sec  0.00 Bytes  0.00 bits/sec    0   15.6 KBytes       
+[  5]  28.01-29.02  sec   128 KBytes  1.05 Mbits/sec    0   17.0 KBytes       
+[  5]  29.02-30.01  sec  0.00 Bytes  0.00 bits/sec    0   18.4 KBytes       
+[  5]  30.01-31.01  sec  0.00 Bytes  0.00 bits/sec    0   19.9 KBytes       
+[  5]  31.01-32.02  sec  0.00 Bytes  0.00 bits/sec    0   21.3 KBytes       
+[  5]  32.02-33.01  sec  0.00 Bytes  0.00 bits/sec    0   22.7 KBytes       
+[  5]  33.01-34.02  sec  0.00 Bytes  0.00 bits/sec    0   24.1 KBytes       
+[  5]  34.02-35.02  sec  0.00 Bytes  0.00 bits/sec    0   24.1 KBytes       
+[  5]  35.02-36.01  sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  5]  36.01-37.01  sec   128 KBytes  1.05 Mbits/sec    0   12.8 KBytes       
+[  5]  37.01-38.02  sec  0.00 Bytes  0.00 bits/sec    0   14.2 KBytes       
+[  5]  38.02-39.01  sec  0.00 Bytes  0.00 bits/sec    0   17.0 KBytes       
+[  5]  39.01-40.01  sec  0.00 Bytes  0.00 bits/sec    0   18.5 KBytes       
+[  5]  40.01-41.02  sec  0.00 Bytes  0.00 bits/sec    0   19.9 KBytes       
+[  5]  41.02-42.02  sec  0.00 Bytes  0.00 bits/sec    0   21.3 KBytes       
+[  5]  42.02-43.01  sec   128 KBytes  1.05 Mbits/sec    0   22.7 KBytes       
+[  5]  43.01-44.02  sec  0.00 Bytes  0.00 bits/sec    0   24.2 KBytes       
+[  5]  44.02-45.02  sec  0.00 Bytes  0.00 bits/sec    0   25.6 KBytes       
+[  5]  45.02-46.01  sec  0.00 Bytes  0.00 bits/sec    0   27.0 KBytes       
+[  5]  46.01-47.02  sec  0.00 Bytes  0.00 bits/sec    0   28.4 KBytes       
+[  5]  47.02-48.02  sec   128 KBytes  1.05 Mbits/sec    0   29.9 KBytes       
+[  5]  48.02-49.02  sec  0.00 Bytes  0.00 bits/sec    0   31.3 KBytes       
+[  5]  49.02-50.01  sec  0.00 Bytes  0.00 bits/sec    0   32.7 KBytes       
+[  5]  50.01-51.02  sec  0.00 Bytes  0.00 bits/sec    0   34.1 KBytes       
+[  5]  51.02-52.01  sec   128 KBytes  1.05 Mbits/sec    0   35.6 KBytes       
+[  5]  52.01-53.02  sec  0.00 Bytes  0.00 bits/sec    0   37.0 KBytes       
+[  5]  53.02-54.02  sec  0.00 Bytes  0.00 bits/sec    0   39.8 KBytes       
+[  5]  54.02-55.02  sec   128 KBytes  1.05 Mbits/sec    0   41.3 KBytes       
+[  5]  55.02-56.01  sec  0.00 Bytes  0.00 bits/sec    0   42.7 KBytes       
+[  5]  56.01-57.01  sec   128 KBytes  1.05 Mbits/sec    0   44.1 KBytes       
+[  5]  57.01-58.02  sec  0.00 Bytes  0.00 bits/sec    0   45.5 KBytes       
+[  5]  58.02-59.02  sec   128 KBytes  1.05 Mbits/sec    0   48.4 KBytes       
+[  5]  59.02-60.01  sec  0.00 Bytes  0.00 bits/sec    0   49.8 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-60.01  sec  1.25 MBytes   175 Kbits/sec    6             sender
+[  5]   0.00-61.27  sec  1.25 MBytes   171 Kbits/sec                  receiver
+
+iperf Done.
+[3]  - Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[2]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[1]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+Stop siftr on test1
+net.inet.siftr.enabled: 1 -> 0
+Stop siftr on test2
+net.inet.siftr.enabled: 1 -> 0
+Stop tcpdump on test1
+Stop tcpdump on test1
+Test complete
+Loaded config for single path rysnc
+----
+
+test1 (client) is single-homed, test2 (server) is
+single-homed and we PUSH data from test1 to test2.
+00100 queue 1 ip from any to any
+Configuring DummynetVM2 for 10Mbps
+00100 queue 1 ip from any to any
+Starting siftr on test1
+net.inet.siftr.logfile: /root/codel2_noecn.siftr.log -> /root/fqcodel1_noecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting siftr on test2
+net.inet.siftr.logfile: /root/codel2_noecn.siftr.log -> /root/fqcodel1_noecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting tcpdump on test1
+[1] 3930
+[2] 3931
+Starting tcpdump on test1
+[1] 3026
+[2] 3027
+Starting iperf3 test
+[1] 6597
+[2] 6599
+[3] 6601
+Connecting to host 172.16.3.2, port 5104
+[  5] local 172.16.1.2 port 48911 connected to 172.16.3.2 port 5104
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  0.00 Bytes  0.00 bits/sec    1   9.92 KBytes       
+[  5]   1.00-2.01   sec   128 KBytes  1.04 Mbits/sec    0   18.5 KBytes       
+[  5]   2.01-3.01   sec   128 KBytes  1.05 Mbits/sec    4   12.8 KBytes       
+[  5]   3.01-4.01   sec  0.00 Bytes  0.00 bits/sec    0   19.9 KBytes       
+[  5]   4.01-5.01   sec   128 KBytes  1.05 Mbits/sec    2   15.6 KBytes       
+[  5]   5.01-6.01   sec   128 KBytes  1.05 Mbits/sec    4   9.90 KBytes       
+[  5]   6.01-7.01   sec  0.00 Bytes  0.00 bits/sec    0   19.9 KBytes       
+[  5]   7.01-8.01   sec   128 KBytes  1.05 Mbits/sec    7   15.6 KBytes       
+[  5]   8.01-9.01   sec   128 KBytes  1.05 Mbits/sec    0   22.7 KBytes       
+[  5]   9.01-10.01  sec   128 KBytes  1.05 Mbits/sec    0   29.9 KBytes       
+[  5]  10.01-11.01  sec   128 KBytes  1.05 Mbits/sec    8   19.8 KBytes       
+[  5]  11.01-12.01  sec   128 KBytes  1.05 Mbits/sec    0   28.4 KBytes       
+[  5]  12.01-13.01  sec   128 KBytes  1.05 Mbits/sec    1   14.1 KBytes       
+[  5]  13.01-14.01  sec   128 KBytes  1.05 Mbits/sec    2   17.2 KBytes       
+[  5]  14.01-15.01  sec   128 KBytes  1.05 Mbits/sec    0   24.3 KBytes       
+[  5]  15.01-16.01  sec   128 KBytes  1.05 Mbits/sec    0   32.9 KBytes       
+[  5]  16.01-17.01  sec   256 KBytes  2.10 Mbits/sec    0   40.0 KBytes       
+[  5]  17.01-18.01  sec   256 KBytes  2.10 Mbits/sec    0   47.1 KBytes       
+[  5]  18.01-19.01  sec   128 KBytes  1.05 Mbits/sec    1   31.2 KBytes       
+[  5]  19.01-20.01  sec   256 KBytes  2.10 Mbits/sec    0   39.7 KBytes       
+[  5]  20.01-21.01  sec   256 KBytes  2.09 Mbits/sec    4   22.6 KBytes       
+[  5]  21.01-22.01  sec   128 KBytes  1.05 Mbits/sec    0   31.2 KBytes       
+[  5]  22.01-23.01  sec   128 KBytes  1.05 Mbits/sec    4   22.7 KBytes       
+[  5]  23.01-24.01  sec   128 KBytes  1.05 Mbits/sec    0   29.8 KBytes       
+[  5]  24.01-25.01  sec   128 KBytes  1.05 Mbits/sec    1   11.3 KBytes       
+[  5]  25.01-26.01  sec   128 KBytes  1.05 Mbits/sec    0   25.5 KBytes       
+[  5]  26.01-27.01  sec   128 KBytes  1.05 Mbits/sec    1   19.9 KBytes       
+[  5]  27.01-28.01  sec   128 KBytes  1.05 Mbits/sec    1   7.07 KBytes       
+[  5]  28.01-29.01  sec  0.00 Bytes  0.00 bits/sec    3   18.4 KBytes       
+[  5]  29.01-30.01  sec   128 KBytes  1.05 Mbits/sec    0   25.6 KBytes       
+[  5]  30.01-31.01  sec   256 KBytes  2.10 Mbits/sec    0   34.1 KBytes       
+[  5]  31.01-32.01  sec   128 KBytes  1.05 Mbits/sec    5   21.2 KBytes       
+[  5]  32.01-33.01  sec   128 KBytes  1.05 Mbits/sec    0   31.2 KBytes       
+[  5]  33.01-34.01  sec   256 KBytes  2.10 Mbits/sec    0   38.4 KBytes       
+[  5]  34.01-35.01  sec   128 KBytes  1.05 Mbits/sec    1   25.5 KBytes       
+[  5]  35.01-36.02  sec   128 KBytes  1.05 Mbits/sec    0   34.1 KBytes       
+[  5]  36.02-37.01  sec   256 KBytes  2.10 Mbits/sec    0   42.6 KBytes       
+[  5]  37.01-38.01  sec   256 KBytes  2.10 Mbits/sec    6   26.9 KBytes       
+[  5]  38.01-39.01  sec   128 KBytes  1.05 Mbits/sec    0   35.5 KBytes       
+[  5]  39.01-40.02  sec   128 KBytes  1.05 Mbits/sec    1   19.8 KBytes       
+[  5]  40.02-41.01  sec   256 KBytes  2.10 Mbits/sec    0   32.6 KBytes       
+[  5]  41.01-42.01  sec   256 KBytes  2.10 Mbits/sec    0   41.2 KBytes       
+[  5]  42.01-43.01  sec   256 KBytes  2.10 Mbits/sec    1   4.24 KBytes       
+[  5]  43.01-44.01  sec   256 KBytes  2.10 Mbits/sec    2   31.2 KBytes       
+[  5]  44.01-45.01  sec   128 KBytes  1.05 Mbits/sec    0   39.7 KBytes       
+[  5]  45.01-46.01  sec   256 KBytes  2.10 Mbits/sec    0   46.9 KBytes       
+[  5]  46.01-47.01  sec   256 KBytes  2.10 Mbits/sec    5   31.2 KBytes       
+[  5]  47.01-48.01  sec   128 KBytes  1.05 Mbits/sec    1   1.41 KBytes       
+[  5]  48.01-49.01  sec   256 KBytes  2.10 Mbits/sec    3   28.4 KBytes       
+[  5]  49.01-50.01  sec   128 KBytes  1.05 Mbits/sec    0   36.9 KBytes       
+[  5]  50.01-51.01  sec   256 KBytes  2.10 Mbits/sec    6   19.8 KBytes       
+[  5]  51.01-52.01  sec   128 KBytes  1.05 Mbits/sec    0   31.2 KBytes       
+[  5]  52.01-53.01  sec   384 KBytes  3.14 Mbits/sec    0   42.6 KBytes       
+[  5]  53.01-54.01  sec   384 KBytes  3.15 Mbits/sec    0   54.0 KBytes       
+[  5]  54.01-55.01  sec   512 KBytes  4.19 Mbits/sec    0   65.4 KBytes       
+[  5]  55.01-56.01  sec   384 KBytes  3.15 Mbits/sec    0   75.4 KBytes       
+[  5]  56.01-57.01  sec   512 KBytes  4.19 Mbits/sec    0   84.0 KBytes       
+[  5]  57.01-58.01  sec   512 KBytes  4.19 Mbits/sec    0   92.5 KBytes       
+[  5]  58.01-59.01  sec   640 KBytes  5.24 Mbits/sec    0   99.7 KBytes       
+[  5]  59.01-60.01  sec   512 KBytes  4.19 Mbits/sec    0    108 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-60.01  sec  11.8 MBytes  1.64 Mbits/sec   75             sender
+[  5]   0.00-60.12  sec  11.6 MBytes  1.62 Mbits/sec                  receiver
+
+iperf Done.
+[3]  - Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[2]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[1]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+Stop siftr on test1
+net.inet.siftr.enabled: 1 -> 0
+Stop siftr on test2
+net.inet.siftr.enabled: 1 -> 0
+Stop tcpdump on test1
+Stop tcpdump on test1
+Test complete
+Loaded config for single path rysnc
+----
+
+test1 (client) is single-homed, test2 (server) is
+single-homed and we PUSH data from test1 to test2.
+Configuring DummynetVM1 for 1Mbps
+00100 queue 1 ip from any to any
+Configuring DummynetVM2 for 1Mbps
+00100 queue 1 ip from any to any
+Starting siftr on test1
+net.inet.siftr.logfile: /root/fqcodel1_noecn.siftr.log -> /root/fqcodel2_noecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting siftr on test2
+net.inet.siftr.logfile: /root/fqcodel1_noecn.siftr.log -> /root/fqcodel2_noecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting tcpdump on test1
+[1] 3984
+[2] 3985
+Starting tcpdump on test1
+[1] 3060
+[2] 3061
+Initiating iperf3 test
+[1] 6634
+[2] 6636
+[3] 6638
+Connecting to host 172.16.3.2, port 5104
+[  5] local 172.16.1.2 port 10623 connected to 172.16.3.2 port 5104
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.01   sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]   1.01-2.02   sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  5]   2.02-3.02   sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  5]   3.02-4.02   sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  5]   4.02-5.02   sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  5]   5.02-6.02   sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  5]   6.02-7.01   sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  5]   7.01-8.02   sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  5]   8.02-9.02   sec  0.00 Bytes  0.00 bits/sec    0   5.68 KBytes       
+[  5]   9.02-10.02  sec  0.00 Bytes  0.00 bits/sec    0   7.11 KBytes       
+[  5]  10.02-11.02  sec  0.00 Bytes  0.00 bits/sec    0   8.53 KBytes       
+[  5]  11.02-12.02  sec  0.00 Bytes  0.00 bits/sec    0   9.96 KBytes       
+[  5]  12.02-13.02  sec  0.00 Bytes  0.00 bits/sec    0   11.4 KBytes       
+[  5]  13.02-14.02  sec  0.00 Bytes  0.00 bits/sec    0   11.4 KBytes       
+[  5]  14.02-15.02  sec  0.00 Bytes  0.00 bits/sec    0   12.8 KBytes       
+[  5]  15.02-16.02  sec  0.00 Bytes  0.00 bits/sec    0   14.2 KBytes       
+[  5]  16.02-17.02  sec  0.00 Bytes  0.00 bits/sec    0   14.2 KBytes       
+[  5]  17.02-18.02  sec  0.00 Bytes  0.00 bits/sec    0   14.2 KBytes       
+[  5]  18.02-19.02  sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  5]  19.02-20.02  sec   128 KBytes  1.05 Mbits/sec    0   8.51 KBytes       
+[  5]  20.02-21.02  sec  0.00 Bytes  0.00 bits/sec    0   9.93 KBytes       
+[  5]  21.02-22.02  sec  0.00 Bytes  0.00 bits/sec    0   11.4 KBytes       
+[  5]  22.02-23.02  sec  0.00 Bytes  0.00 bits/sec    0   12.8 KBytes       
+[  5]  23.02-24.02  sec  0.00 Bytes  0.00 bits/sec    0   14.2 KBytes       
+[  5]  24.02-25.02  sec  0.00 Bytes  0.00 bits/sec    0   14.2 KBytes       
+[  5]  25.02-26.02  sec  0.00 Bytes  0.00 bits/sec    1   8.51 KBytes       
+[  5]  26.02-27.02  sec  0.00 Bytes  0.00 bits/sec    0   9.93 KBytes       
+[  5]  27.02-28.02  sec  0.00 Bytes  0.00 bits/sec    0   11.4 KBytes       
+[  5]  28.02-29.02  sec   128 KBytes  1.05 Mbits/sec    0   14.2 KBytes       
+[  5]  29.02-30.02  sec  0.00 Bytes  0.00 bits/sec    0   15.6 KBytes       
+[  5]  30.02-31.02  sec  0.00 Bytes  0.00 bits/sec    0   15.6 KBytes       
+[  5]  31.02-32.02  sec  0.00 Bytes  0.00 bits/sec    0   17.1 KBytes       
+[  5]  32.02-33.02  sec  0.00 Bytes  0.00 bits/sec    0   18.5 KBytes       
+[  5]  33.02-34.02  sec  0.00 Bytes  0.00 bits/sec    0   19.9 KBytes       
+[  5]  34.02-35.01  sec  0.00 Bytes  0.00 bits/sec    0   21.3 KBytes       
+[  5]  35.01-36.02  sec  0.00 Bytes  0.00 bits/sec    0   21.3 KBytes       
+[  5]  36.02-37.02  sec   128 KBytes  1.05 Mbits/sec    0   22.8 KBytes       
+[  5]  37.02-38.01  sec  0.00 Bytes  0.00 bits/sec    0   24.2 KBytes       
+[  5]  38.01-39.02  sec  0.00 Bytes  0.00 bits/sec    0   25.6 KBytes       
+[  5]  39.02-40.02  sec  0.00 Bytes  0.00 bits/sec    0   27.0 KBytes       
+[  5]  40.02-41.02  sec  0.00 Bytes  0.00 bits/sec    0   28.5 KBytes       
+[  5]  41.02-42.02  sec   128 KBytes  1.05 Mbits/sec    0   29.9 KBytes       
+[  5]  42.02-43.02  sec  0.00 Bytes  0.00 bits/sec    0   31.3 KBytes       
+[  5]  43.02-44.02  sec  0.00 Bytes  0.00 bits/sec    0   32.7 KBytes       
+[  5]  44.02-45.02  sec  0.00 Bytes  0.00 bits/sec    0   34.2 KBytes       
+[  5]  45.02-46.02  sec   128 KBytes  1.05 Mbits/sec    0   34.2 KBytes       
+[  5]  46.02-47.02  sec  0.00 Bytes  0.00 bits/sec    0   35.6 KBytes       
+[  5]  47.02-48.02  sec  0.00 Bytes  0.00 bits/sec    0   37.0 KBytes       
+[  5]  48.02-49.02  sec  0.00 Bytes  0.00 bits/sec    0   37.0 KBytes       
+[  5]  49.02-50.02  sec  0.00 Bytes  0.00 bits/sec    0   38.4 KBytes       
+[  5]  50.02-51.02  sec   128 KBytes  1.05 Mbits/sec    0   41.3 KBytes       
+[  5]  51.02-52.02  sec  0.00 Bytes  0.00 bits/sec    0   42.7 KBytes       
+[  5]  52.02-53.02  sec   128 KBytes  1.05 Mbits/sec    0   44.2 KBytes       
+[  5]  53.02-54.02  sec  0.00 Bytes  0.00 bits/sec    0   45.6 KBytes       
+[  5]  54.02-55.02  sec   128 KBytes  1.05 Mbits/sec    0   48.4 KBytes       
+[  5]  55.02-56.02  sec  0.00 Bytes  0.00 bits/sec    0   49.9 KBytes       
+[  5]  56.02-57.02  sec   128 KBytes  1.05 Mbits/sec    0   51.3 KBytes       
+[  5]  57.02-58.02  sec  0.00 Bytes  0.00 bits/sec    0   52.7 KBytes       
+[  5]  58.02-59.02  sec  0.00 Bytes  0.00 bits/sec    0   54.1 KBytes       
+[  5]  59.02-60.02  sec   128 KBytes  1.05 Mbits/sec    0   55.6 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-60.02  sec  1.25 MBytes   175 Kbits/sec    5             sender
+[  5]   0.00-60.92  sec  1.25 MBytes   172 Kbits/sec                  receiver
+
+iperf Done.
+[3]  - Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[2]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[1]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+Stop siftr on test1
+net.inet.siftr.enabled: 1 -> 0
+Stop siftr on test2
+net.inet.siftr.enabled: 1 -> 0
+Stop tcpdump on test1
+Stop tcpdump on test1
+Test complete
+Loaded config for single path rysnc
+----
+
+test1 (client) is single-homed, test2 (server) is
+single-homed and we PUSH data from test1 to test2.
+Configuring DummynetVM1 for 10Mbps
+00100 queue 1 ip from 172.16.0.0/16 to 172.16.0.0/16
+Configuring DummynetVM2 for 10Mbps
+00100 queue 1 ip from 172.16.0.0/16 to 172.16.0.0/16
+Starting siftr on test1
+net.inet.siftr.logfile: /root/fqcodel2_noecn.siftr.log -> /root/fqpie1_noecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting siftr on test2
+net.inet.siftr.logfile: /root/fqcodel2_noecn.siftr.log -> /root/fqpie1_noecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting tcpdump on test1
+[1] 4040
+[2] 4041
+Starting tcpdump on test1
+[1] 3096
+[2] 3097
+Starting iperf3 test
+[1] 6757
+[2] 6759
+[3] 6761
+Connecting to host 172.16.3.2, port 5104
+[  5] local 172.16.1.2 port 45422 connected to 172.16.3.2 port 5104
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.02   sec   128 KBytes  1.03 Mbits/sec    0   21.3 KBytes       
+[  5]   1.02-2.02   sec   128 KBytes  1.05 Mbits/sec    0   28.4 KBytes       
+[  5]   2.02-3.03   sec   128 KBytes  1.04 Mbits/sec    6   21.3 KBytes       
+[  5]   3.03-4.00   sec   128 KBytes  1.07 Mbits/sec    0   28.4 KBytes       
+[  5]   4.00-5.01   sec   128 KBytes  1.04 Mbits/sec    1   22.7 KBytes       
+[  5]   5.01-6.01   sec   128 KBytes  1.05 Mbits/sec    0   29.8 KBytes       
+[  5]   6.01-7.02   sec   256 KBytes  2.10 Mbits/sec    0   38.4 KBytes       
+[  5]   7.02-8.02   sec   128 KBytes  1.04 Mbits/sec    8   22.6 KBytes       
+[  5]   8.02-9.01   sec   128 KBytes  1.05 Mbits/sec    7   14.2 KBytes       
+[  5]   9.01-10.01  sec  0.00 Bytes  0.00 bits/sec    0   22.7 KBytes       
+[  5]  10.01-11.01  sec   256 KBytes  2.10 Mbits/sec    0   29.9 KBytes       
+[  5]  11.01-12.02  sec  0.00 Bytes  0.00 bits/sec    6   21.3 KBytes       
+[  5]  12.02-13.02  sec   128 KBytes  1.05 Mbits/sec    0   28.4 KBytes       
+[  5]  13.02-14.02  sec   128 KBytes  1.05 Mbits/sec    3   19.8 KBytes       
+[  5]  14.02-15.02  sec   256 KBytes  2.10 Mbits/sec    0   28.4 KBytes       
+[  5]  15.02-16.02  sec   128 KBytes  1.05 Mbits/sec    3   18.4 KBytes       
+[  5]  16.02-17.01  sec   128 KBytes  1.05 Mbits/sec    0   27.0 KBytes       
+[  5]  17.01-18.01  sec   128 KBytes  1.05 Mbits/sec    0   35.5 KBytes       
+[  5]  18.01-19.01  sec   128 KBytes  1.05 Mbits/sec    4   26.9 KBytes       
+[  5]  19.01-20.01  sec   128 KBytes  1.05 Mbits/sec    0   26.9 KBytes       
+[  5]  20.01-21.02  sec   256 KBytes  2.10 Mbits/sec    0   35.5 KBytes       
+[  5]  21.02-22.01  sec   128 KBytes  1.05 Mbits/sec    0   42.6 KBytes       
+[  5]  22.01-23.02  sec   384 KBytes  3.14 Mbits/sec    0   51.2 KBytes       
+[  5]  23.02-24.02  sec   256 KBytes  2.10 Mbits/sec    5   28.3 KBytes       
+[  5]  24.02-25.02  sec   128 KBytes  1.05 Mbits/sec    0   36.9 KBytes       
+[  5]  25.02-26.01  sec   256 KBytes  2.10 Mbits/sec    2   21.2 KBytes       
+[  5]  26.01-27.01  sec   128 KBytes  1.05 Mbits/sec    0   29.8 KBytes       
+[  5]  27.01-28.02  sec   128 KBytes  1.05 Mbits/sec    1   15.6 KBytes       
+[  5]  28.02-29.01  sec   256 KBytes  2.10 Mbits/sec    1   25.5 KBytes       
+[  5]  29.01-30.02  sec   128 KBytes  1.05 Mbits/sec    0   34.1 KBytes       
+[  5]  30.02-31.02  sec   256 KBytes  2.10 Mbits/sec    0   42.6 KBytes       
+[  5]  31.02-32.02  sec   128 KBytes  1.05 Mbits/sec    2   11.3 KBytes       
+[  5]  32.02-33.02  sec   256 KBytes  2.10 Mbits/sec    0   35.5 KBytes       
+[  5]  33.02-34.01  sec   256 KBytes  2.10 Mbits/sec    0   42.6 KBytes       
+[  5]  34.01-35.02  sec   256 KBytes  2.10 Mbits/sec    1   26.9 KBytes       
+[  5]  35.02-36.01  sec   128 KBytes  1.05 Mbits/sec    0   35.5 KBytes       
+[  5]  36.01-37.02  sec   256 KBytes  2.10 Mbits/sec    2   4.24 KBytes       
+[  5]  37.02-38.02  sec   128 KBytes  1.05 Mbits/sec    0   31.2 KBytes       
+[  5]  38.02-39.02  sec   256 KBytes  2.10 Mbits/sec    0   39.8 KBytes       
+[  5]  39.02-40.02  sec   256 KBytes  2.10 Mbits/sec    1   2.83 KBytes       
+[  5]  40.02-41.01  sec   256 KBytes  2.10 Mbits/sec    1   34.0 KBytes       
+[  5]  41.01-42.01  sec   256 KBytes  2.10 Mbits/sec    0   44.0 KBytes       
+[  5]  42.01-43.01  sec   256 KBytes  2.10 Mbits/sec    0   51.2 KBytes       
+[  5]  43.01-44.01  sec   256 KBytes  2.10 Mbits/sec    0   59.7 KBytes       
+[  5]  44.01-45.01  sec   256 KBytes  2.10 Mbits/sec    2   38.3 KBytes       
+[  5]  45.01-46.02  sec   384 KBytes  3.14 Mbits/sec    0   46.8 KBytes       
+[  5]  46.02-47.01  sec   256 KBytes  2.10 Mbits/sec    0   55.4 KBytes       
+[  5]  47.01-48.01  sec   256 KBytes  2.10 Mbits/sec    4   29.7 KBytes       
+[  5]  48.01-49.01  sec   256 KBytes  2.10 Mbits/sec    0   38.3 KBytes       
+[  5]  49.01-50.01  sec   128 KBytes  1.05 Mbits/sec    0   45.4 KBytes       
+[  5]  50.01-51.01  sec   256 KBytes  2.10 Mbits/sec    2   29.8 KBytes       
+[  5]  51.01-52.02  sec   256 KBytes  2.10 Mbits/sec    1   18.4 KBytes       
+[  5]  52.02-53.02  sec   128 KBytes  1.05 Mbits/sec    0   29.8 KBytes       
+[  5]  53.02-54.01  sec   384 KBytes  3.15 Mbits/sec    0   42.6 KBytes       
+[  5]  54.01-55.02  sec   384 KBytes  3.14 Mbits/sec    0   54.0 KBytes       
+[  5]  55.02-56.02  sec   384 KBytes  3.15 Mbits/sec    0   64.0 KBytes       
+[  5]  56.02-57.02  sec   512 KBytes  4.19 Mbits/sec    0   74.0 KBytes       
+[  5]  57.02-58.01  sec   512 KBytes  4.20 Mbits/sec    0   82.6 KBytes       
+[  5]  58.01-59.01  sec   384 KBytes  3.14 Mbits/sec    8   50.9 KBytes       
+[  5]  59.01-60.01  sec   384 KBytes  3.15 Mbits/sec    2   45.3 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-60.01  sec  12.8 MBytes  1.78 Mbits/sec   73             sender
+[  5]   0.00-60.13  sec  12.5 MBytes  1.74 Mbits/sec                  receiver
+
+iperf Done.
+[3]  - Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[2]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[1]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+Stop siftr on test1
+net.inet.siftr.enabled: 1 -> 0
+Stop siftr on test2
+net.inet.siftr.enabled: 1 -> 0
+Stop tcpdump on test1
+Stop tcpdump on test1
+Test complete
+Loaded config for single path rysnc
+----
+
+test1 (client) is single-homed, test2 (server) is
+single-homed and we PUSH data from test1 to test2.
+Configuring DummynetVM1 for 1Mbps
+00100 queue 1 ip from 172.16.0.0/16 to 172.16.0.0/16
+Configuring DummynetVM2 for 1Mbps
+00100 queue 1 ip from 172.16.0.0/16 to 172.16.0.0/16
+Starting siftr on test1
+net.inet.siftr.logfile: /root/fqpie1_noecn.siftr.log -> /root/fqpie2_noecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting siftr on test2
+net.inet.siftr.logfile: /root/fqpie1_noecn.siftr.log -> /root/fqpie2_noecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting tcpdump on test1
+[1] 4096
+[2] 4097
+Starting tcpdump on test1
+[1] 3132
+[2] 3133
+Initiating iperf3 test
+[1] 6800
+[2] 6802
+[3] 6804
+Connecting to host 172.16.3.2, port 5104
+[  5] local 172.16.1.2 port 41573 connected to 172.16.3.2 port 5104
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.01   sec  0.00 Bytes  0.00 bits/sec    0   7.03 KBytes       
+[  5]   1.01-2.02   sec  0.00 Bytes  0.00 bits/sec    0   9.86 KBytes       
+[  5]   2.02-3.02   sec  0.00 Bytes  0.00 bits/sec    0   9.86 KBytes       
+[  5]   3.02-4.02   sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  5]   4.02-5.02   sec  0.00 Bytes  0.00 bits/sec    0   12.7 KBytes       
+[  5]   5.02-6.02   sec  0.00 Bytes  0.00 bits/sec    0   12.7 KBytes       
+[  5]   6.02-7.02   sec  0.00 Bytes  0.00 bits/sec    0   14.1 KBytes       
+[  5]   7.02-8.02   sec  0.00 Bytes  0.00 bits/sec    0   15.6 KBytes       
+[  5]   8.02-9.02   sec  0.00 Bytes  0.00 bits/sec    0   15.6 KBytes       
+[  5]   9.02-10.02  sec  0.00 Bytes  0.00 bits/sec    0   17.0 KBytes       
+[  5]  10.02-11.02  sec   128 KBytes  1.05 Mbits/sec    0   18.4 KBytes       
+[  5]  11.02-12.02  sec  0.00 Bytes  0.00 bits/sec    0   19.8 KBytes       
+[  5]  12.02-13.02  sec  0.00 Bytes  0.00 bits/sec    0   21.3 KBytes       
+[  5]  13.02-14.02  sec  0.00 Bytes  0.00 bits/sec    0   22.7 KBytes       
+[  5]  14.02-15.02  sec  0.00 Bytes  0.00 bits/sec    0   22.7 KBytes       
+[  5]  15.02-16.02  sec  0.00 Bytes  0.00 bits/sec    0   24.1 KBytes       
+[  5]  16.02-17.02  sec  0.00 Bytes  0.00 bits/sec    0   25.5 KBytes       
+[  5]  17.02-18.02  sec   128 KBytes  1.05 Mbits/sec    0   27.0 KBytes       
+[  5]  18.02-19.02  sec  0.00 Bytes  0.00 bits/sec    0   27.0 KBytes       
+[  5]  19.02-20.02  sec  0.00 Bytes  0.00 bits/sec    0   28.4 KBytes       
+[  5]  20.02-21.02  sec  0.00 Bytes  0.00 bits/sec    0   29.8 KBytes       
+[  5]  21.02-22.02  sec  0.00 Bytes  0.00 bits/sec    0   31.2 KBytes       
+[  5]  22.02-23.02  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  5]  23.02-24.02  sec   128 KBytes  1.05 Mbits/sec    1   18.4 KBytes       
+[  5]  24.02-25.02  sec  0.00 Bytes  0.00 bits/sec    0   17.0 KBytes       
+[  5]  25.02-26.02  sec  0.00 Bytes  0.00 bits/sec    0   18.4 KBytes       
+[  5]  26.02-27.02  sec  0.00 Bytes  0.00 bits/sec    0   19.8 KBytes       
+[  5]  27.02-28.02  sec  0.00 Bytes  0.00 bits/sec    0   21.3 KBytes       
+[  5]  28.02-29.02  sec  0.00 Bytes  0.00 bits/sec    0   22.7 KBytes       
+[  5]  29.02-30.02  sec   128 KBytes  1.05 Mbits/sec    0   24.1 KBytes       
+[  5]  30.02-31.02  sec  0.00 Bytes  0.00 bits/sec    0   24.1 KBytes       
+[  5]  31.02-32.02  sec  0.00 Bytes  0.00 bits/sec    0   25.5 KBytes       
+[  5]  32.02-33.02  sec  0.00 Bytes  0.00 bits/sec    0   27.0 KBytes       
+[  5]  33.02-34.02  sec  0.00 Bytes  0.00 bits/sec    0   27.0 KBytes       
+[  5]  34.02-35.02  sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  5]  35.02-36.02  sec  0.00 Bytes  0.00 bits/sec    1   11.3 KBytes       
+[  5]  36.02-37.02  sec  0.00 Bytes  0.00 bits/sec    4   24.0 KBytes       
+[  5]  37.02-38.02  sec   128 KBytes  1.05 Mbits/sec    0   17.0 KBytes       
+[  5]  38.02-39.02  sec  0.00 Bytes  0.00 bits/sec    0   18.4 KBytes       
+[  5]  39.02-40.02  sec  0.00 Bytes  0.00 bits/sec    0   19.9 KBytes       
+[  5]  40.02-41.02  sec  0.00 Bytes  0.00 bits/sec    0   22.7 KBytes       
+[  5]  41.02-42.02  sec  0.00 Bytes  0.00 bits/sec    0   24.1 KBytes       
+[  5]  42.02-43.02  sec   128 KBytes  1.05 Mbits/sec    0   25.6 KBytes       
+[  5]  43.02-44.02  sec  0.00 Bytes  0.00 bits/sec    0   27.0 KBytes       
+[  5]  44.02-45.02  sec  0.00 Bytes  0.00 bits/sec    0   28.4 KBytes       
+[  5]  45.02-46.02  sec  0.00 Bytes  0.00 bits/sec    0   29.8 KBytes       
+[  5]  46.02-47.02  sec   128 KBytes  1.05 Mbits/sec    0   31.3 KBytes       
+[  5]  47.02-48.02  sec  0.00 Bytes  0.00 bits/sec    0   32.7 KBytes       
+[  5]  48.02-49.02  sec  0.00 Bytes  0.00 bits/sec    0   34.1 KBytes       
+[  5]  49.02-50.02  sec  0.00 Bytes  0.00 bits/sec    0   35.5 KBytes       
+[  5]  50.02-51.02  sec  0.00 Bytes  0.00 bits/sec    0   35.5 KBytes       
+[  5]  51.02-52.02  sec   128 KBytes  1.05 Mbits/sec    0   37.0 KBytes       
+[  5]  52.02-53.02  sec  0.00 Bytes  0.00 bits/sec    0   38.4 KBytes       
+[  5]  53.02-54.02  sec  0.00 Bytes  0.00 bits/sec    1   19.8 KBytes       
+[  5]  54.02-55.02  sec   128 KBytes  1.05 Mbits/sec    0   22.7 KBytes       
+[  5]  55.02-56.02  sec  0.00 Bytes  0.00 bits/sec    0   26.9 KBytes       
+[  5]  56.02-57.02  sec   128 KBytes  1.05 Mbits/sec    0   29.8 KBytes       
+[  5]  57.02-58.02  sec  0.00 Bytes  0.00 bits/sec    0   32.7 KBytes       
+[  5]  58.02-59.02  sec   128 KBytes  1.05 Mbits/sec    0   35.5 KBytes       
+[  5]  59.02-60.02  sec  0.00 Bytes  0.00 bits/sec    0   36.9 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-60.02  sec  1.38 MBytes   192 Kbits/sec    9             sender
+[  5]   0.00-60.92  sec  1.38 MBytes   189 Kbits/sec                  receiver
+
+iperf Done.
+[3]  - Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[2]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[1]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+Stop siftr on test1
+net.inet.siftr.enabled: 1 -> 0
+Stop siftr on test2
+net.inet.siftr.enabled: 1 -> 0
+Stop tcpdump on test1
+Stop tcpdump on test1
+Test complete
+Loaded config for single path rysnc
+----
+
+test1 (client) is single-homed, test2 (server) is
+single-homed and we PUSH data from test1 to test2.
+Configuring DummynetVM1 for 10Mbps
+00100 pipe 1 ip from any to any
+Configuring DummynetVM2 for 10Mbps
+00100 pipe 1 ip from any to any
+Starting siftr on test1
+net.inet.siftr.logfile: /root/fqpie2_noecn.siftr.log -> /root/pie1_noecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting siftr on test2
+net.inet.siftr.logfile: /root/fqpie2_noecn.siftr.log -> /root/pie1_noecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting tcpdump on test1
+[1] 4159
+[2] 4160
+Starting tcpdump on test1
+[1] 3175
+[2] 3176
+Starting iperf3 test
+[1] 6833
+[2] 6835
+[3] 6838
+Connecting to host 172.16.3.2, port 5104
+[  5] local 172.16.1.2 port 55621 connected to 172.16.3.2 port 5104
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  0.00 Bytes  0.00 bits/sec    0   19.8 KBytes       
+[  5]   1.00-2.01   sec   128 KBytes  1.04 Mbits/sec    2   12.7 KBytes       
+[  5]   2.01-3.01   sec   128 KBytes  1.05 Mbits/sec    0   21.3 KBytes       
+[  5]   3.01-4.01   sec   128 KBytes  1.05 Mbits/sec    0   29.8 KBytes       
+[  5]   4.01-5.01   sec   256 KBytes  2.10 Mbits/sec    0   37.0 KBytes       
+[  5]   5.01-6.01   sec   128 KBytes  1.05 Mbits/sec    4   24.1 KBytes       
+[  5]   6.01-7.01   sec   128 KBytes  1.05 Mbits/sec    0   31.2 KBytes       
+[  5]   7.01-8.01   sec   128 KBytes  1.05 Mbits/sec    6   19.8 KBytes       
+[  5]   8.01-9.01   sec   128 KBytes  1.05 Mbits/sec    0   27.0 KBytes       
+[  5]   9.01-10.01  sec   256 KBytes  2.10 Mbits/sec    0   37.0 KBytes       
+[  5]  10.01-11.01  sec   128 KBytes  1.05 Mbits/sec    4   9.90 KBytes       
+[  5]  11.01-12.01  sec   128 KBytes  1.05 Mbits/sec    0   29.8 KBytes       
+[  5]  12.01-13.01  sec   128 KBytes  1.05 Mbits/sec    2   11.3 KBytes       
+[  5]  13.01-14.01  sec   256 KBytes  2.10 Mbits/sec    1   25.5 KBytes       
+[  5]  14.01-15.01  sec   128 KBytes  1.05 Mbits/sec    0   34.1 KBytes       
+[  5]  15.01-16.01  sec   256 KBytes  2.10 Mbits/sec    0   42.6 KBytes       
+[  5]  16.01-17.01  sec   128 KBytes  1.05 Mbits/sec    6   25.5 KBytes       
+[  5]  17.01-18.01  sec   256 KBytes  2.10 Mbits/sec    0   32.6 KBytes       
+[  5]  18.01-19.01  sec   128 KBytes  1.05 Mbits/sec    3   24.1 KBytes       
+[  5]  19.01-20.01  sec   128 KBytes  1.05 Mbits/sec    0   31.2 KBytes       
+[  5]  20.01-21.01  sec   128 KBytes  1.05 Mbits/sec    4   21.3 KBytes       
+[  5]  21.01-22.01  sec   128 KBytes  1.05 Mbits/sec    0   29.8 KBytes       
+[  5]  22.01-23.01  sec   128 KBytes  1.05 Mbits/sec    1   19.8 KBytes       
+[  5]  23.01-24.01  sec   128 KBytes  1.05 Mbits/sec    4   12.7 KBytes       
+[  5]  24.01-25.01  sec   128 KBytes  1.05 Mbits/sec    0   19.9 KBytes       
+[  5]  25.01-26.01  sec   128 KBytes  1.05 Mbits/sec    0   27.0 KBytes       
+[  5]  26.01-27.01  sec   128 KBytes  1.05 Mbits/sec    4   21.3 KBytes       
+[  5]  27.01-28.01  sec   128 KBytes  1.05 Mbits/sec    0   28.4 KBytes       
+[  5]  28.01-29.01  sec   128 KBytes  1.05 Mbits/sec    2   26.9 KBytes       
+[  5]  29.01-30.02  sec   128 KBytes  1.05 Mbits/sec    1   11.3 KBytes       
+[  5]  30.02-31.02  sec  0.00 Bytes  0.00 bits/sec    0   19.9 KBytes       
+[  5]  31.02-32.01  sec   128 KBytes  1.05 Mbits/sec    0   27.0 KBytes       
+[  5]  32.01-33.01  sec   256 KBytes  2.10 Mbits/sec    0   35.6 KBytes       
+[  5]  33.01-34.01  sec   128 KBytes  1.05 Mbits/sec    2   22.7 KBytes       
+[  5]  34.01-35.01  sec   256 KBytes  2.10 Mbits/sec    0   29.8 KBytes       
+[  5]  35.01-36.01  sec   128 KBytes  1.05 Mbits/sec    7   25.5 KBytes       
+[  5]  36.01-37.01  sec   128 KBytes  1.05 Mbits/sec    0   25.5 KBytes       
+[  5]  37.01-38.01  sec   128 KBytes  1.05 Mbits/sec    3   14.1 KBytes       
+[  5]  38.01-39.01  sec   128 KBytes  1.05 Mbits/sec    0   21.3 KBytes       
+[  5]  39.01-40.01  sec  0.00 Bytes  0.00 bits/sec    2   14.2 KBytes       
+[  5]  40.01-41.01  sec   256 KBytes  2.10 Mbits/sec    0   27.0 KBytes       
+[  5]  41.01-42.01  sec   256 KBytes  2.10 Mbits/sec    0   37.0 KBytes       
+[  5]  42.01-43.01  sec   256 KBytes  2.10 Mbits/sec    0   47.0 KBytes       
+[  5]  43.01-44.01  sec   256 KBytes  2.10 Mbits/sec    1   26.9 KBytes       
+[  5]  44.01-45.01  sec   128 KBytes  1.05 Mbits/sec    0   35.4 KBytes       
+[  5]  45.01-46.01  sec   256 KBytes  2.10 Mbits/sec    1   21.2 KBytes       
+[  5]  46.01-47.01  sec   128 KBytes  1.05 Mbits/sec    0   32.6 KBytes       
+[  5]  47.01-48.01  sec   256 KBytes  2.10 Mbits/sec    0   41.2 KBytes       
+[  5]  48.01-49.01  sec   384 KBytes  3.14 Mbits/sec    0   52.6 KBytes       
+[  5]  49.01-50.01  sec   384 KBytes  3.15 Mbits/sec    0   62.6 KBytes       
+[  5]  50.01-51.01  sec   512 KBytes  4.19 Mbits/sec    0   72.6 KBytes       
+[  5]  51.01-52.01  sec   512 KBytes  4.20 Mbits/sec    0   81.1 KBytes       
+[  5]  52.01-53.01  sec   512 KBytes  4.19 Mbits/sec    0   88.2 KBytes       
+[  5]  53.01-54.01  sec   384 KBytes  3.15 Mbits/sec    5   46.7 KBytes       
+[  5]  54.01-55.01  sec   384 KBytes  3.15 Mbits/sec    0   58.1 KBytes       
+[  5]  55.01-56.01  sec   512 KBytes  4.19 Mbits/sec    0   68.1 KBytes       
+[  5]  56.01-57.01  sec   512 KBytes  4.20 Mbits/sec    0   78.1 KBytes       
+[  5]  57.01-58.01  sec   384 KBytes  3.15 Mbits/sec    2   5.66 KBytes       
+[  5]  58.01-59.01  sec   512 KBytes  4.19 Mbits/sec    5   52.4 KBytes       
+[  5]  59.01-60.01  sec   384 KBytes  3.15 Mbits/sec    0   62.4 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-60.01  sec  12.5 MBytes  1.75 Mbits/sec   72             sender
+[  5]   0.00-60.13  sec  12.4 MBytes  1.73 Mbits/sec                  receiver
+
+iperf Done.
+[3]  - Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[2]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[1]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+Stop siftr on test1
+net.inet.siftr.enabled: 1 -> 0
+Stop siftr on test2
+net.inet.siftr.enabled: 1 -> 0
+Stop tcpdump on test1
+Stop tcpdump on test1
+Test complete
+Loaded config for single path rysnc
+----
+
+test1 (client) is single-homed, test2 (server) is
+single-homed and we PUSH data from test1 to test2.
+Configuring DummynetVM1 for 1Mbps
+00100 pipe 1 ip from any to any
+Configuring DummynetVM2 for 1Mbps
+00100 pipe 1 ip from any to any
+Starting siftr on test1
+net.inet.siftr.logfile: /root/pie1_noecn.siftr.log -> /root/pie2_noecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting siftr on test2
+net.inet.siftr.logfile: /root/pie1_noecn.siftr.log -> /root/pie2_noecn.siftr.log
+net.inet.siftr.enabled: 0 -> 1
+Starting tcpdump on test1
+[1] 4213
+[2] 4214
+Starting tcpdump on test1
+[1] 3209
+[2] 3210
+Starting iperf3 test
+[1] 6866
+[2] 6868
+[3] 6870
+Connecting to host 172.16.3.2, port 5104
+[  5] local 172.16.1.2 port 11173 connected to 172.16.3.2 port 5104
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.01   sec  0.00 Bytes  0.00 bits/sec    0   7.03 KBytes       
+[  5]   1.01-2.02   sec  0.00 Bytes  0.00 bits/sec    0   9.86 KBytes       
+[  5]   2.02-3.02   sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  5]   3.02-4.02   sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  5]   4.02-5.02   sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  5]   5.02-6.02   sec  0.00 Bytes  0.00 bits/sec    0   12.7 KBytes       
+[  5]   6.02-7.02   sec  0.00 Bytes  0.00 bits/sec    0   14.1 KBytes       
+[  5]   7.02-8.02   sec  0.00 Bytes  0.00 bits/sec    0   15.6 KBytes       
+[  5]   8.02-9.02   sec  0.00 Bytes  0.00 bits/sec    0   17.0 KBytes       
+[  5]   9.02-10.02  sec  0.00 Bytes  0.00 bits/sec    0   18.4 KBytes       
+[  5]  10.02-11.02  sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  5]  11.02-12.02  sec   128 KBytes  1.05 Mbits/sec    0   8.50 KBytes       
+[  5]  12.02-13.02  sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  5]  13.02-14.02  sec  0.00 Bytes  0.00 bits/sec    0   4.25 KBytes       
+[  5]  14.02-15.02  sec  0.00 Bytes  0.00 bits/sec    0   5.68 KBytes       
+[  5]  15.02-16.02  sec  0.00 Bytes  0.00 bits/sec    0   7.11 KBytes       
+[  5]  16.02-17.02  sec  0.00 Bytes  0.00 bits/sec    0   8.53 KBytes       
+[  5]  17.02-18.02  sec  0.00 Bytes  0.00 bits/sec    0   9.96 KBytes       
+[  5]  18.02-19.02  sec  0.00 Bytes  0.00 bits/sec    0   9.96 KBytes       
+[  5]  19.02-20.02  sec  0.00 Bytes  0.00 bits/sec    0   11.4 KBytes       
+[  5]  20.02-21.02  sec  0.00 Bytes  0.00 bits/sec    0   12.8 KBytes       
+[  5]  21.02-22.02  sec  0.00 Bytes  0.00 bits/sec    0   14.2 KBytes       
+[  5]  22.02-23.02  sec  0.00 Bytes  0.00 bits/sec    0   15.7 KBytes       
+[  5]  23.02-24.02  sec  0.00 Bytes  0.00 bits/sec    0   17.1 KBytes       
+[  5]  24.02-25.02  sec   128 KBytes  1.05 Mbits/sec    0   18.5 KBytes       
+[  5]  25.02-26.02  sec  0.00 Bytes  0.00 bits/sec    0   19.9 KBytes       
+[  5]  26.02-27.02  sec  0.00 Bytes  0.00 bits/sec    0   21.4 KBytes       
+[  5]  27.02-28.02  sec  0.00 Bytes  0.00 bits/sec    0   22.8 KBytes       
+[  5]  28.02-29.02  sec  0.00 Bytes  0.00 bits/sec    0   22.8 KBytes       
+[  5]  29.02-30.02  sec  0.00 Bytes  0.00 bits/sec    0   24.2 KBytes       
+[  5]  30.02-31.02  sec  0.00 Bytes  0.00 bits/sec    0   25.6 KBytes       
+[  5]  31.02-32.02  sec   128 KBytes  1.05 Mbits/sec    0   25.6 KBytes       
+[  5]  32.02-33.02  sec  0.00 Bytes  0.00 bits/sec    0   27.1 KBytes       
+[  5]  33.02-34.02  sec  0.00 Bytes  0.00 bits/sec    0   28.5 KBytes       
+[  5]  34.02-35.02  sec  0.00 Bytes  0.00 bits/sec    0   28.5 KBytes       
+[  5]  35.02-36.02  sec  0.00 Bytes  0.00 bits/sec    0   29.9 KBytes       
+[  5]  36.02-37.02  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  5]  37.02-38.02  sec   128 KBytes  1.05 Mbits/sec    2   18.4 KBytes       
+[  5]  38.02-39.02  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  5]  39.02-40.02  sec  0.00 Bytes  0.00 bits/sec    0   9.93 KBytes       
+[  5]  40.02-41.02  sec  0.00 Bytes  0.00 bits/sec    0   12.8 KBytes       
+[  5]  41.02-42.02  sec  0.00 Bytes  0.00 bits/sec    0   15.6 KBytes       
+[  5]  42.02-43.02  sec  0.00 Bytes  0.00 bits/sec    0   17.1 KBytes       
+[  5]  43.02-44.02  sec  0.00 Bytes  0.00 bits/sec    0   18.5 KBytes       
+[  5]  44.02-45.02  sec   128 KBytes  1.05 Mbits/sec    0   21.3 KBytes       
+[  5]  45.02-46.02  sec  0.00 Bytes  0.00 bits/sec    0   22.8 KBytes       
+[  5]  46.02-47.02  sec  0.00 Bytes  0.00 bits/sec    0   24.2 KBytes       
+[  5]  47.02-48.02  sec  0.00 Bytes  0.00 bits/sec    0   25.6 KBytes       
+[  5]  48.02-49.02  sec   128 KBytes  1.05 Mbits/sec    0   27.0 KBytes       
+[  5]  49.02-50.02  sec  0.00 Bytes  0.00 bits/sec    0   28.5 KBytes       
+[  5]  50.02-51.02  sec  0.00 Bytes  0.00 bits/sec    0   29.9 KBytes       
+[  5]  51.02-52.02  sec  0.00 Bytes  0.00 bits/sec    0   32.7 KBytes       
+[  5]  52.02-53.02  sec   128 KBytes  1.05 Mbits/sec    0   35.6 KBytes       
+[  5]  53.02-54.02  sec  0.00 Bytes  0.00 bits/sec    0   35.6 KBytes       
+[  5]  54.02-55.02  sec   128 KBytes  1.05 Mbits/sec    0   38.4 KBytes       
+[  5]  55.02-56.02  sec  0.00 Bytes  0.00 bits/sec    0   39.9 KBytes       
+[  5]  56.02-57.02  sec   128 KBytes  1.05 Mbits/sec    0   42.7 KBytes       
+[  5]  57.02-58.02  sec  0.00 Bytes  0.00 bits/sec    0   44.2 KBytes       
+[  5]  58.02-59.02  sec  0.00 Bytes  0.00 bits/sec    0   45.6 KBytes       
+[  5]  59.02-60.02  sec   128 KBytes  1.05 Mbits/sec    0   48.4 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-60.02  sec  1.25 MBytes   175 Kbits/sec    6             sender
+[  5]   0.00-61.46  sec  1.25 MBytes   171 Kbits/sec                  receiver
+
+iperf Done.
+[3]  - Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[2]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+[1]  + Done                   ssh -p 3322 -i ~/.ssh/mptcprootkey root@192.168.56.1  ...
+Stop siftr on test1
+net.inet.siftr.enabled: 1 -> 0
+Stop siftr on test2
+net.inet.siftr.enabled: 1 -> 0
+Stop tcpdump on test1
+Stop tcpdump on test1
+Test complete

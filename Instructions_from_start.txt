@@ -8,3 +8,7 @@ pkg install iperf3
 git clone https://github.com/deol-satish/FreeBSD-L4S-SRC.git
 git checkout origin/releng/14.0
 make buildkernel -j2; make installkernel -j2
+
+
+
+iperf3 -s --rcv-timeout 3600000 !!! Important to resolve idle timeout error on server side

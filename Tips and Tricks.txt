@@ -9,18 +9,22 @@ find ./ -type f -exec dos2unix {} \;
 Enable ECN for test1
 sysctl net.inet.tcp.ecn.enable=1
 
+------------------------------------------------------------------------------------------
+5. **Push Changes**:
+   Once your changes are committed, you can push them to the remote repository using `git push`:
 
-tcpdump -i em1 -w /root/codel_sc1.em1.pcap >& tcpdump.em1.out & ; tcpdump -i em2 -w /root/codel_sc1.em2.pcap >& tcpdump.em2.out & ;
+   ```bash
+   git push origin your_branch_name
+   ```
 
-ipfw pipe 1 config bw 1mbits/s codel
-ipfw add 100 pipe 1 from any to any
+   Replace `your_branch_name` with the name of the branch you want to push changes to.
 
-ipfw pipe 1 config bw 10mbits/s
+   If this is the first time pushing this branch, you may need to use the `-u` or `--set-upstream` option to set up the tracking relationship between your local branch and the remote branch:
 
-sudo scp -P 3322 -p -i ~/.ssh/mptcprootkey root@192.168.56.1:*.siftr.log ./
-sudo scp -P 3322 -p -i ~/.ssh/mptcprootkey root@192.168.56.1:*.pcap ./
-sudo scp -P 3322 -p -i ~/.ssh/mptcprootkey root@192.168.56.1:*.out ./
-
+   ```bash
+   git push -u origin your_branch_name
+   ```
+------------------------------------------------------------------------------------------
 rm *.log; rm *.pcap; rm *.out;
 
 iperf3 -s --rcv-timeout 3600000 !!! Important to resolve idle timeout error on server side
@@ -30,16 +34,12 @@ iperf3 -s --rcv-timeout 3600000 !!! Important to resolve idle timeout error on s
 git checkout --force origin/FQ-PIE-6flows
 
 
-Shyamesh@098
 
-sudo sysctl net.ipv4.tcp_congestion_control=bbr
-
-sudo sysctl net.ipv4.tcp_congestion_control=pcc
-
-sudo sysctl net.ipv4.tcp_available_congestion_control
-
-C:\Users\deols\OneDrive\Desktop\Personal\Ent\Download\iperf3.17_64\iperf3.exe -s -p 7575
-
-C:\Users\deols\OneDrive\Desktop\Personal\Ent\Download\iperf3.17_64\iperf3.exe -s -p 3001
-
-Cubic_RED_254_BBR_GREEN_248
+(csh codel1_ecn.sh; csh codel2_ecn.sh; 
+csh fqcodel1_ecn.sh; csh fqcodel2_ecn.sh; 
+csh fqpie1_ecn.sh; csh fqpie2_ecn.sh; 
+csh pie1_ecn.sh; csh pie2_ecn.sh; 
+csh codel1_noecn.sh; csh codel2_noecn.sh; 
+csh fqcodel1_noecn.sh; csh fqcodel2_noecn.sh; 
+csh fqpie1_noecn.sh; csh fqpie2_noecn.sh; 
+csh pie1_noecn.sh; csh pie2_noecn.sh;) > terminaloutput.txt
