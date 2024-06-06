@@ -1,0 +1,57 @@
+struct tcpcb {
+    struct inpcb *t_inpcb;        // Pointer to the corresponding INPCB structure
+    struct tcpiphdr *t_template;  // Pointer to TCP/IP header template for this connection
+    u_int16_t t_state;            // TCP connection state
+    u_int16_t t_flags;            // TCP control flags
+    u_int16_t t_force;            // Flags for forcing things from below
+    u_int16_t t_timer[TCPT_NTIMERS];  // TCP timers
+    int t_rxtshift;               // Retransmit shift factor
+    int t_rxtcur;                 // Current retransmit timeout value
+    int t_maxseg;                 // Maximum segment size
+    int t_dupacks;                // Duplicate ACKs received
+    u_int32_t snd_una;            // Sequence number of the oldest unacknowledged byte
+    u_int32_t snd_nxt;            // Sequence number of the next byte to be sent
+    u_int32_t snd_max;            // Sequence number of the maximum byte sent
+    u_int32_t snd_wl1;            // Sequence number used for window computations
+    u_int32_t snd_wnd;            // Advertised receive window
+    u_int32_t snd_up;             // Receiver's advertised window update value
+    u_int32_t snd_wl2;            // Second sequence number used for window computations
+    u_int32_t iss;                // Initial send sequence number
+    u_int32_t irs;                // Initial receive sequence number
+    u_int32_t rcv_nxt;            // Next sequence number expected on incoming segments
+    u_int32_t rcv_adv;            // Advertised receive window
+    int t_srtt;                   // Smoothed round-trip time
+    int t_rttvar;                 // Round-trip time variance
+    u_int32_t t_badrexmt;         // Total number of bad retransmissions
+    int t_softerror;              // Soft error (e.g., ECONNRESET)
+    u_int16_t t_rxt_conndroptime; // Time before conn will expire if we haven't sent data
+    u_int16_t t_rtttime;          // Round-trip time sample
+    int t_rttupdated;             // Indicates if t_srtt and t_rttvar have been initialized
+    int t_rttmin;                 // Minimum round-trip time
+    int t_rxtstart;               // Time when the next retransmission should occur
+    int t_rxtslot;                // Slot number in the retransmit queue
+    int snd_cwnd;                 // Congestion window
+    int snd_ssthresh;             // Slow start threshold
+    int t_pipeack;                // pipe ACK for snd_pipe
+    int t_delack;                 // Delayed ACK timer
+    int t_inpcb_hashslot;         // Hash table slot
+    int t_keepidle;               // Time before sending a keepalive probe on an idle connection
+    int t_keepintvl;              // Time between keepalive probes
+    int t_keepcnt;                // Number of keepalive probes
+    int t_idlepersist;            // Time before sending persist probes on an idle connection
+    int t_in_flight;              // Number of outstanding packets
+    int t_bytes_acked;            // Number of bytes ACKed
+    int t_unackdata;              // Number of bytes of unacknowledged data
+    int snd_scale;                // Send scaling factor for window
+    int rcv_scale;                // Receive scaling factor for window
+    int request_r_scale;          // Scaling factor requested by remote host
+    u_int32_t ts_recent;          // Timestamp of the most recent packet received
+    u_int32_t ts_recent_age;      // Age of the most recent packet received
+    u_int32_t last_ack_sent;      // Sequence number of the last ACK sent
+    u_int32_t cc_send_window;     // Sending congestion control window
+    u_int32_t cc_send_window_cnt; // Number of packets in sending congestion control window
+    int cc_algo;                  // Congestion control algorithm
+    void *cc_data;                // Pointer to congestion control specific data
+    struct tcptw *tw_ep;          // TCP Timer Wheel entry pointer
+    void *t_pspare;               // Placeholder for new fields
+};

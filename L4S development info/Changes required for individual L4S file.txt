@@ -1,0 +1,6 @@
+sys/netpfil/ipfw - add dn_sched_l4s.c
+sys/conf/files - add netpfil/ipfw/dn_sched_l4s.c	optional inet dummynet
+sys/modules/dummynet/Makefile - add dn_sched_l4s.c
+sys/netpfil/ipfw/ipfw2.h - add TOK_L4S,
+
+Important!!! - sbin/ipfw/dummynet.c - Modified parts of code to accomodate l4s

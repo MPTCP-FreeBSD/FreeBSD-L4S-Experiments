@@ -1,30 +1,24 @@
 While instaling FreeBSD, do UFS DIsk instalation, it is second option. Auto (UFS) partitioning automatically sets up the disk partitions using the UFS file system.
-Type wheel in login group - Invite user into other groups? - Additional groups to which the user will be added as a member. If the user needs administrative access, type wheel here.
+Type wheel in login group - Invite user into other groups? - Additional groups to which the user will be added as a member. 
+If the user needs administrative access, type wheel here.
 ------------------------------------------------------------------------------------------
 dos2unix corrects formatting error
 find ./confs/ -type f -exec dos2unix {} \;
 find ./ -type f -exec dos2unix {} \;
 ------------------------------------------------------------------------------------------
-
 Enable ECN for test1
 sysctl net.inet.tcp.ecn.enable=1
-
 ------------------------------------------------------------------------------------------
 5. **Push Changes**:
-   Once your changes are committed, you can push them to the remote repository using `git push`:
-
-   ```bash
-   git push origin your_branch_name
-   ```
-
-   Replace `your_branch_name` with the name of the branch you want to push changes to.
-
-   If this is the first time pushing this branch, you may need to use the `-u` or `--set-upstream` option to set up the tracking relationship between your local branch and the remote branch:
-
-   ```bash
+   If this is the first time pushing this branch, you may need to use the `-u` or 
+   `--set-upstream` option to set up the tracking relationship between your local branch and the remote branch:
    git push -u origin your_branch_name
-   ```
 ------------------------------------------------------------------------------------------
+For updateing Kernel SRC:
+git fetch --all
+git pull origin L4S-13.1
+------------------------------------------------------------------------------------------
+
 rm *.log; rm *.pcap; rm *.out;
 
 iperf3 -s --rcv-timeout 3600000 !!! Important to resolve idle timeout error on server side
@@ -32,14 +26,3 @@ iperf3 -s --rcv-timeout 3600000 !!! Important to resolve idle timeout error on s
 
 (csh l4s1_ecn.sh; csh l4s2_ecn.sh; csh l4s1_noecn.sh; csh l4s2_noecn.sh) > l4sterminaloutput.txt
 git checkout --force origin/FQ-PIE-6flows
-
-
-
-(csh codel1_ecn.sh; csh codel2_ecn.sh; 
-csh fqcodel1_ecn.sh; csh fqcodel2_ecn.sh; 
-csh fqpie1_ecn.sh; csh fqpie2_ecn.sh; 
-csh pie1_ecn.sh; csh pie2_ecn.sh; 
-csh codel1_noecn.sh; csh codel2_noecn.sh; 
-csh fqcodel1_noecn.sh; csh fqcodel2_noecn.sh; 
-csh fqpie1_noecn.sh; csh fqpie2_noecn.sh; 
-csh pie1_noecn.sh; csh pie2_noecn.sh;) > terminaloutput.txt
