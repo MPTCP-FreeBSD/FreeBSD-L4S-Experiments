@@ -9,20 +9,26 @@ find ./ -type f -exec dos2unix {} \;
 Enable ECN for test1
 sysctl net.inet.tcp.ecn.enable=1
 ------------------------------------------------------------------------------------------
-5. **Push Changes**:
+For changes in userland utilities, always use buildworld
+------------------------------------------------------------------------------------------
+These options allow for debugging in the kernel.
+FOr the changes in Kernel config file to reflect in the system, you need to buildkernel without -DKERNFAST Option 
+options		BREAK_TO_DEBUGGER
+options 	ALT_BREAK_TO_DEBUGGER
+------------------------------------------------------------------------------------------
+Enable ECN for test1
+sysctl net.inet.tcp.ecn.enable=1
+------------------------------------------------------------------------------------------
+**Push Changes**:
    If this is the first time pushing this branch, you may need to use the `-u` or 
    `--set-upstream` option to set up the tracking relationship between your local branch and the remote branch:
    git push -u origin your_branch_name
 ------------------------------------------------------------------------------------------
-For updateing Kernel SRC:
+For updating Kernel SRC:
 git fetch --all
 git pull origin L4S-13.1
 ------------------------------------------------------------------------------------------
-
 rm *.log; rm *.pcap; rm *.out;
 
 iperf3 -s --rcv-timeout 3600000 !!! Important to resolve idle timeout error on server side
-
-
-(csh l4s1_ecn.sh; csh l4s2_ecn.sh; csh l4s1_noecn.sh; csh l4s2_noecn.sh) > l4sterminaloutput.txt
-git checkout --force origin/FQ-PIE-6flows
+------------------------------------------------------------------------------------------
