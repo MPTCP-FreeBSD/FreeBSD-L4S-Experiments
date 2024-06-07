@@ -30,5 +30,8 @@ git pull origin L4S-13.1
 ------------------------------------------------------------------------------------------
 rm *.log; rm *.pcap; rm *.out;
 
-iperf3 -s --rcv-timeout 3600000 !!! Important to resolve idle timeout error on server side
+iperf3 -s -p 5101 --rcv-timeout 3600000 !!! Important to resolve idle timeout error on server side
 ------------------------------------------------------------------------------------------
+In FreeBSD 14, scp gives error Host Key verification failed Then use this
+ssh-keygen -f "/root/.ssh/known_hosts" -R "[192.168.56.1]:3323"
+ssh-keygen -f "/root/.ssh/known_hosts" -R "[192.168.56.1]:3323"
