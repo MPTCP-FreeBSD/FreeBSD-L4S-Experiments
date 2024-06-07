@@ -35,3 +35,68 @@ iperf3 -s -p 5101 --rcv-timeout 3600000 !!! Important to resolve idle timeout er
 In FreeBSD 14, scp gives error Host Key verification failed Then use this
 ssh-keygen -f "/root/.ssh/known_hosts" -R "[192.168.56.1]:3323"
 ssh-keygen -f "/root/.ssh/known_hosts" -R "[192.168.56.1]:3323"
+------------------------------------------------------------------------------------------
+The error message `Protocol not available` typically indicates that the kernel does not have support for the specific protocol you are trying to use. In this case, it seems that the dummynet feature is either not enabled or not loaded in the kernel.
+
+To resolve this issue, you need to ensure that dummynet is compiled into the kernel or loaded as a module.
+
+### Step-by-Step Solution
+
+1. **Check if Dummynet is Loaded:**
+
+   First, check if the dummynet module is loaded:
+   ```sh
+   kldstat | grep dummynet
+   ```
+
+   If the module is not listed, you need to load it.
+
+2. **Load Dummynet Module:**
+
+   Load the dummynet module using:
+   ```sh
+   sudo kldload dummynet
+   ```
+
+3. **Enable Dummynet in Kernel Configuration:**
+
+   If you want to have dummynet support enabled permanently, you need to add it to your kernel configuration. Add the following lines to your kernel configuration file (usually located at `/usr/src/sys/{architecture}/conf/{KERNEL_NAME}`):
+
+   ```sh
+   options IPFIREWALL
+   options IPFIREWALL_FORWARD
+   options DUMMYNET
+   ```
+
+   Rebuild and install your kernel:
+   ```sh
+   cd /usr/src
+   make buildkernel KERNCONF={KERNEL_NAME}
+   sudo make installkernel KERNCONF={KERNEL_NAME}
+   sudo reboot
+   ```
+
+4. **Ensure Dummynet is Enabled in rc.conf:**
+
+   You can also ensure that the dummynet module is loaded at boot time by adding the following line to your `/etc/rc.conf`:
+
+   ```sh
+   firewall_enable="YES"
+   firewall_type="open"
+   firewall_script="/etc/rc.firewall"
+   ```
+
+   And add the following line to `/boot/loader.conf`:
+
+   ```sh
+   dummynet_load="YES"
+   ```
+
+5. **Check if IPFW is Enabled:**
+
+   Ensure IPFW is enabled and configured correctly:
+
+   ```sh
+   sudo sysctl net.inet.ip.fw.enable=1
+   ```
+------------------------------------------------------------------------------------------
