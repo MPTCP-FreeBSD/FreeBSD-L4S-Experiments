@@ -36,6 +36,8 @@ In FreeBSD 14, scp gives error Host Key verification failed Then use this
 ssh-keygen -f "/root/.ssh/known_hosts" -R "[192.168.56.1]:3323"
 ssh-keygen -f "/root/.ssh/known_hosts" -R "[192.168.56.1]:3323"
 ------------------------------------------------------------------------------------------
+If buildworld not working, check if modules loaded properly
+------------------------------------------------------------------------------------------
 The error message `Protocol not available` typically indicates that the kernel does not have support for the specific protocol you are trying to use. In this case, it seems that the dummynet feature is either not enabled or not loaded in the kernel.
 
 To resolve this issue, you need to ensure that dummynet is compiled into the kernel or loaded as a module.

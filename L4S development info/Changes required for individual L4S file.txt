@@ -4,3 +4,7 @@ sys/modules/dummynet/Makefile - add dn_sched_l4s.c
 sys/netpfil/ipfw/ipfw2.h - add TOK_L4S,
 
 Important!!! - sbin/ipfw/dummynet.c - Modified parts of code to accomodate l4s
+
+Run buildworld, buildkernel , installkernel and installworld.
+Run the kernel building and installing again
+Or load Dummynet into Kernel as after buildworld, Dummynet module doesn't seem to be in kernel 
