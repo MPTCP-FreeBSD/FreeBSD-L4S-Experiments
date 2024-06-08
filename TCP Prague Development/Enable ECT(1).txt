@@ -1,0 +1,78 @@
+uint32_t t_rcep;		/* Number of received CE marked pkts */
+tcp_output.c, tcp_input.c
+
+=================================================================================================================================================
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+The expression ip->ip_tos |= IPTOS_ECN_ECT0; 
+is a bitwise OR operation that sets the ECN field to indicate ECT (ECN Capable Transport) for the outgoing IP packet.
+
+=================================================================================================================================================
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+To find the file in the FreeBSD 14.0 Kernel where the ECN (Explicit Congestion Notification) flag is assigned for each packet, we need to delve into the FreeBSD Kernel source code, particularly in the networking stack.
+
+ECN handling in the FreeBSD Kernel is primarily managed within the TCP/IP stack implementation. Based on common structures and files in FreeBSD, the most relevant file is likely within the networking subsystem. The exact file often dealing with packet header modifications, including ECN, is typically found in:
+
+- `sys/netinet/ip_output.c` for IPv4
+- `sys/netinet6/ip6_output.c` for IPv6
+
+These files handle the IP output routines, which include setting various flags in the packet headers before the packet is sent out.
+
+Let's focus on the file path `sys/netinet/ip_output.c` for IPv4 as an example. Here's an outline of the key parts:
+
+1. **Locate the file**: `sys/netinet/ip_output.c`
+2. **Search for ECN-related code**: Look for code sections where ECN flags are set.
+
+Here is a simplified outline of the relevant code section:
+
+```c
+// This is an example snippet from `ip_output.c` related to setting the ECN flag
+#include <netinet/ip_var.h>
+#include <netinet/tcp_var.h>
+#include <netinet/ip.h>
+
+int
+ip_output(struct mbuf *m, ...)
+{
+    ...
+    if (ecn) {
+        // Setting the ECN flag in the IP header
+        ip->ip_tos |= IPTOS_ECN_ECT0;
+    }
+    ...
+}
+```
+
+This snippet is a representation and might need to be adjusted according to the actual codebase.
+
+=================================================================================================================================================
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+The IP TOS (Type of Service) field is an 8-bit field in the IPv4 header that originally had various meanings related to the quality of service. 
+However, its functionality has been largely superseded by the Differentiated Services (DiffServ) model, which uses the IPv4 TOS field as part of its architecture.
+
+In the IPv4 TOS field, the 8 bits are typically divided into three subfields:
+
+1. **Precedence (3 bits)**: These bits were historically used to prioritize packets. 
+Different values could indicate different levels of priority.
+
+2. **DSCP (Differentiated Services Code Point) (6 bits)**: This part of the field is used in the DiffServ model. 
+It allows packets to be marked with a code point that indicates the desired level of service, such as expedited forwarding or assured forwarding.
+
+3. **ECN (Explicit Congestion Notification) (2 bits)**: These bits are used to support the ECN mechanism, which allows routers to notify endpoints of impending congestion instead of dropping packets. 
+The ECN bits can indicate whether a packet is ECN-capable and whether it has experienced congestion.
+
+The values that the IP TOS field can take and their meanings vary depending on the interpretation of the bits, but generally:
+
+- **Precedence**: Historically, values 0-7 were used to indicate different levels of priority.
+- **DSCP**: This is a finer-grained way of specifying the desired quality of service. The DSCP values correspond to different forwarding behaviors defined by the DiffServ architecture.
+- **ECN**: The two bits can take four combinations of values (00, 01, 10, 11), indicating whether ECN is not supported, 
+supported with congestion experienced, supported with congestion not experienced, or currently experiencing congestion.
+
+The exact interpretation of these values and their effects on packet handling can vary depending on network configuration 
+and the specific implementations of routers and endpoints. Generally, routers may use the TOS field to make forwarding decisions, 
+and endpoints may use it to prioritize or handle packets differently based on their TOS markings.
+
+=================================================================================================================================================
+-------------------------------------------------------------------------------------------------------------------------------------------------
