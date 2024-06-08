@@ -10,6 +10,28 @@ is a bitwise OR operation that sets the ECN field to indicate ECT (ECN Capable T
 =================================================================================================================================================
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
+
+This code defines the Explicit Congestion Notification (ECN) codepoints as specified in RFC 3168. ECN allows routers to notify endpoints of congestion without dropping packets. These codepoints are mapped to the lower 2 bits of the Type of Service (TOS) field in the IP header.
+
+Here are the defined ECN codepoints:
+
+1. **IPTOS_ECN_NOTECT (0x00)**: Indicates that the packet is not ECN-capable.
+
+2. **IPTOS_ECN_ECT1 (0x01)**: Indicates ECN-capable transport with ECN field set to 1.
+
+3. **IPTOS_ECN_ECT0 (0x02)**: Indicates ECN-capable transport with ECN field set to 0.
+
+4. **IPTOS_ECN_CE (0x03)**: Indicates congestion experienced.
+
+5. **IPTOS_ECN_MASK (0x03)**: This is a mask used to isolate the lower 2 bits of the TOS field, which represent the ECN field.
+
+These codepoints are used to signal the status of ECN support and congestion status in IP packets. 
+When a packet traverses a network and encounters congestion, routers may set the ECN field in the IP header to indicate congestion. 
+Endpoints can then react to this information without relying solely on packet drops as a signal of congestion.
+
+=================================================================================================================================================
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
 To find the file in the FreeBSD 14.0 Kernel where the ECN (Explicit Congestion Notification) flag is assigned for each packet, we need to delve into the FreeBSD Kernel source code, particularly in the networking stack.
 
 ECN handling in the FreeBSD Kernel is primarily managed within the TCP/IP stack implementation. Based on common structures and files in FreeBSD, the most relevant file is likely within the networking subsystem. The exact file often dealing with packet header modifications, including ECN, is typically found in:
