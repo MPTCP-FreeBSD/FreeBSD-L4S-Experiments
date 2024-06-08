@@ -1,0 +1,173 @@
+Here are the `rc.conf` and `ipfw.rules` files for each VM, incorporating the specific `ipfw` rules to shape traffic:
+
+### Client1 (`client1`)
+
+#### rc.conf
+
+```sh
+hostname="client1"
+ifconfig_em0="DHCP"
+ifconfig_em1="inet 192.168.10.2/24"
+sshd_enable="YES"
+dumpdev="AUTO"
+firewall_enable="YES"
+firewall_type="/etc/ipfw.rules"
+gateway_enable="NO"
+ipfw_load="YES"
+ipfw_nat_load="YES"
+sendmail_enable="NONE"
+sendmail_msp_queue_enable="NO"
+sendmail_outbound_enable="NO"
+sendmail_submit_enable="NO"
+defaultrouter="192.168.10.1"
+```
+
+#### ipfw.rules
+
+```sh
+#!/bin/sh
+
+# Flush existing rules
+ipfw -q -f flush
+
+# Outbound traffic shaping on em1
+ipfw add pipe 1 ip from any to any out via em1
+ipfw add pipe 2 ip from any to any in via em1
+
+# Configure pipes with bandwidth limit
+ipfw pipe 1 config bw 2Mbit/s
+ipfw pipe 2 config bw 2Mbit/s
+```
+
+### Client2 (`client2`)
+
+#### rc.conf
+
+```sh
+hostname="client2"
+ifconfig_em0="DHCP"
+ifconfig_em1="inet 192.168.10.3/24"
+sshd_enable="YES"
+dumpdev="AUTO"
+firewall_enable="YES"
+firewall_type="/etc/ipfw.rules"
+gateway_enable="NO"
+ipfw_load="YES"
+ipfw_nat_load="YES"
+sendmail_enable="NONE"
+sendmail_msp_queue_enable="NO"
+sendmail_outbound_enable="NO"
+sendmail_submit_enable="NO"
+defaultrouter="192.168.10.1"
+```
+
+#### ipfw.rules
+
+```sh
+#!/bin/sh
+
+# Flush existing rules
+ipfw -q -f flush
+
+# Outbound traffic shaping on em1
+ipfw add pipe 1 ip from any to any out via em1
+ipfw add pipe 2 ip from any to any in via em1
+
+# Configure pipes with bandwidth limit
+ipfw pipe 1 config bw 2Mbit/s
+ipfw pipe 2 config bw 2Mbit/s
+```
+
+### Router (`router`)
+
+#### rc.conf
+
+```sh
+hostname="router"
+ifconfig_em0="DHCP"
+ifconfig_em1="inet 192.168.10.1/24"
+ifconfig_em2="inet 192.168.20.1/24"
+sshd_enable="YES"
+dumpdev="AUTO"
+firewall_enable="YES"
+firewall_type="/etc/ipfw.rules"
+gateway_enable="YES"
+ipfw_load="YES"
+ipfw_nat_load="YES"
+sendmail_enable="NONE"
+sendmail_msp_queue_enable="NO"
+sendmail_outbound_enable="NO"
+sendmail_submit_enable="NO"
+```
+
+#### ipfw.rules
+
+```sh
+#!/bin/sh
+
+# Flush existing rules
+ipfw -q -f flush
+
+# Outbound traffic shaping on em1 and em2
+ipfw add pipe 1 ip from any to any out via em1
+ipfw add pipe 2 ip from any to any in via em1
+ipfw add pipe 3 ip from any to any out via em2
+ipfw add pipe 4 ip from any to any in via em2
+
+# Configure pipes with bandwidth limit
+ipfw pipe 1 config bw 2Mbit/s
+ipfw pipe 2 config bw 2Mbit/s
+ipfw pipe 3 config bw 2Mbit/s
+ipfw pipe 4 config bw 2Mbit/s
+```
+
+### Server (`server`)
+
+#### rc.conf
+
+```sh
+hostname="server"
+ifconfig_em0="DHCP"
+ifconfig_em1="inet 192.168.20.2/24"
+sshd_enable="YES"
+dumpdev="AUTO"
+firewall_enable="YES"
+firewall_type="/etc/ipfw.rules"
+gateway_enable="NO"
+ipfw_load="YES"
+ipfw_nat_load="YES"
+sendmail_enable="NONE"
+sendmail_msp_queue_enable="NO"
+sendmail_outbound_enable="NO"
+sendmail_submit_enable="NO"
+```
+
+#### ipfw.rules
+
+```sh
+#!/bin/sh
+
+# Flush existing rules
+ipfw -q -f flush
+
+# Outbound traffic shaping on em1
+ipfw add pipe 1 ip from any to any out via em1
+ipfw add pipe 2 ip from any to any in via em1
+
+# Configure pipes with bandwidth limit
+ipfw pipe 1 config bw 2Mbit/s
+ipfw pipe 2 config bw 2Mbit/s
+```
+
+### Applying the Configuration
+
+After updating the `rc.conf` and `ipfw.rules` files, restart the network services or reboot the VMs to apply the configurations:
+
+```sh
+service netif restart
+service routing restart
+service ipfw restart
+```
+
+### Summary
+These configurations set up the network topology with traffic shaping rules using `ipfw` for bandwidth control. Each VM's `rc.conf` file configures its network interfaces, enables necessary services, and specifies the `ipfw` rules to apply. The `ipfw.rules` files define the traffic shaping policies for each interface. This ensures consistent bandwidth limits across all VMs in the test environment.

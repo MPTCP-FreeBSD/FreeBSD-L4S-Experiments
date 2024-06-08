@@ -8,6 +8,8 @@ find ./ -type f -exec dos2unix {} \;
 ------------------------------------------------------------------------------------------
 Enable ECN for test1
 sysctl net.inet.tcp.ecn.enable=1
+Enable Accurate ECN for test1
+sysctl net.inet.tcp.ecn.enable=3
 ------------------------------------------------------------------------------------------
 For changes in userland utilities, always use buildworld
 ------------------------------------------------------------------------------------------
@@ -16,8 +18,7 @@ FOr the changes in Kernel config file to reflect in the system, you need to buil
 options		BREAK_TO_DEBUGGER
 options 	ALT_BREAK_TO_DEBUGGER
 ------------------------------------------------------------------------------------------
-Enable ECN for test1
-sysctl net.inet.tcp.ecn.enable=1
+
 ------------------------------------------------------------------------------------------
 **Push Changes**:
    If this is the first time pushing this branch, you may need to use the `-u` or 

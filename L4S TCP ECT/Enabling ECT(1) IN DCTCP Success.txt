@@ -1,0 +1,31 @@
+https://fasterdata.es.net/host-tuning/freebsd/
+
+Advanced congestion control in FreeBSD
+FreeBSD supports TCP autotuning and advanced congestion control algorithms in all currently-supported releases. You can check which are available in the running kernel using:
+
+  sysctl net.inet.tcp.cc.available
+To make additional algorithms available in the kernel, the appropriate module must be loaded. The congestion control modules are in /boot/kernel and begin with cc_ - they can be listed with the following command:
+
+  ls /boot/kernel/cc_* | grep -v symbols
+To load a particular congestion control algorithm (for example dctcp) you can use:
+
+  kldload cc_dctcp
+and you will then be able to set the congestion control algorithm using this:
+
+  sysctl net.inet.tcp.cc.algorithm=dctcp
+
+
+sysctl net.inet.tcp.cc.available
+ls /boot/kernel/cc_* | grep -v symbols
+kldload cc_dctcp
+sysctl net.inet.tcp.cc.algorithm=dctcp
+
+sysctl -a | grep dctcp
+
+sysctl net.inet.tcp.cc.dctcp.ect1=1
+
+TO enable DCTCP at boot time:
+Depending how your kernel is built, you may not have the algorithm you want available by default at boot time, 
+and will need to load the driver during the boot process. To to this add the following to /boot/loader.conf:
+
+cc_dtcp_load="YES"
