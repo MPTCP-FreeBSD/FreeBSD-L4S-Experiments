@@ -15,6 +15,10 @@ sysctl net.inet.tcp.ecn.enable=3
 ------------------------------------------------------------------------------------------
 For changes in userland utilities, always use buildworld
 ------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------
+ECN is always enabled on CoDel, PIE , FQ-CoDel and FQ-PIE, you need to disable it in ecn
+------------------------------------------------------------------------------------------
 These options allow for debugging in the kernel.
 FOr the changes in Kernel config file to reflect in the system, you need to buildkernel without -DKERNFAST Option 
 options		BREAK_TO_DEBUGGER
