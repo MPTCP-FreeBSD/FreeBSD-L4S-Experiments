@@ -6,6 +6,8 @@ dos2unix corrects formatting error
 find ./confs/ -type f -exec dos2unix {} \;
 find ./ -type f -exec dos2unix {} \;
 ------------------------------------------------------------------------------------------
+Always use ipfw -f flush before resetting ipfw rules
+------------------------------------------------------------------------------------------
 Enable ECN for test1
 sysctl net.inet.tcp.ecn.enable=1
 Enable Accurate ECN for test1
@@ -18,7 +20,15 @@ FOr the changes in Kernel config file to reflect in the system, you need to buil
 options		BREAK_TO_DEBUGGER
 options 	ALT_BREAK_TO_DEBUGGER
 ------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+Using SSH on Laptop Ubuntu WSL
+ssh -p 4422 -i ~/mnt/c/Users/deols/.ssh/mptcprootkey root@192.168.56.1 "sysctl net.inet.tcp.ecn.enable=1"
+The commands will copy the keys from the folder to its .ssh folder
+cp /mnt/c/Users/deols/.ssh/mptcprootkey ~/.ssh/
+cp /mnt/c/Users/deols/.ssh/mptcprootkey.pub ~/.ssh/
+if access to file is too open, then use command to change permissions : chmod 600 ~/.ssh/mptcprootkey;chmod 600 ~/.ssh/mptcprootkey.pub
 
+------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------
 **Push Changes**:
    If this is the first time pushing this branch, you may need to use the `-u` or 
@@ -102,4 +112,3 @@ To resolve this issue, you need to ensure that dummynet is compiled into the ker
    ```sh
    sudo sysctl net.inet.ip.fw.enable=1
    ```
-------------------------------------------------------------------------------------------
