@@ -1,0 +1,69 @@
+Certainly! Let's go through each field and its probable meaning based on their names and typical usage in network and queue management contexts, particularly within the context of the FreeBSD AQM (Active Queue Management) FQPIE (FlowQueue-Piecewise Linear Approximation of PIE) algorithm.
+
+Here's a breakdown of each field:
+
+1. **q->flow_index**:
+   - This likely refers to an identifier or index of the flow or queue that is being managed or monitored. In network terms, a flow typically represents a stream of packets belonging to a specific communication session or connection.
+
+2. **pprms->qdelay_ref**:
+   - `qdelay_ref` might represent a reference queue delay value used as a baseline or a target delay in the AQM algorithm.
+
+3. **pprms->tupdate**:
+   - `tupdate` could indicate the last time or timestamp when parameters or states were updated for the AQM algorithm.
+
+4. **pprms->max_burst**:
+   - `max_burst` likely denotes the maximum allowed burst size of packets before triggering AQM mechanisms.
+
+5. **pprms->max_ecnth**:
+   - `max_ecnth` might refer to the maximum ECN (Explicit Congestion Notification) threshold or limit.
+
+6. **pprms->alpha**:
+   - `alpha` typically represents a parameter in AQM algorithms related to how aggressively the system responds to congestion.
+
+7. **pprms->beta**:
+   - `beta` could be another parameter influencing the behavior of the AQM algorithm, often related to smoothing or responsiveness to changes.
+
+8. **pprms->flags**:
+   - `flags` likely represents a set of control flags or options that modify the behavior of the AQM algorithm.
+
+9. **pst->burst_allowance**:
+   - `burst_allowance` might indicate the current allowance or capacity for allowing bursty traffic without triggering congestion management actions.
+
+10. **pst->drop_prob**:
+    - `drop_prob` refers to the current computed drop probability for packets in the queue.
+
+11. **pst->current_qdelay**:
+    - `current_qdelay` represents the current observed queue delay.
+
+12. **pst->qdelay_old**:
+    - `qdelay_old` could be a historical or previous value of queue delay, used for comparison or computation.
+
+13. **pst->accu_prob**:
+    - `accu_prob` might stand for accumulated probability or accumulated state related to drop probability calculations.
+
+14. **pst->avg_dq_time**:
+    - `avg_dq_time` could represent the average dequeue time, indicating how quickly packets are being dequeued from the queue.
+
+15. **pst->dq_count**:
+    - `dq_count` likely denotes the count of dequeued packets over a period or since the last update.
+
+16. **pst->sflags**:
+    - `sflags` denotes whether PIE queue needs to eb deactivated
+
+17. **q->stats.tot_pkts**:
+    - `tot_pkts` represents the total number of packets handled by the queue or flow.
+
+18. **q->stats.tot_bytes**:
+    - `tot_bytes` denotes the total number of bytes handled by the queue or flow.
+
+19. **q->stats.length**:
+    - `length` might refer to the current length or size of the queue.
+
+20. **q->stats.len_bytes**:
+    - `len_bytes` could indicate the total size in bytes of packets currently in the queue.
+
+21. **q->stats.drops**:
+    - `drops` represents the total number of packets dropped by the queue due to congestion or other reasons.
+
+### Conclusion:
+These fields collectively provide insight into the operational state and parameters of the AQM algorithm, specifically the FQPIE variant implemented in FreeBSD. They help monitor and control congestion in network queues by dynamically adjusting drop probabilities based on observed and calculated metrics such as queue delay, packet counts, and byte sizes. Each field plays a critical role in maintaining efficient traffic flow and preventing congestion collapse in networking environments.
