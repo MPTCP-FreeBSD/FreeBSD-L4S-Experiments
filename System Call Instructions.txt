@@ -24,3 +24,36 @@ ________________________________________________________________________________
 add this in sys/compat/freebsd32/syscalls.master
 ____________________________________________________________________________________________________________________________________________________________
 ____________________________________________________________________________________________________________________________________________________________
+
+
+struct data {
+	u_int		cwnd;
+	int			smoothed_rtt;
+	int			cong_events;
+
+	u_int		laddr;
+	u_int		lport;
+};
+
+
+
+// printf("\nfq_calculate_drop_prob-start,%d,%u,%u,%u,%u,%u,%u,%u,%u,%u,%u,%u,%lu,%u,%u,%u,%u,%lu,%lu,%u,%u,%u,end \n \n",
+q->flow_index,
+pprms->qdelay_ref,
+pprms->tupdate,
+pprms->max_burst,
+pprms->max_ecnth,
+pprms->alpha,
+pprms->beta,
+pprms->flags,
+pst->burst_allowance,
+pst->drop_prob,
+pst->current_qdelay,
+pst->qdelay_old,
+pst->accu_prob,
+pst->avg_dq_time,
+pst->dq_count,
+q->stats.tot_bytes,
+q->stats.len_bytes,
+q->stats.drops
+);
