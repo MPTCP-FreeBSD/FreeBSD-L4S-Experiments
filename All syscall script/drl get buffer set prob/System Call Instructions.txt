@@ -2,20 +2,27 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________________________________________________________________________
 588	AUE_NULL	STD {
 		int drl_update_prob(
-			_In_ int64_t prob
+			_In_ int prob
 		);
 	}
 589	AUE_NULL	STD {
 		int drl_get_buffer(
-			_Out_ void **data,
-			_Out_ int size
+			_Out_writes_(size) void *data,
+			_Out_ int *size
 		);
 	}
 
 add this to sys/kern/syscall.master file
 WIthin same folder, run make sysent
 
-Run buildworld first.
+buildworld not required.
+
+Code to complie first time system cleanworld
+
+make cleanworld
+make -j8 buildworld
+
+
 
 Better change int64_t to something else.
 ____________________________________________________________________________________________________________________________________________________________
@@ -30,12 +37,13 @@ ________________________________________________________________________________
 
 
 struct data {
-	u_int		cwnd;
-	int			smoothed_rtt;
-	int			cong_events;
+	u_int		drop_prob;
+	int			current_qdelay;
+	int			qdelay_old;
 
-	u_int		laddr;
-	u_int		lport;
+	u_int		avg_dq_time;
+	u_int		tot_bytes;
+	u_int		drops;
 };
 
 

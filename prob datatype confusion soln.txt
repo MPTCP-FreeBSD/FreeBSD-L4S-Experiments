@@ -1,0 +1,41 @@
+In FreeBSD system calls, particularly in kernel programming where space and performance are crucial, you generally want to choose the most efficient data type that can store the maximum value defined by `PIE_MAX_PROB`. Let's review the maximum value calculation:
+
+```c
+#define PIE_PROB_BITS 31
+#define PIE_MAX_PROB ((1LL<<PIE_PROB_BITS) - 1)
+```
+
+For `PIE_PROB_BITS = 31`:
+- `PIE_MAX_PROB` is calculated as \( 2^{31} - 1 = 2,147,483,647 \).
+
+This value, `2,147,483,647`, falls within the range of a 32-bit signed integer (`int`), which typically has a range of approximately \(-2^{31}\) to \(2^{31} - 1\). Therefore, you can safely store `PIE_MAX_PROB` in a 32-bit signed integer (`int`) data type in FreeBSD system calls.
+
+### Recommended Data Type:
+
+Given the value of `PIE_MAX_PROB`, you can use the `int` data type (`int32_t` to be explicit about the size) to store this maximum value efficiently. 
+
+### Example:
+
+```c
+#include <stdint.h>
+
+#define PIE_PROB_BITS 31
+#define PIE_MAX_PROB ((1LL<<PIE_PROB_BITS) - 1)
+
+int main() {
+    int32_t max_prob = PIE_MAX_PROB;
+    
+    // Use max_prob in your FreeBSD system call logic
+    // Example: syscall(..., max_prob, ...);
+    
+    return 0;
+}
+```
+
+### Considerations:
+
+- **Signed vs. Unsigned:** While `PIE_MAX_PROB` is non-negative, using a signed integer (`int`) ensures compatibility with various operations and avoids any unexpected behaviors related to signedness in system call contexts.
+
+- **Performance:** Using `int` (or `int32_t`) is efficient in terms of memory space and operations, which is crucial in kernel programming where performance and memory usage are tightly managed.
+
+By choosing `int` (or `int32_t` for explicit size) as the data type for `PIE_MAX_PROB`, you ensure compatibility, efficiency, and adherence to typical kernel programming practices in FreeBSD.
