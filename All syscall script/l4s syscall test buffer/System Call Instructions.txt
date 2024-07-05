@@ -1,0 +1,70 @@
+____________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________
+588	AUE_NULL	STD {
+		int drl_update_prob(
+			_In_ int prob
+		);
+	}
+589	AUE_NULL	STD {
+		int drl_get_buffer(
+			_Out_writes_(size) void *data,
+			_Out_ int *size
+		);
+	}
+
+add this to sys/kern/syscall.master file
+WIthin same folder, run make sysent
+
+buildworld not required.
+
+Code to complie first time system cleanworld
+
+make cleanworld
+make -j8 buildworld
+
+
+
+Better change int64_t to something else.
+____________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________
+
+589	AUE_NULL	UNIMPL	drl_update_prob
+590	AUE_NULL	UNIMPL	drl_get_buffer
+
+add this in sys/compat/freebsd32/syscalls.master
+____________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________
+
+
+struct data {
+	u_int		drop_prob;
+	int			current_qdelay;
+	int			qdelay_old;
+
+	u_int		avg_dq_time;
+	u_int		tot_bytes;
+	u_int		drops;
+};
+
+
+
+// printf("\nfq_calculate_drop_prob-start,%d,%u,%u,%u,%u,%u,%u,%u,%u,%u,%u,%u,%lu,%u,%u,%u,%u,%lu,%lu,%u,%u,%u,end \n \n",
+q->flow_index,
+pprms->qdelay_ref,
+pprms->tupdate,
+pprms->max_burst,
+pprms->max_ecnth,
+pprms->alpha,
+pprms->beta,
+pprms->flags,
+pst->burst_allowance,
+pst->drop_prob,
+pst->current_qdelay,
+pst->qdelay_old,
+pst->accu_prob,
+pst->avg_dq_time,
+pst->dq_count,
+q->stats.tot_bytes,
+q->stats.len_bytes,
+q->stats.drops
+);
