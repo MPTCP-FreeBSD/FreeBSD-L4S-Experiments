@@ -7,12 +7,24 @@
 
 // Define the struct data as specified
 struct data {
-    unsigned int drop_prob;
-    unsigned int current_qdelay;
-    unsigned int qdelay_old;
-    unsigned int avg_dq_time;
-    unsigned int tot_bytes;
-    unsigned int drops;
+	uint32_t    flows_cnt;	/* number of flows */
+	uint32_t    limit;	/* hard limit of L4S queue size*/
+	uint32_t    quantum;
+    uint64_t    tot_pkts;	/* statistics counters  */
+	uint64_t    tot_bytes;
+	uint32_t    length;		/* Queue length, in packets */
+	uint32_t    len_bytes;	/* Queue length, in bytes */
+	uint32_t    drops;
+    uint16_t    max_ecnth;	/*AQM Max ECN Marking Threshold (default: 10%) */
+	uint16_t	alpha;			/* (default: 1/8) */
+	uint16_t	beta;			/* (default: 1+1/4) */
+    uint32_t	burst_allowance;
+	uint32_t	drop_prob;
+	uint32_t	current_qdelay;
+	uint32_t	qdelay_old;
+	uint64_t	accu_prob;
+	uint32_t	avg_dq_time;
+	uint32_t	dq_count;
 };
 
 // System call numbers (you'll need to replace these with the actual syscall numbers)
