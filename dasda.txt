@@ -1,2 +1,0 @@
-ssh -p 3322 -i "$sshkeypath" root@"$vmhostaddr" \
-        "tcpdump -i em1 -w /root/${testname}.em1.pcap > /root/tcpdump.em1.out 2>&1 & tcpdump -i em2 -w /root/${testname}.em2.pcap > /root/tcpdump.em2.out 2>&1 &"

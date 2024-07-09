@@ -3,25 +3,14 @@
 # Set basic configuration values
 set -x
 tcp="dctcp"
+# tcp="newreno"
 aqm_schemes=("codel" "pie" "fq_codel" "fq_pie" "l4s")
 aqm_schemes=("fq_pie" "l4s" "fq_codel")
-# aqm_schemes=("fq_pie" "l4s")
-# aqm_schemes=("fq_codel")
+# aqm_schemes=("fq_pie")
 bandwidth=("1Mbps" "10Mbps")
 # bandwidth=("1Mbps")
 delay=("20ms")
 ecn=("ecn" "noecn")
-
-duration=60
-wait_time_between_streams=10
-sleep_time=100
-
-
-# duration=6
-# wait_time_between_streams=3
-# sleep_time=9
-
-
 
 # aqm_schemes=("fq_pie")
 # bandwidth=("1Mbps" "10Mbps")
@@ -30,7 +19,7 @@ sleep_time=100
 # set tcp.ecn.enable on clients
 tcp_ecn_enable=1
 # Enable ECT(1) for dctcp
-dctcp_ect1=1
+dctcp_ect1=0
 
 
 # Access to the source host
@@ -50,8 +39,6 @@ do_siftr="1"
 
 # Set tcpdump (0 disabled, 1 enabled)
 do_tcpdump="1"
-
-
 
 echo "Script started"
 
@@ -204,15 +191,15 @@ end_log(){
 
 client_iperf3_script() {
     echo "start client side running iperf3 tests"
-    ssh -p "$srchostport" -i "$sshkeypath" root@"$vmhostaddr" "iperf3 -c 172.16.3.2 -t $duration -p 5101" >/dev/null &
-    sleep $wait_time_between_streams    
-    ssh -p "$srchostport" -i "$sshkeypath" root@"$vmhostaddr" "iperf3 -c 172.16.3.2 -t $duration -p 5102" >/dev/null &
-    sleep $wait_time_between_streams  
-    ssh -p "$srchostport" -i "$sshkeypath" root@"$vmhostaddr" "iperf3 -c 172.16.3.2 -t $duration -p 5103" >/dev/null &
-    sleep $wait_time_between_streams  
-    ssh -p "$srchostport" -i "$sshkeypath" root@"$vmhostaddr" "iperf3 -c 172.16.3.2 -t $duration -p 5104"
+    ssh -p "$srchostport" -i "$sshkeypath" root@"$vmhostaddr" "iperf3 -c 172.16.3.2 -t 60 -p 5101" >/dev/null &
+    sleep 10    
+    ssh -p "$srchostport" -i "$sshkeypath" root@"$vmhostaddr" "iperf3 -c 172.16.3.2 -t 60 -p 5102" >/dev/null &
+    sleep 10    
+    ssh -p "$srchostport" -i "$sshkeypath" root@"$vmhostaddr" "iperf3 -c 172.16.3.2 -t 60 -p 5103" >/dev/null &
+    sleep 10    
+    ssh -p "$srchostport" -i "$sshkeypath" root@"$vmhostaddr" "iperf3 -c 172.16.3.2 -t 60 -p 5104"
 
-    sleep $sleep_time
+    sleep 100
     # wait
 }
 
