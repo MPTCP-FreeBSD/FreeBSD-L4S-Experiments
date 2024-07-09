@@ -3,12 +3,12 @@
 # Set basic configuration values
 set -x
 tcp="dctcp"
-tcp="newreno"
+# tcp="newreno"
 aqm_schemes=("codel" "pie" "fq_codel" "fq_pie" "l4s")
 aqm_schemes=("fq_pie" "l4s" "fq_codel")
-aqm_schemes=("fq_pie")
+# aqm_schemes=("fq_pie")
 bandwidth=("1Mbps" "10Mbps")
-bandwidth=("1Mbps")
+# bandwidth=("1Mbps")
 delay=("20ms")
 ecn=("ecn" "noecn")
 

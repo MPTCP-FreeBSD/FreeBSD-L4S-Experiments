@@ -1,0 +1,32 @@
+Statistics for dfPath1:
+Median: 0.173125
+Mean: 0.18457649822244793
+25th Percentile: 0.1453125
+75th Percentile: 0.214375
+Minimum: 0.0
+Maximum: 0.4309375
+
+Statistics for dfPath1:
+Median: 0.1875
+Mean: 0.1945823738658235
+25th Percentile: 0.1496875
+75th Percentile: 0.2271875
+Minimum: 0.0
+Maximum: 0.4084375
+
+Statistics for dfPath1:
+Median: 0.1915625
+Mean: 0.19972107753357754
+25th Percentile: 0.1459375
+75th Percentile: 0.2315625
+Minimum: 0.0
+Maximum: 0.4934375
+
+Statistics for dfPath1:
+Median: 0.1734375
+Mean: 0.1842153958739894
+25th Percentile: 0.1425
+75th Percentile: 0.209375
+Minimum: 0.0
+Maximum: 0.451875
+
