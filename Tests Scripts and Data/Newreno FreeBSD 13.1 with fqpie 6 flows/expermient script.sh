@@ -5,6 +5,8 @@ set -x
 tcp="newreno"
 # tcp="newreno"
 aqm_schemes=("codel" "pie" "fq_codel" "fq_pie" "l4s")
+# aqm_schemes=("codel" "pie")
+# aqm_schemes=("codel")
 aqm_schemes=("fq_pie" "l4s" "fq_codel")
 # aqm_schemes=("fq_pie")
 bandwidth=("1Mbps" "10Mbps")

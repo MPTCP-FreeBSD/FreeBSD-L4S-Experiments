@@ -1,0 +1,96 @@
+Statistics for TCP Stream 1:
+Median: 0.1490625
+Mean: 0.14872641769638129
+25th Percentile: 0.1334375
+75th Percentile: 0.1621875
+Minimum: 0.0
+Maximum: 0.21125
+
+Statistics for TCP Stream 2:
+Median: 0.156875
+Mean: 0.15854929225050043
+25th Percentile: 0.1459375
+75th Percentile: 0.1690625
+Minimum: 0.0
+Maximum: 0.235625
+
+Statistics for TCP Stream 3:
+Median: 0.1590625
+Mean: 0.1617781890660592
+25th Percentile: 0.1478125
+75th Percentile: 0.1715625
+Minimum: 0.0
+Maximum: 0.24875
+
+Statistics for TCP Stream 4:
+Median: 0.150625
+Mean: 0.15358348020607374
+25th Percentile: 0.136875
+75th Percentile: 0.16625
+Minimum: 0.0
+Maximum: 0.249375
+
+Statistics for TCP Stream 1:
+Median: 0.1490625
+Mean: 0.14872641769638129
+25th Percentile: 0.1334375
+75th Percentile: 0.1621875
+Minimum: 0.0
+Maximum: 0.21125
+
+Statistics for TCP Stream 2:
+Median: 0.156875
+Mean: 0.15854929225050043
+25th Percentile: 0.1459375
+75th Percentile: 0.1690625
+Minimum: 0.0
+Maximum: 0.235625
+
+Statistics for TCP Stream 3:
+Median: 0.1590625
+Mean: 0.1617781890660592
+25th Percentile: 0.1478125
+75th Percentile: 0.1715625
+Minimum: 0.0
+Maximum: 0.24875
+
+Statistics for TCP Stream 4:
+Median: 0.150625
+Mean: 0.15358348020607374
+25th Percentile: 0.136875
+75th Percentile: 0.16625
+Minimum: 0.0
+Maximum: 0.249375
+
+Statistics for TCP Stream 1:
+Median: 0.1490625
+Mean: 0.14872641769638129
+25th Percentile: 0.1334375
+75th Percentile: 0.1621875
+Minimum: 0.0
+Maximum: 0.21125
+
+Statistics for TCP Stream 2:
+Median: 0.156875
+Mean: 0.15854929225050043
+25th Percentile: 0.1459375
+75th Percentile: 0.1690625
+Minimum: 0.0
+Maximum: 0.235625
+
+Statistics for TCP Stream 3:
+Median: 0.1590625
+Mean: 0.1617781890660592
+25th Percentile: 0.1478125
+75th Percentile: 0.1715625
+Minimum: 0.0
+Maximum: 0.24875
+
+Statistics for TCP Stream 4:
+Median: 0.150625
+Mean: 0.15358348020607374
+25th Percentile: 0.136875
+75th Percentile: 0.16625
+Minimum: 0.0
+Maximum: 0.249375
+
