@@ -1,0 +1,37 @@
+The squaring of the classic probability in the code is done in the function `dualpi2_classic_marking`. Specifically, the probability is squared in the line:
+
+```c
+if (dualpi2_roll(prob) && dualpi2_roll(prob)) {
+```
+
+Here's a detailed breakdown of how it works:
+
+1. **Function `dualpi2_classic_marking`:**
+   This function is responsible for determining whether a packet in the classic queue should be marked or dropped based on the computed probability.
+
+2. **Squaring of the Probability:**
+   ```c
+   if (dualpi2_roll(prob) && dualpi2_roll(prob)) {
+   ```
+   This line calls `dualpi2_roll(prob)` twice, and both conditions need to be true for the `if` statement to execute its block. The `dualpi2_roll` function returns `true` with a probability of `prob / MAX_PROB`. By calling it twice, the overall probability becomes `(prob / MAX_PROB) * (prob / MAX_PROB)`, effectively squaring the probability.
+
+Here's the relevant part of the function:
+
+```c
+static bool dualpi2_classic_marking(struct dualpi2_sched_data *q,
+                                    struct sk_buff *skb, u32 prob,
+                                    bool overload)
+{
+    if (dualpi2_roll(prob) && dualpi2_roll(prob)) {
+        if (overload || dualpi2_skb_cb(skb)->ect == INET_ECN_NOT_ECT)
+            return true;
+        dualpi2_mark(q, skb);
+    }
+    return false;
+}
+```
+
+In this function:
+- `dualpi2_roll(prob)` is called twice within the same `if` statement.
+- If both calls return `true`, the condition `dualpi2_roll(prob) && dualpi2_roll(prob)` evaluates to `true`.
+- This results in the probability of marking or dropping a packet being the square of the original probability (`prob`).
