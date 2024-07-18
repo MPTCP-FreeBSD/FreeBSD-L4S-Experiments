@@ -1,0 +1,21 @@
+,File,Total Data Transferred (MB)
+0,codel_10Mbps_20ms_ecn.em1.pcap,41.101404
+1,codel_10Mbps_20ms_noecn.em1.pcap,46.574638
+2,codel_1Mbps_20ms_ecn.em1.pcap,4.523826
+3,codel_1Mbps_20ms_noecn.em1.pcap,4.9381260000000005
+4,fq_codel_10Mbps_20ms_ecn.em1.pcap,53.030176000000004
+5,fq_codel_10Mbps_20ms_noecn.em1.pcap,38.928912999999994
+6,fq_codel_1Mbps_20ms_ecn.em1.pcap,5.571887
+7,fq_codel_1Mbps_20ms_noecn.em1.pcap,5.2453579999999995
+8,fq_pie_10Mbps_20ms_ecn.em1.pcap,48.413748999999996
+9,fq_pie_10Mbps_20ms_noecn.em1.pcap,47.984545
+10,fq_pie_1Mbps_20ms_ecn.em1.pcap,5.438388
+11,fq_pie_1Mbps_20ms_noecn.em1.pcap,5.389362
+12,l4s_10Mbps_20ms_ecn.em1.pcap,48.748529000000005
+13,l4s_10Mbps_20ms_noecn.em1.pcap,48.196892999999996
+14,l4s_1Mbps_20ms_ecn.em1.pcap,5.15944
+15,l4s_1Mbps_20ms_noecn.em1.pcap,5.676679
+16,pie_10Mbps_20ms_ecn.em1.pcap,45.790667
+17,pie_10Mbps_20ms_noecn.em1.pcap,50.339712000000006
+18,pie_1Mbps_20ms_ecn.em1.pcap,6.3713560000000005
+19,pie_1Mbps_20ms_noecn.em1.pcap,4.976113

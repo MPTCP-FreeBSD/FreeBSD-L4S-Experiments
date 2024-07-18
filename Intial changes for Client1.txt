@@ -1,0 +1,15 @@
+Enable Accurate ECN for client1
+sysctl net.inet.tcp.ecn.enable=3
+---------------------------------------------------------------------------
+Enable DCTCP with ECT(1)
+sysctl net.inet.tcp.cc.available
+ls /boot/kernel/cc_* | grep -v symbols
+kldload cc_dctcp
+sysctl net.inet.tcp.cc.algorithm=dctcp
+
+sysctl -a | grep dctcp
+
+sysctl net.inet.tcp.cc.dctcp.ect1=1
+---------------------------------------------------------------------------
+One liner:
+kldload cc_dctcp;sysctl net.inet.tcp.cc.algorithm=dctcp;sysctl net.inet.tcp.cc.dctcp.ect1=1;sysctl net.inet.tcp.ecn.enable=3

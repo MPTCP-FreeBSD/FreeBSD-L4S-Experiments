@@ -21,21 +21,20 @@ This repository stores the source code for customized AQM kernel. In this docume
 Before building the customized AQM kernel, you need to install the following software:
 
 - VirtualBox: [Download](https://www.virtualbox.org/wiki/Downloads)
-- C Shell(CSH): C shell is used to run the test suite. You can install it by running the following command if using Ubuntu:
+- Bash Shell(bash): Bash shell is used to run the test suite. Bash is installed by default on Ubuntu, if not use command:
 
   ```bash
-  sudo apt-get install csh
+  sudo apt-get install bash
   ```
 
-  If using other Linux distributions, please check [this link](https://www.cyberciti.biz/faq/howto-install-csh-shell-on-linux/) for more information.
 
-  If using FreeBSD to run the test suite, Csh is one of the default shells. You can check it by running the following command:
+  If using FreeBSD to run the test suite, You need to install Bash, as it is not installed by default. You can download using the following command:
 
-  ```bash
-  csh
+  ```csh
+  pkg install bash
   ```
 
-- FreeBSD Version 11: You can download from [here](http://ftp-archive.freebsd.org/pub/FreeBSD-Archive/old-releases/ISO-IMAGES/11.0/).
+- FreeBSD Version 13.1: You can download from [here](http://ftp-archive.freebsd.org/mirror/FreeBSD-Archive/old-releases/ISO-IMAGES/13.1/?C=S&O=D).
 
 ## Build virtual machines
 
@@ -43,10 +42,10 @@ To build virtual machines for running the customized AQM kernel and the test sui
 
 ```bash
 cd setup
-sh ./VM_create.sh <FreeBSD version 11 iso file>
+sh ./VM_create.sh <FreeBSD version 13.1 iso file>
 ```
 
-The script will create four virtual machines and install FreeBSD on them. The virtual machines will be named `FB11-test1`, `FB11-test2`, `DummynetVM1`, and `DummynetVM2`. The script will also set up other things like network interfaces, NAT port forwarding for SSH, disk size and so on. You can also change the variables in the script to customize the virtual machines.
+The script will create four virtual machines and install FreeBSD on them. The virtual machines will be named `FB13.1-test1`, `FB13.1-test2`, `DummynetVM1`, and `DummynetVM2`. The script will also set up other things like network interfaces, NAT port forwarding for SSH, disk size and so on. You can also change the variables in the script to customize the virtual machines.
 
 \* Please notice, when installing the FreeBSD on the virtual machines, please install the _FreeBSD Ports_, and enable the _SSH_ service.
 
@@ -54,7 +53,7 @@ The script will create four virtual machines and install FreeBSD on them. The vi
 
 ### SSH
 
-The first step after FreeBSD version 11 is installed on the virtual machines is to set up SSH.
+The first step after FreeBSD version 13.1 is installed on the virtual machines is to set up SSH.
 
 1. Firstly, you have to enable root-level login via SSH, you can do this by editing the `/etc/ssh/sshd_config` file and changing the following line:
 
@@ -90,8 +89,12 @@ csh ./copy_confs.sh
 ```
 
 ### Install Git
-
-Since the pkg package manager is not installed on the virtual machines, you have to install Git manually from FreeBSD Ports or find a pkg mirror that is maintained by third party(There could be risks). You can install Git by running the following command:
+To install Git, you can use the following command:
+```
+pkg install git
+```
+if pkg is not installed, it will install it for you. If not follow the instructions below
+If the pkg package manager is not installed on the virtual machines, you must install Git manually from FreeBSD Ports or find a pkg mirror maintained by a third party(There could be risks). You can install Git by running the following command:
 
 ```bash
 cd /usr/ports/devel/git
@@ -109,7 +112,7 @@ ssh -p 3322 root@localhost
 Clone the kernel source:
 ```bash
 git clone https://github.com/deolsatish/FB13.1-AQM-SRC.git <path>
-git checkout FreeBSD-L4S
+git checkout FB13.1-L4S-KERNEL-SRC
 cd <path>
 ```
 Build the world (everything but the kernel):
@@ -118,8 +121,8 @@ make buildworld
 ```
 Build and install the kernel:
 ```bash
-make buildkernel -j2 -DKERNFAST KERNCONF=MYKERNEL
-make installkernel -j2 -DKERNFAST KERNCONF=MYKERNEL
+make buildkernel -j4 -DKERNFAST KERNCONF=L4SKERNEL
+make installkernel -j4 -DKERNFAST KERNCONF=L4SKERNEL
 shutdown -r now
 ```
 Install the world:
@@ -133,22 +136,32 @@ shutdown -r now
 
 ## Setup
 
-I assume that you have already installed csh on the host. If not, please check the [Prerequisites](#prerequisites) section.
+I assume that you have already installed bash on the host. If not, please check the [Prerequisites](#prerequisites) section.
 
-The test suite is located in the `aqm tests scripts` directory. There are 7 scenarios and one controller. To run any test case, you can simply run the following command:
+The test suite is located in the `Experiment Scripts` directory. There is an automated script to run all tests; you can simply run the following command:
 
 ```bash
-cd aqm\ tests\ scripts
-csh ''''.sh
+cd Experiment\ Scripts
+bash main_test_script.sh
 ```
 
-For example,
+In the script, you can modify parameters like TCP congestion control algorithm, AQM algorithm, bandwidth size, delay and ECN or disable _siftr_ and _tcpdump_ by changing the following line:
 
-```
-csh l4s1.sh
-```
+```bash
+# Set basic configuration values
+set -x
+tcp="newreno"
+# tcp="dctcp"
+# tcp="cubic"
+aqm_schemes=("codel" "pie" "fq_codel" "fq_pie" "l4s")
+bandwidth=("1Mbps" "10Mbps")
+delay=("20ms")
+ecn=("ecn" "noecn")
 
-In every scenario configuration file, you can enable or disable _siftr_ and _tcpdump_ by changing the following line:
+# set tcp.ecn.enable on clients
+tcp_ecn_enable=1
+
+In the script, you can enable or disable _siftr_ and _tcpdump_ by changing the following line:
 
 ```bash
 # Set siftr (0 disabled, 1 enabled)
@@ -160,4 +173,4 @@ set do_tcpdump = "1"
 
 ## Generate test results
 
-After the test is finished, the result files would automatically be generated in the `~/` directory of the host. The result files are named as `<scenario>.<network interface>.pcap` or `<scenario>.siftr.log`. The result files then can be used to observe the network traffic or perform DRL training [8].
+After the test is finished, the result files will automatically be generated in the `~/` directory of the host. The result files are named as `<aqm scheme>_<network scenario>.pcap` or `<aqm scheme>.<network scenario>.siftr.log`. The result files then can be used to observe the network traffic or perform DRL training.
