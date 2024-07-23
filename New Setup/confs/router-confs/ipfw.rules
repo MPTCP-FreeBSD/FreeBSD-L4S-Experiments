@@ -1,0 +1,20 @@
+#!/bin/sh
+
+# Flush existing rules
+ipfw -q -f flush
+
+# Outbound traffic shaping on em0, em1, and em2
+ipfw add pipe 1 ip from any to any out via em1
+ipfw add pipe 2 ip from any to any in via em1
+ipfw add pipe 3 ip from any to any out via em2
+ipfw add pipe 4 ip from any to any in via em2
+ipfw add pipe 5 ip from any to any out via em3
+ipfw add pipe 6 ip from any to any in via em3
+
+# Configure pipes with bandwidth limit
+ipfw pipe 1 config bw 2Mbit/s
+ipfw pipe 2 config bw 2Mbit/s
+ipfw pipe 3 config bw 2Mbit/s
+ipfw pipe 4 config bw 2Mbit/s
+ipfw pipe 5 config bw 2Mbit/s
+ipfw pipe 6 config bw 2Mbit/s

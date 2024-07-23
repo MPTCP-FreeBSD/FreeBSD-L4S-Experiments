@@ -1,0 +1,15 @@
+include		GENERIC
+ident L4SKERNEL
+
+options		KDB
+options		DDB
+
+options		BREAK_TO_DEBUGGER
+options 	ALT_BREAK_TO_DEBUGGER
+
+options 	DUMMYNET
+options 	IPFIREWALL
+options 	IPFIREWALL_DEFAULT_TO_ACCEPT
+
+nooptions	INET6
+nooptions	IPSEC
