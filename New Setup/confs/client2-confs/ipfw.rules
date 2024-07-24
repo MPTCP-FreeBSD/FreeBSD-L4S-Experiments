@@ -1,12 +1,1 @@
-#!/bin/sh
-
-# Flush existing rules
-ipfw -q -f flush
-
-# Outbound traffic shaping on em1
-ipfw add pipe 1 ip from any to any out via em1
-ipfw add pipe 2 ip from any to any in via em1
-
-# Configure pipes with bandwidth limit
-ipfw pipe 1 config bw 2Mbit/s
-ipfw pipe 2 config bw 2Mbit/s
+add fwd 172.16.3.1 tcp from 172.16.3.2 to any
