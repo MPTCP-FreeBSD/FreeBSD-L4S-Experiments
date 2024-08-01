@@ -41,14 +41,14 @@ echo "If copying for the first time, there will be some password prompts."
 # host running the script)
 echo "Configuring key on controller host"
 
-if ($controller != "localhost") then
-    echo "Remove old key"
-    ssh $controlleruser@$controller 'rm -f  ~/.ssh/mptcprootkey'
+# if ($controller != "localhost") then
+#     echo "Remove old key"
+#     ssh $controlleruser@$controller 'rm -f  ~/.ssh/mptcprootkey'
 
-    echo "Copy new key"
-    scp -p -i ~/.ssh/mptcprootkey ~/.ssh/mptcprootkey ${controlleruser}@${controller}:/root/.ssh/
+#     echo "Copy new key"
+#     scp -p -i ~/.ssh/mptcprootkey ~/.ssh/mptcprootkey ${controlleruser}@${controller}:/root/.ssh/
 
-endif
+# endif
 
 # First test host
 echo "create .ssh folder"
