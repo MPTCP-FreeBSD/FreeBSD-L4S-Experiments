@@ -1,0 +1,74 @@
+Both of these are clients:
+root@test2:~ # iperf3 -c 172.16.1.2
+root@dummynetvm2:~ # iperf3 -c 172.16.1.2
+Server:
+root@test1:~ # iperf3 -s
+Router:
+root@dummynetvm1
+
+
+Delete ipfw.rules of test1 and test2
+
+
+
+Certainly! Let's break down the `pkthdr` structure you’ve provided, which seems to be a C struct used in a networking context. It contains a union and some fields. This structure is typically used to handle metadata for network packets, and each member of the union serves a different purpose depending on the context. Here’s a detailed explanation:
+
+### Structure Definition
+```c
+struct pkthdr {
+	union {
+		struct m_snd_tag *snd_tag;	/* send tag, if any */
+		struct ifnet	*rcvif;		/* rcv interface */
+		struct {
+			uint16_t rcvidx;	/* rcv interface index ... */
+			uint16_t rcvgen;	/* ... and generation count */
+		};
+	};
+};
+```
+
+### Components Breakdown
+
+1. **Union**:
+   The `pkthdr` structure contains a union. In C, a union allows different data types to be stored in the same memory location. The size of the union is determined by the largest member. Only one of the union members can be used at a time.
+
+   Here, the union has three different members, each serving a different purpose. Depending on the context, one of these members will be used to store relevant information.
+
+2. **Union Members**:
+   - **`struct m_snd_tag *snd_tag`**:
+     - **Type**: Pointer to `struct m_snd_tag`.
+     - **Description**: This member is used to store a pointer to a send tag. A send tag typically contains metadata related to sending a packet. It might include information like QoS (Quality of Service) tags, priority, or other send-related attributes.
+   
+   - **`struct ifnet *rcvif`**:
+     - **Type**: Pointer to `struct ifnet`.
+     - **Description**: This member is used to store a pointer to the receiving network interface structure (`ifnet`). The `ifnet` structure represents a network interface and contains information about it. This is used to identify which network interface received the packet.
+   
+   - **Nested Structure**:
+     ```c
+     struct {
+         uint16_t rcvidx;  /* rcv interface index ... */
+         uint16_t rcvgen;  /* ... and generation count */
+     };
+     ```
+     - **`uint16_t rcvidx`**:
+       - **Type**: 16-bit unsigned integer.
+       - **Description**: This field represents the index of the receiving interface. It’s an identifier for the interface, useful for indexing into an array or table of interfaces.
+     
+     - **`uint16_t rcvgen`**:
+       - **Type**: 16-bit unsigned integer.
+       - **Description**: This field represents the generation count associated with the receiving interface. The generation count helps track changes or updates to the interface. If the interface is reinitialized or updated, this count may increment to reflect the change.
+
+### Usage Context
+
+- **Packet Sending and Receiving**:
+  - When sending a packet, `snd_tag` might be used to store metadata associated with sending the packet.
+  - When receiving a packet, `rcvif` will point to the interface that received the packet. Alternatively, the nested structure may be used to provide an index and generation count for the receiving interface, which is helpful for systems managing multiple interfaces or tracking changes to interfaces.
+
+- **Interface Tracking**:
+  - The index (`rcvidx`) and generation count (`rcvgen`) provide a way to uniquely identify and keep track of changes to network interfaces. This can be crucial for managing dynamic network environments where interfaces can change or be reconfigured.
+
+### Summary
+
+The `pkthdr` structure is designed to handle metadata for network packets. The union allows the structure to store different types of information depending on whether a packet is being sent or received. The use of a union is efficient as it allows different metadata types to share the same memory space, ensuring that only the relevant information is stored for the specific context.
+
+If you have any further questions about this structure or its use, feel free to ask!
