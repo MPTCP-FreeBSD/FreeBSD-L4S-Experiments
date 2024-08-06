@@ -1,0 +1,4471 @@
+Drop probability is 0. Resetting accumulated probability.
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 0
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 46500
+Old queue delay (pst->qdelay_old): 20000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 0
+Drop probability is 0. Resetting accumulated probability.
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 0
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 48000
+Old queue delay (pst->qdelay_old): 20000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 0
+Drop probability is 0. Resetting accumulated probability.
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 0
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 49500
+Old queue delay (pst->qdelay_old): 20000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 0
+Drop probability is 0. Resetting accumulated probability.
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 0
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 48000
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 36044
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 36044
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 49500
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 36044
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 72088
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 51000
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 36044
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 108132
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 52500
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 36044
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 144176
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 54000
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 36044
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 180220
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 55500
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 36044
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 216264
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 57000
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 36044
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 252308
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 58500
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 36044
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 288352
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 60000
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 36044
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 324396
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 61500
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 36044
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 360440
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 63000
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 36044
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 396484
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 64500
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 36044
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 432528
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 54000
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 36044
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 468572
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 55500
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 36044
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 504616
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 57000
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 36044
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 540660
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 58500
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 36044
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 576704
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 60000
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 36044
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 612748
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 61500
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 36044
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 648792
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 63000
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 36044
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 684836
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 40500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 413531
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 1098367
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 42000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 413531
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 1511898
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 43500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 413531
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 1925429
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 45000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 413531
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 2338960
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 46500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 413531
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 2752491
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 63000
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 5087557
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 5087557
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 64500
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 5087557
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 10175114
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 66000
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 5087557
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 15262671
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 55500
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 5087557
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 20350228
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 57000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 9952949
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 30303177
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 58500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 9952949
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 40256126
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 60000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 9952949
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 50209075
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 61500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 9952949
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 60162024
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 63000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 9952949
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 70114973
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 64500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 9952949
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 80067922
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 66000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 9952949
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 90020871
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 67500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 9952949
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 99973820
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 69000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 9952949
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 109926769
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 70500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 9952949
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 119879718
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 60000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 11462898
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 131342616
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 61500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 11462898
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 142805514
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 63000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 11462898
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 154268412
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 64500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 11462898
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 165731310
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 66000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 11462898
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 177194208
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 67500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 11462898
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 188657106
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 69000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 11462898
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 200120004
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 70500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 11462898
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 211582902
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 43500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 4319475
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 4319475
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 45000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 4319475
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 8638950
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 46500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 4319475
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 12958425
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 48000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 4319475
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 17277900
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 49500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 4319475
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 21597375
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 51000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 4319475
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 25916850
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 40500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6164968
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 32081818
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 42000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6164968
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 38246786
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 43500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6164968
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 44411754
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 45000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6164968
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 50576722
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 46500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6164968
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 56741690
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 48000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6164968
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 62906658
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 49500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6164968
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 69071626
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 51000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6164968
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 75236594
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 52500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6164968
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 81401562
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 54000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6164968
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 87566530
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 43500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6164968
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 93731498
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 45000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6164968
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 99896466
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 46500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6164968
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 106061434
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 48000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6164968
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 112226402
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 49500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6164968
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 118391370
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 51000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6164968
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 124556338
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 52500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6164968
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 130721306
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 54000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6164968
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 136886274
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 43500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 4319475
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 141205749
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 45000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 4319475
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 145525224
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 46500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 4319475
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 149844699
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 48000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 4319475
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 154164174
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 49500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 4319475
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 158483649
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 51000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 4319475
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 162803124
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 52500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 4319475
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 167122599
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 54000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 4319475
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 171442074
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 43500
+Old queue delay (pst->qdelay_old): 40000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 0
+Drop probability is 0. Resetting accumulated probability.
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 0
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 45000
+Old queue delay (pst->qdelay_old): 40000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 0
+Drop probability is 0. Resetting accumulated probability.
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 0
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 46500
+Old queue delay (pst->qdelay_old): 40000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 0
+Drop probability is 0. Resetting accumulated probability.
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 0
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 48000
+Old queue delay (pst->qdelay_old): 40000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 0
+Drop probability is 0. Resetting accumulated probability.
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 0
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 49500
+Old queue delay (pst->qdelay_old): 40000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 0
+Drop probability is 0. Resetting accumulated probability.
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 0
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 51000
+Old queue delay (pst->qdelay_old): 40000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 0
+Drop probability is 0. Resetting accumulated probability.
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 0
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 52500
+Old queue delay (pst->qdelay_old): 40000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 0
+Drop probability is 0. Resetting accumulated probability.
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 0
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 54000
+Old queue delay (pst->qdelay_old): 40000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 0
+Drop probability is 0. Resetting accumulated probability.
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 0
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 55500
+Old queue delay (pst->qdelay_old): 40000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 0
+Drop probability is 0. Resetting accumulated probability.
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 0
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 73500
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1481111
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 1481111
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 75000
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1774712
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 3255823
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 76500
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1774712
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 5030535
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 78000
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1774712
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 6805247
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 79500
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1774712
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 8579959
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 81000
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1774712
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 10354671
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 82500
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1774712
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 12129383
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 84000
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1774712
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 13904095
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 85500
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1774712
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 15678807
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 87000
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1774712
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 17453519
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 64500
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1774712
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 19228231
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 66000
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1774712
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 21002943
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 67500
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1774712
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 22777655
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 69000
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1774712
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 24552367
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 70500
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1774712
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 26327079
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 72000
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1774712
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 28101791
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 73500
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1774712
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 29876503
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 75000
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1774712
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 31651215
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 76500
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1774712
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 33425927
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 78000
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1774712
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 35200639
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 79500
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1774712
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 36975351
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 81000
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1774712
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 38750063
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 82500
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1774712
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 40524775
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 84000
+Old queue delay (pst->qdelay_old): 50000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1774712
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 42299487
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 73500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 2991060
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 45290547
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 61500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 2991060
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 48281607
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 63000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 2991060
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 51272667
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 64500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 2991060
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 54263727
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 66000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 2991060
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 57254787
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 67500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 2991060
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 60245847
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 69000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 2991060
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 63236907
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 70500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 2991060
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 66227967
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 72000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 2991060
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 69219027
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 73500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 2991060
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 72210087
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 75000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 2991060
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 75201147
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 76500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 2991060
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 78192207
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 78000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 2991060
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 81183267
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 79500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 2991060
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 84174327
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 69000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6010958
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 90185285
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 70500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6010958
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 96196243
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 72000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6010958
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 102207201
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 73500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6010958
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 108218159
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 75000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6010958
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 114229117
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 76500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6010958
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 120240075
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 78000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6010958
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 126251033
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 79500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6010958
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 132261991
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 6000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6010958
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 138272949
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 7500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6010958
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 144283907
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 9000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6010958
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 150294865
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 10500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6010958
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 156305823
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 12000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6010958
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 162316781
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 63000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 818543
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 818543
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 64500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1279916
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 2098459
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 66000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1279916
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 3378375
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 67500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1279916
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 4658291
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 69000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1279916
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 5938207
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 70500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1279916
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 7218123
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 72000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1279916
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 8498039
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 73500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1279916
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 9777955
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 75000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1279916
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 11057871
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 76500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1279916
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 12337787
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 78000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1279916
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 13617703
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 55500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1279916
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 14897619
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 57000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1279916
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 16177535
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 58500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1279916
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 17457451
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 60000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1279916
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 18737367
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 61500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1279916
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 20017283
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 63000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1279916
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 21297199
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 64500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1279916
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 22577115
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 66000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1279916
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 23857031
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 67500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1279916
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 25136947
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 69000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1279916
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 26416863
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 70500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1279916
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 27696779
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 72000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1279916
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 28976695
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 48000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1741289
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 30717984
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 49500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1741289
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 32459273
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 51000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1741289
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 34200562
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 52500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1741289
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 35941851
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 54000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1741289
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 37683140
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 55500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1741289
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 39424429
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 57000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1741289
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 41165718
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 58500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1741289
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 42907007
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 60000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1741289
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 44648296
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 61500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1741289
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 46389585
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 63000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1741289
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 48130874
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 64500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1741289
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 49872163
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 54000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1657403
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 51529566
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 55500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1657403
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 53186969
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 57000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1657403
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 54844372
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 58500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1657403
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 56501775
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 60000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1657403
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 58159178
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 61500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1657403
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 59816581
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 63000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1657403
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 61473984
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 64500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 1657403
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 63131387
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 75000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6374682
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 6374682
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 76500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6374682
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 12749364
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 78000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6374682
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 19124046
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 79500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6374682
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 25498728
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 81000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6374682
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 31873410
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 82500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 6374682
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 38248092
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 72000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 7884631
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 46132723
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 73500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 7884631
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 54017354
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 75000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 7884631
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 61901985
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 76500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 7884631
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 69786616
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 78000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 7884631
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 77671247
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 79500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 7884631
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 85555878
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 81000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 7884631
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 93440509
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 70500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 7884631
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 101325140
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 72000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 7884631
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 109209771
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 73500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 7884631
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 117094402
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 75000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 7884631
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 124979033
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 64500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 9394580
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 134373613
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 66000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 9394580
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 143768193
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 67500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 9394580
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 153162773
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 69000
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 9394580
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 162557353
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 70500
+Old queue delay (pst->qdelay_old): 60000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 9394580
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 171951933
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 58500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 14595516
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 186547449
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 60000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 14595516
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 201142965
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 61500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 14595516
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 215738481
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 63000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 14595516
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 230333997
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 64500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 14595516
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 244929513
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 66000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 14595516
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 259525029
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 67500
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 14595516
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 274120545
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+Entering drop_early function:
+Queue length (qlen): 69000
+Old queue delay (pst->qdelay_old): 70000
+Reference delay (pprms->qdelay_ref): 15000
+Drop probability (pst->drop_prob): 14595516
+De-randomize option enabled. Updated accumulated probability (pst->accu_prob): 288716061
+Accumulated probability (pst->accu_prob) < 0.85 * PIE_MAX_PROB. Enqueue.
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE

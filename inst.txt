@@ -1,0 +1,20 @@
+#To enable ECN, run the following command as the root user:
+sysctl net.inet.tcp.ecn.enable=1
+
+scp -P 3323 -p -i ~/.ssh/mptcprootkey demo.mp4 root@192.168.56.1:
+
+rsync -e "ssh -i ~/.ssh/mptcprootkey -o StrictHostKeyChecking=no" --progress random.file 172.16.1.2:
+
+dd if=/dev/random of=random.file bs=1M count=20
+
+
+ipfw -f flush;ipfw pipe 1 config bw 50Mbits/s delay 20ms;ipfw sched 1 config pipe 1 type fq_pie ecn;ipfw queue 1 config sched 1;ipfw add 100 queue 1 ip from 172.16.0.0/16 to 172.16.0.0/16
+
+git checkout origin/llmdev;git pull origin llmdev;
+make buildkernel -j2 -DKERNFAST KERNCONF=L4SKERNEL;make installkernel -j2 -DKERNFAST KERNCONF=L4SKERNEL; shutdown -r now
+
+
+sudo scp -P 4422 -p -i ~/.ssh/mptcprootkey root@192.168.56.1:*.txt ./
+
+
+git checkout origin/llmdev;git pull origin llmdev;make buildkernel -j2 -DKERNFAST KERNCONF=L4SKERNEL;make installkernel -j2 -DKERNFAST KERNCONF=L4SKERNEL; shutdown -r now

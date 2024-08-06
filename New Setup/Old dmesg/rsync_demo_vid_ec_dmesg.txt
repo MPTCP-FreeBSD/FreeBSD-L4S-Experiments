@@ -1,0 +1,8742 @@
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1297608182) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1297608182
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1297608182) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1297608182
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1297608182) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1297608182
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1297608182) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1297608182
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1297608182) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1297608182
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1297608182) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1297608182
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1297608182) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1297608182
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1297608182) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1297608182
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1297608182) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1297608182
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1297608182) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1340557854
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1340557854) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1340557854
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1340557854) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1340557854
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1340557854) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1340557854
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1340557854) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1340557854
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1340557854) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1340557854
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1340557854) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1340557854
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1340557854) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1340557854
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1340557854) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1340557854
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1340557854) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1340557854
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1340557854) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1340557854
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1340557854) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1340557854
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1340557854) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1340557854
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1340557854) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1340557854
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1340557854) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1340557854
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1340557854) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1340557854
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1340557854) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1340557854
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1340557854) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1469406870
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1469406870) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1469406870
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1469406870) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1469406870
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1469406870) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1469406870
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1469406870) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1469406870
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1469406870) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1469406870
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1469406870) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1469406870
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1469406870) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1469406870
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1469406870) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1469406870
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1469406870) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1469406870
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1469406870) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1469406870
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1469406870) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1469406870
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1469406870) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1469406870
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1469406870) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1469406870
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1469406870) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1469406870
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1469406870) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1469406870
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1469406870) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1469406870
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1469406870) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1469406870
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1469406870) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1469406870
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1469406870) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1469406870
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1469406870) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1469406870
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1469406870) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1555306214
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1555306214) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1651942973
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1651942973) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1651942973
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1651942973) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1694892645
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1694892645) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1737842317
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1737842317) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1737842317
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1737842317) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1737842317
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1737842317) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1737842317
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1737842317) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1737842317
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1737842317) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1737842317
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1737842317) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1737842317
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1737842317) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1737842317
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1737842317) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1737842317
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1737842317) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1780791989
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1780791989) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1780791989
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1780791989) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1780791989
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1780791989) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1780791989
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1780791989) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1780791989
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1780791989) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1780791989
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1780791989) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1780791989
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1780791989) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1780791989
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1780791989) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1780791989
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1780791989) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1780791989
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1780791989) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1780791989
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1780791989) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1780791989
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1780791989) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1780791989
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1780791989) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1780791989
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1780791989) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1780791989
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1780791989) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1780791989
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1780791989) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1780791989
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1780791989) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1780791989
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1780791989) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1823741661
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1823741661) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1823741661
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1823741661) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1823741661
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1823741661) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1866691333
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1866691333) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1866691333
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1866691333) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1866691333
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1866691333) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1866691333
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1866691333) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1866691333
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1866691333) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1866691333
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1866691333) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1866691333
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1866691333) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1866691333
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1866691333) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1866691333
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1866691333) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1866691333
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1866691333) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1866691333
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1866691333) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1866691333
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1866691333) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1866691333
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1866691333) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1866691333
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1866691333) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1866691333
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1866691333) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1866691333
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1866691333) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1866691333
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1866691333) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1909641005
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1909641005) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1909641005
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1909641005) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1909641005
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1909641005) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1909641005
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1909641005) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1909641005
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1909641005) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1909641005
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1909641005) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1909641005
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1909641005) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1909641005
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1909641005) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1909641005
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1909641005) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1909641005
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1909641005) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1909641005
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1909641005) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1909641005
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1909641005) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1952590677
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1952590677) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1952590677
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1952590677) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1952590677
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1952590677) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1995540349
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1995540349) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1995540349
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1995540349) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1995540349
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1995540349) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1995540349
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1995540349) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1995540349
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1995540349) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1995540349
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1995540349) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1995540349
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1995540349) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1995540349
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1995540349) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1995540349
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1995540349) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1995540349
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1995540349) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1995540349
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1995540349) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1995540349
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1995540349) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1995540349
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1995540349) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1995540349
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1995540349) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1995540349
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1995540349) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1995540349
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1995540349) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1995540349
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1995540349) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1995540349
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1995540349) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1995540349
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1995540349) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1995540349
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1995540349) with shift_value (214695936)
+Condition: 0
+Action: DROP
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1995540349
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1995540349) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1588860635
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1588860635) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1588860635
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1588860635) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1588860635
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1588860635) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1588860635
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1588860635) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1588860635
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1588860635) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1588860635
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1588860635) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1588860635
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1588860635) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1588860635
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1588860635) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1588860635
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1588860635) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1588860635
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1588860635) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1588860635
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1588860635) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1588860635
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1588860635) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1588860635
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1588860635) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1588860635
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1588860635) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1588860635
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1588860635) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1588860635
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1588860635) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1588860635
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1588860635) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1588860635
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1588860635) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 1588860635
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (1588860635) with shift_value (214695936)
+Condition: 0
+Action: DROP
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+pprms->flags: 0x13
+PIE_ECN_ENABLED: 0x1
+pst->drop_prob: 16936450
+pprms->max_ecnth: 819
+PIE_PROB_BITS: 31
+PIE_FIX_POINT_BITS: 13
+PIE_MAX_PROB: 2147483647
+Shift value: 214695936
+Comparing pst->drop_prob (16936450) with shift_value (214695936)
+Condition: 1
+Action: ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
+t-ENQUE
