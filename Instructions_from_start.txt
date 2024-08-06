@@ -7,7 +7,9 @@ pkg install rsync
 pkg install iperf3
 git clone https://github.com/deol-satish/FreeBSD-L4S-SRC.git
 git checkout origin/releng/14.0
-make buildkernel -j2; make installkernel -j2
+make clean
+make buildworld -j4
+make buildkernel -j4; make installkernel -j4
 
 
 
