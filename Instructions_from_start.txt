@@ -2,7 +2,7 @@ cd /etc/ssh/sshd_config - Set permit root login to yes and useDns to no
 
 pkg update -f
 pkg insall git
-pkg install python3
+pkg install python
 pkg install rsync
 pkg install iperf3
 git clone https://github.com/deol-satish/FreeBSD-L4S-SRC.git
