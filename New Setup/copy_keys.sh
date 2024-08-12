@@ -76,7 +76,7 @@ scp -P $test2port -p -i ~/.ssh/mptcprootkey ~/.ssh/mptcprootkey root@${controlle
 # First router host
 echo "create .ssh folder"
 ssh -p $router1port root@$controller 'mkdir .ssh/'
-echo "Copying root public key to host at port $test2port"
+echo "Copying root public key to host at port $router1port"
 scp -P $router1port -o StrictHostKeyChecking=no -p -i ~/.ssh/mptcprootkey $keypath/mptcprootkey.pub root@${controller}:/root/.ssh/authorized_keys
 echo "set authorized keys permissions to 644"
 ssh -p $router1port root@$controller 'chmod 644 .ssh/authorized_keys'
@@ -85,7 +85,7 @@ echo "Copying root private key (for VM to VM connections)"
 scp -P $router1port -p -i ~/.ssh/mptcprootkey ~/.ssh/mptcprootkey root@${controller}:/root/.ssh/
 
 # Second router host
-echo "Copying root public key to host at port $test2port"
+echo "Copying root public key to host at port $router2port"
 ssh -p $router2port root@$controller 'mkdir .ssh/'
 scp -P $router2port -o StrictHostKeyChecking=no -p -i ~/.ssh/mptcprootkey $keypath/mptcprootkey.pub root@${controller}:/root/.ssh/authorized_keys
 echo "set authorized keys permissions to 644"

@@ -6,10 +6,12 @@ pkg install python
 pkg install rsync
 pkg install iperf3
 git clone https://github.com/deol-satish/FreeBSD-L4S-SRC.git
-git checkout origin/releng/14.0
-make clean
-make buildworld -j4
-make buildkernel -j4; make installkernel -j4
+git checkout origin/l4smain;git pull origin l4smain
+make clean;make -j4 buildworld
+make buildkernel -j4 KERNCONF=L4SKERNEL;make installkernel -j4 KERNCONF=L4SKERNEL; shutdown -r now
+make installworld 
+
+enable dummynet after fresh install
 
 
 
