@@ -34,7 +34,7 @@ cp /mnt/c/Users/deols/.ssh/mptcprootkey.pub ~/.ssh/
 cp /mnt/c/Users/deols/OneDrive/Documents/GitHub/FreeBSD-L4S-Experiments/New\ Setup/keys/mptcprootkey ~/.ssh/
 cp /mnt/c/Users/deols/OneDrive/Documents/GitHub/FreeBSD-L4S-Experiments/New\ Setup/keys/mptcprootkey.pub ~/.ssh/
 if access to file is too open, then use command to change permissions : chmod 600 ~/.ssh/mptcprootkey;chmod 600 ~/.ssh/mptcprootkey.pub
-
+chmod 600 ~/.ssh/id_ed25519;chmod 600 ~/.ssh/id_ed25519.pub
 ------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------
 **Push Changes**:
