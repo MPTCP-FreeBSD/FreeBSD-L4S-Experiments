@@ -24,9 +24,9 @@ dctcp_ect1=1
 # wait_time_bw_stream=10
 # end_wait_time=100
 
-duration=6
+duration=60
 wait_time_bw_stream=10
-end_wait_time=10
+end_wait_time=100
 
 
 # Access to the source host
@@ -262,6 +262,13 @@ ssh -p "$src1port" -i "$sshkeypath" root@"$vmhostaddr" "killall iperf3"
 ssh -p "$src2port" -i "$sshkeypath" root@"$vmhostaddr" "killall iperf3"
 #ssh -p "$dsthostport" -i "$sshkeypath" root@"$vmhostaddr" "killall iperf3"
 
+rm -r ./server_data
+rm -r ./client1_data
+rm -r ./client2_data
+rm -r ./Graphs
+rm -r ./stats
+
+
 # Nested for loops to iterate over each combination
 for aqm in "${aqm_schemes[@]}"; do
     for bw in "${bandwidth[@]}"; do
@@ -289,6 +296,7 @@ mkdir -p ./server_data
 mkdir -p ./client1_data
 mkdir -p ./client2_data
 mkdir -p ./Graphs
+mkdir -p ./stats
 
 sudo scp -P 3322 -p -i ~/.ssh/mptcprootkey root@192.168.56.1:*.siftr.log ./server_data; 
 sudo scp -P 3322 -p -i ~/.ssh/mptcprootkey root@192.168.56.1:*.pcap ./server_data;

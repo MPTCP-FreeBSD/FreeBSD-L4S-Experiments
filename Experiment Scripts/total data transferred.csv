@@ -1,0 +1,7 @@
+,File,Total Data Transferred (MB)
+0,fq_codel_10Mbps_20ms_ecn.em1.pcap,36.955548
+1,fq_codel_1Mbps_20ms_ecn.em1.pcap,3.703596
+2,fq_pie_10Mbps_20ms_ecn.em1.pcap,34.378465
+3,fq_pie_1Mbps_20ms_ecn.em1.pcap,3.418473
+4,l4s_10Mbps_20ms_ecn.em1.pcap,36.449459
+5,l4s_1Mbps_20ms_ecn.em1.pcap,3.672943
