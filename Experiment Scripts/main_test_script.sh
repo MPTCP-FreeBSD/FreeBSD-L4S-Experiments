@@ -2,14 +2,17 @@
 
 # Set basic configuration values
 set -x
-tcp1="cubic"
+# tcp1="cubic"
+# tcp2="dctcp"
+tcp1="newreno"
 tcp2="dctcp"
 
 # aqm_schemes=("fq_codel" "fq_pie" "l4s")
-aqm_schemes=("fq_codel" "fq_pie" "l4s")
+aqm_schemes=("l4s" "fq_codel" "fq_pie" )
 
 
-bandwidth=("1Mbps" "10Mbps")
+# bandwidth=("1Mbps" "10Mbps")
+bandwidth=("10Mbps")
 delay=("20ms")
 # ecn=("ecn" "noecn")
 ecn=("ecn")
