@@ -1,0 +1,127 @@
+void
+dummynet_sched_lock(void)
+{
+	mtx_lock(&sched_mtx);
+}
+
+void
+dummynet_sched_unlock(void)
+{
+	mtx_unlock(&sched_mtx);
+}
+
+add this in ip_dummynet.c after static void dummynet(void *arg)
+========================================================================================================================================
+void dummynet_sched_lock(void);
+void dummynet_sched_unlock(void);
+add this in ip_dn_private.h after int dummynet_io(struct mbuf **, struct ip_fw_args *);
+========================================================================================================================================
+dummynet_sched_lock();
+dummynet_sched_unlock();
+make this change in pie.c as well
+
+use this in fq_pie_callout_cleanup() instead of DN_BH_WUNLOCK();
+
+use this again in fq_pie_new_sched()
+
+static void
+fqpie_callout_cleanup(void *x)
+{
+	printf("start fqpie_callout_cleanup \n");
+	struct fq_pie_flow *q = x;
+	struct pie_status *pst = &q->pst;
+	struct fq_pie_si_extra *psi_extra;
+
+	mtx_unlock(&pst->lock_mtx);
+	mtx_destroy(&pst->lock_mtx);
+	psi_extra = q->psi_extra;
+
+	// Original DN_BH_WLOCK();
+	dummynet_sched_lock();
+	psi_extra->nr_active_q--;
+
+	/* when all sub-queues are destroyed, free flows fq_pie extra vars memory */
+	if (!psi_extra->nr_active_q) {
+		free(psi_extra->flows, M_DUMMYNET);
+		free(psi_extra, M_DUMMYNET);
+		fq_pie_desc.ref_count--;
+	}
+	dummynet_sched_unlock();
+	// Original DN_BH_WUNLOCK();
+	printf("end fqpie_callout_cleanup \n");
+}
+
+
+static int
+fq_pie_new_sched(struct dn_sch_inst *_si)
+{
+	printf("start fq_pie_new_sched \n");
+	struct fq_pie_si *si;
+	struct dn_queue *q;
+	struct fq_pie_schk *schk;
+	struct fq_pie_flow *flows;
+	int i;
+
+	drop_prob_Pc_flow_0=0;
+	drop_prob_Pc_flow_1=0;
+	drop_prob_Pc_flow_2=0;
+	drop_prob_Pl_flow_3=0;
+	drop_prob_Pl_flow_4=0;
+	drop_prob_Pl_flow_5=0;
+
+	si = (struct fq_pie_si *)_si;
+	schk = (struct fq_pie_schk *)(_si->sched+1);
+
+	if(si->si_extra) {
+		D("si already configured!");
+		return 0;
+	}
+
+	/* init the main queue */
+	q = &si->main_q;
+	set_oid(&q->ni.oid, DN_QUEUE, sizeof(*q));
+	q->_si = _si;
+	q->fs = _si->sched->fs;
+
+	/* allocate memory for scheduler instance extra vars */
+	si->si_extra = malloc(sizeof(struct fq_pie_si_extra),
+		 M_DUMMYNET, M_NOWAIT | M_ZERO);
+	if (si->si_extra == NULL) {
+		D("cannot allocate memory for fq_pie si extra vars");
+		return ENOMEM ; 
+	}
+	/* allocate memory for flows array */
+	si->si_extra->flows = mallocarray(schk->cfg.flows_cnt,
+	    sizeof(struct fq_pie_flow), M_DUMMYNET, M_NOWAIT | M_ZERO);
+	flows = si->si_extra->flows;
+	if (flows == NULL) {
+		free(si->si_extra, M_DUMMYNET);
+		si->si_extra = NULL;
+		D("cannot allocate memory for fq_pie flows");
+		return ENOMEM ; 
+	}
+
+	/* init perturbation for this si */
+	si->perturbation = random();
+	si->si_extra->nr_active_q = 0;
+
+	/* init the old and new flows lists */
+	STAILQ_INIT(&si->newflows);
+	STAILQ_INIT(&si->oldflows);
+
+	/* init the flows (sub-queues) */
+	for (i = 0; i < schk->cfg.flows_cnt; i++) {
+		flows[i].pst.parms = &schk->cfg.pcfg;
+		flows[i].psi_extra = si->si_extra;
+		flows[i].flow_index=i;
+		pie_init(&flows[i], schk);
+	}
+	dummynet_sched_lock();
+	fq_pie_desc.ref_count++;
+	dummynet_sched_unlock();
+	printf("end fq_pie_new_sched \n");
+
+	return 0;
+}
+
+========================================================================================================================================

@@ -1,0 +1,3898 @@
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 980721970 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1023671642 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1066621314 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 850530773 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1711276033 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1754225705 
+Deactivate PIE 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+fq_calculate_drop_prob 
+dequeue_action: 1 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1797175377 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1840125049 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 12451 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 67501 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1883074721 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1926024393 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 77986 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 780531 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1968974065 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2011923737 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 2919626 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1074133 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2054873409 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2097823081 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 4219860 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 14118417 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2140772753 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 17306088 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 31566721 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 77871837 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 126861307 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+fq_calculate_drop_prob 
+lqueue_drop_early start 
+dequeue_action: 2 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 149007232 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 244972907 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 287922579 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 330872251 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 373821923 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 416771595 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 459721267 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 502670939 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 545620611 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 588570283 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 631519955 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 674469627 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 717419299 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 760368971 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 803318643 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 846268315 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 889217987 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 932167659 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 975117331 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1018067003 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1802544087 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1845493759 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1061016675 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1089202397 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1888443431 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1931393103 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1132152069 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1175101741 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1974342775 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2017292447 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1218051413 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1261001085 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2060242119 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2103191791 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1303950757 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 564411078 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2146141463 
+Deactivate PIE 
+idx queue Type: 0 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Deactivate PIE 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 12451 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 298187 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 2521168 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 12084181 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 14936307 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 28861396 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 73824334 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 121471627 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 142275374 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 207370971 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+fq_calculate_drop_prob 
+cqueue_drop_early start 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 246965200 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 289914872 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 332864544 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 375814216 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 418763888 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 403999938 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 446949610 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 489899282 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 532848954 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 575798626 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 618748298 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 661697970 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1724697805 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 704647642 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 747597314 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1767647477 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1810597149 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 790546986 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 833496658 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1736777399 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1779727071 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 876446330 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 919396002 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1822676743 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1865626415 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 962345674 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1005295346 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1908576087 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1951525759 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1048245018 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1091194690 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1994475431 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2037425103 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1134144362 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1177094034 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2080374775 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2123324447 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1220043706 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1262993378 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+idx queue Type: 0 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+fq_calculate_drop_prob 
+dequeue_action: 1 
+Queue type is classic.  -- Assign c_base_drop_prob: 697936745 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 723438113 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 12451 
+Deactivate PIE 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 26869 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 729414 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 2868509 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+fq_calculate_drop_prob 
+dequeue_action: 1 
+Queue type is classic.  -- Assign c_base_drop_prob: 4714002 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 17632458 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 27866559 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 71487320 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 88264535 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 149333601 
+idx queue Type: 1 
+fq_calculate_drop_prob 
+Overload: false
+Queue type is classic.  -- lqueue_drop_early start 
+dequeue_action: 2 
+Assign c_base_drop_prob: 199665248 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 193625451 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 258721048 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 301670720 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 344620392 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 387570064 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 430519736 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 473469408 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 516419080 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 559368752 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 602318424 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 645268096 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 688217768 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 731167440 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 774117112 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 817066784 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 860016456 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1781069251 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1824018923 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 902966128 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 945915800 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1866968595 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1909918267 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 988865472 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1031815144 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1952867939 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1995817611 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1074764816 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1117714488 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2038767283 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2081716955 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1160664160 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1038526028 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2124666627 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1081475700 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+idx queue Type: 0 
+Queue type is classic.  -- Overload: true
+Assign c_base_drop_prob: 999602887 
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 609029300 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 650636795 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 693586467 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 716403480 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 562053094 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 598291880 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 578159221 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 584870107 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 627819779 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 670769451 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 688217755 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 731167427 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 774117099 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 817066771 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+idx queue Type: 0 
+Queue type is classic.  -- Overload: false
+Assign c_base_drop_prob: 853305557 
+cqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 896255229 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 939204901 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 982154573 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1025104245 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1068053917 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 983496749 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1026446421 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1069396093 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1112345765 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1155295437 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1186165514 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1229115186 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1272064858 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1302934935 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1301592758 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1344542430 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1387492102 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1880390369 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1923340041 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1380781216 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1423730888 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1966289713 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2009239385 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 941889246 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 943231423 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2052189057 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2095138729 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 986181095 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 936520536 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1908576088 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1951525760 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 911019168 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 912361345 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1994475432 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2037425104 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 955311017 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 932494004 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2080374776 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2123324448 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 975443676 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 984838916 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 994234156 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1037183828 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1080133500 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1102950513 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1145900185 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1171401553 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1108319221 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1125767525 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+Deactivate PIE 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: true
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+fq_calculate_drop_prob 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 12451 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 125172 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+fq_calculate_drop_prob 
+cqueue_drop_early start 
+dequeue_action: 1 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 618002 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 911603 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 0 
+idx queue Type: 1 
+Overload: false
+fq_calculate_drop_prob 
+lqueue_drop_early start 
+Queue type is classic.  -- Assign c_base_drop_prob: 16383 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 29490 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 312605 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 606206 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 3668047 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 5849085 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 15412098 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 25646199 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 39739060 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 37355 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 676986 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1557789 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 1515846 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 3235510 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 3067738 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 9946396 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 13469611 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 13301839 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 16489510 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 0 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1789122315 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1832071987 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 0 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 3276 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1875021659 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1917971331 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 189398 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 766114 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1960921003 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2003870675 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 2318006 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 0 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2046820347 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2089770019 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 4587 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 22937 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2132719691 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 96337 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 400424 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Deactivate PIE 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+idx queue Type: 0 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Deactivate PIE 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+Deactivate PIE 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+Deactivate PIE 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+Deactivate PIE 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 12451 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+Deactivate PIE 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 12451 
+Deactivate PIE 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Deactivate PIE 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+Deactivate PIE 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1558267823 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1601217495 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1644167167 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 12451 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1687116839 
+Deactivate PIE 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1730066511 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 12451 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1773016183 
+Deactivate PIE 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1790464487 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1833414159 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1876363831 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 26869 
+Deactivate PIE 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1919313503 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+fq_calculate_drop_prob 
+dequeue_action: 2 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1962263175 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+Deactivate PIE 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2005212847 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2048162519 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+Deactivate PIE 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2091112191 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2134061863 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 12451 
+Deactivate PIE 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- idx queue Type: 1 
+Assign l_base_drop_prob: 2147483647 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+Deactivate PIE 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2097823088 
+idx queue Type: 0 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2120640101 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+Deactivate PIE 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+Deactivate PIE 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 1985080197 
+idx queue Type: 0 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2028029869 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2070979541 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+Deactivate PIE 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2113929213 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2109902682 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is classic.  -- Assign c_base_drop_prob: 12451 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 2 
+Deactivate PIE 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2147483647 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+Deactivate PIE 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2079032606 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+fq_calculate_drop_prob 
+Queue type is L4S.  -- Assign l_base_drop_prob: 2121982278 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Deactivate PIE 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+Deactivate PIE 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :1 
+Deactivate PIE 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :1 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Deactivate PIE 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 1 
+Overload: false
+lqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :1 
+Deactivate PIE 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+Deactivate PIE 
+idx queue Type: 0 
+Overload: false
+cqueue_drop_early start 
+dequeue_action: 1 
+Activate PIE :0 
+Deactivate PIE 

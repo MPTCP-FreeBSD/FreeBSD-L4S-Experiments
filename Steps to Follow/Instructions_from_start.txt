@@ -1,0 +1,18 @@
+cd /etc/ssh/sshd_config - Set permit root login to yes and useDns to no
+
+pkg update -f
+pkg insall git
+pkg install python
+pkg install rsync
+pkg install iperf3
+git clone https://github.com/deol-satish/FreeBSD-L4S-SRC.git
+git checkout origin/l4smain;git pull origin l4smain
+make clean;make -j4 buildworld
+make buildkernel -j4 KERNCONF=L4SKERNEL;make installkernel -j4 KERNCONF=L4SKERNEL; shutdown -r now
+make installworld 
+
+enable dummynet after fresh install
+
+
+
+iperf3 -s --rcv-timeout 3600000 !!! Important to resolve idle timeout error on server side

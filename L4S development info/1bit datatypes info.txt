@@ -1,0 +1,87 @@
+To use a bit field like `queue_type` in a struct to represent specific values—such as `0` for "classic" and `1` for "L4S"—you can follow these steps:
+
+### Define the Struct
+
+You’ve already defined the struct with a bit field:
+
+```c
+struct my_struct {
+    unsigned int queue_type : 1; // 1-bit field to store the value
+};
+```
+
+### Use the Bit Field
+
+You can use the `queue_type` bit field to represent the "classic" and "L4S" values as follows:
+
+1. **Define the Struct Variable:**
+   Create an instance of `my_struct`.
+
+   ```c
+   struct my_struct example;
+   ```
+
+2. **Assign Values:**
+   Set `queue_type` to `0` for "classic" and `1` for "L4S".
+
+   ```c
+   example.queue_type = 0; // Represents "classic"
+   ```
+
+   ```c
+   example.queue_type = 1; // Represents "L4S"
+   ```
+
+3. **Access and Check Values:**
+   Read the value of `queue_type` and use it in conditions to check if it’s "classic" or "L4S".
+
+   ```c
+   if (example.queue_type == 0) {
+       printf("Queue type is classic.\n");
+   } else if (example.queue_type == 1) {
+       printf("Queue type is L4S.\n");
+   }
+   ```
+
+### Complete Example
+
+Here's a complete example showing how to use the bit field to handle "classic" and "L4S":
+
+```c
+#include <stdio.h>
+
+// Define the struct with a 1-bit field
+struct my_struct {
+    unsigned int queue_type : 1; // 1-bit field
+};
+
+int main() {
+    struct my_struct example;
+
+    // Set queue_type to 0 (classic)
+    example.queue_type = 0;
+    if (example.queue_type == 0) {
+        printf("Queue type is classic.\n");
+    } else {
+        printf("Queue type is L4S.\n");
+    }
+
+    // Set queue_type to 1 (L4S)
+    example.queue_type = 1;
+    if (example.queue_type == 0) {
+        printf("Queue type is classic.\n");
+    } else {
+        printf("Queue type is L4S.\n");
+    }
+
+    return 0;
+}
+```
+
+### Explanation
+
+- **Setting Values:** The bit field `queue_type` can only hold `0` or `1` because it is allocated just 1 bit.
+- **Accessing Values:** The value can be accessed and used in conditions directly, as shown in the `if` statements.
+- **Output:** The output will depend on the value assigned to `queue_type`.
+
+By using this approach, you efficiently utilize the 1-bit field to represent two distinct states.

@@ -1,0 +1,7 @@
+It looks like your `messages` log file was rotated because it exceeded 1000 KB in size. 
+This is a normal part of log management; the `newsyslog` utility handles rotating 
+and compressing log files to prevent them from getting too large.
+
+If you want to keep an eye on log sizes or adjust the rotation settings, 
+you might want to check the configuration files for `newsyslog`, which are typically found in `/etc/newsyslog.conf`. 
+You can adjust settings such as file size limits, rotation frequency, and how many old log files to keep.

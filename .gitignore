@@ -1,3 +1,9 @@
 .idea
 .vscode
 /Experiment Scripts/Old
+/LLM Data Collection/client1_data
+/LLM Data Collection/client2_data
+/LLM Data Collection/server_data
+/LLM Data Collection/llmrawdata.txt
+/LLM Data Collection/lmprocesseddata.txt
+*.pkl

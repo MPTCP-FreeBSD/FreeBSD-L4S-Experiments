@@ -1,0 +1,34 @@
+#To enable ECN, run the following command as the root user:
+sysctl net.inet.tcp.ecn.enable=1
+
+scp -P 3323 -p -i ~/.ssh/mptcprootkey demo.mp4 root@192.168.56.1:
+rsync -e "ssh -i ~/.ssh/mptcprootkey -o StrictHostKeyChecking=no" --progress random.file 172.16.1.2:
+dd if=/dev/random of=random.file bs=1M count=20
+
+==============================================================================================================================
+
+ipfw -f flush;ipfw pipe 1 config bw 10Mbits/s delay 20ms;ipfw sched 1 config pipe 1 type l4s ecn;ipfw queue 1 config sched 1;ipfw add 100 queue 1 ip from 172.16.0.0/16 to 172.16.0.0/16
+
+git checkout origin/llmdev;git pull origin llmdev;
+make buildkernel -j2 -DKERNFAST KERNCONF=L4SKERNEL;make installkernel -j2 -DKERNFAST KERNCONF=L4SKERNEL; shutdown -r now
+
+sudo scp -P 4422 -p -i ~/.ssh/mptcprootkey root@192.168.56.1:*.txt ./
+==============================================================================================================================
+ssh root@69.30.85.214 -p 22183 -i ~/.ssh/id_ed25519
+sudo scp -P 22183 -p -i ~/.ssh/id_ed25519 -r NetLLM root@69.30.85.214:
+
+cp ~/.ssh/id_ed25519.pub /mnt/c/Users/deols/.ssh
+==============================================================================================================================
+cat /var/log/messages > llmrawdata.txt
+
+It looks like your `messages` log file was rotated because it exceeded 1000 KB in size. 
+This is a normal part of log management; the `newsyslog` utility handles rotating 
+and compressing log files to prevent them from getting too large.
+
+If you want to keep an eye on log sizes or adjust the rotation settings, 
+you might want to check the configuration files for `newsyslog`, which are typically found in `/etc/newsyslog.conf`. 
+You can adjust settings such as file size limits, rotation frequency, and how many old log files to keep.
+==============================================================================================================================
+sudo truncate -s 0 /var/log/messages --- to clear messages file
+sudo service syslogd restart --- restart the syslog service to make sure it's working properly
+==============================================================================================================================

@@ -1,0 +1,2 @@
+git reset --hard HEAD - hard reset and remove any changes
+git config pull.rebase true - required when you have made changes to commit history
