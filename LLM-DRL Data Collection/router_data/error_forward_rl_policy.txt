@@ -1,0 +1,54 @@
+Shape of stacked_inputs_ln: torch.Size([1, 8, 1, 4096])
+Traceback (most recent call last):
+  File "/workspace/L4S-LLM/adaptive_bitrate_streaming/run_plm.py", line 369, in <module>
+    run(args)
+  File "/workspace/L4S-LLM/adaptive_bitrate_streaming/run_plm.py", line 291, in run
+    test(args, rl_policy, exp_dataset, exp_dataset_info, env_settings, checkpoint_dir, best_model_dir, process_reward)
+  File "/workspace/L4S-LLM/adaptive_bitrate_streaming/run_plm.py", line 157, in test
+    test_logs, test_losses = tester.test_epoch(epoch)
+  File "/workspace/L4S-LLM/adaptive_bitrate_streaming/plm_special/testing.py", line 125, in test_epoch
+    test_loss, states, actions, returns, timesteps, labels, actions_pred1, actions_pred = self.test_step(batch,epoch,step)
+  File "/workspace/L4S-LLM/adaptive_bitrate_streaming/plm_special/testing.py", line 258, in test_step
+    actions_pred1 = self.model(states, actions, returns, timesteps)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/workspace/L4S-LLM/adaptive_bitrate_streaming/plm_special/models/rl_policy.py", line 129, in forward
+    transformer_outputs = self.plm(
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/peft/peft_model.py", line 1764, in forward
+    return self.base_model(
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/peft/tuners/tuners_utils.py", line 107, in forward
+    return self.model.forward(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/accelerate/hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/workspace/L4S-LLM/adaptive_bitrate_streaming/plm_special/models/llama.py", line 133, in forward
+    batch_size, seq_length, _ = inputs_embeds.shape
+ValueError: too many values to unpack (expected 3)
+
+
+
+
+working values 
+
+normalizer.cc(51) LOG(INFO) precompiled_charsmap is empty. use identity normalization.
+If tokenizer is loaded:  [1, 22172, 3186] 
+
+max_ep_len 1370
+Shape of stacked_inputs_ln: torch.Size([1, 8, 4096])
+Step 0 - train_loss.item() 0.025661122053861618
+Step 0 - mean train loss  0.821156
+Shape of stacked_inputs_ln: torch.Size([1, 8, 4096])
+Step 1 - train_loss.item() 0.036217063665390015
+Shape of stacked_inputs_ln: torch.Size([1, 8, 4096])
+Step 2 - train_loss.item() 0.017644789069890976
+Shape of stacked_inputs_ln: torch.Size([1, 8, 4096])
+Step 3 - train_loss.item() 0.022589704021811485

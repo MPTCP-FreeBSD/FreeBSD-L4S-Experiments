@@ -26,6 +26,7 @@ FOr the changes in Kernel config file to reflect in the system, you need to buil
 options		BREAK_TO_DEBUGGER
 options 	ALT_BREAK_TO_DEBUGGER
 ------------------------------------------------------------------------------------------
+cd /mnt/c/Users/deols/OneDrive/Documents/GitHub/FreeBSD-L4S-Experiments/
 ------------------------------------------------------------------------------------------
 Using SSH on Laptop Ubuntu WSL
 ssh -p 4422 -i ~/mnt/c/Users/deols/.ssh/mptcprootkey root@192.168.56.1 "sysctl net.inet.tcp.ecn.enable=1"

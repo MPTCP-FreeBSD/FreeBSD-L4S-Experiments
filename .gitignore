@@ -6,4 +6,8 @@
 /LLM Data Collection/server_data
 /LLM Data Collection/llmrawdata.txt
 /LLM Data Collection/lmprocesseddata.txt
-*.pkl
+/LLM Data Collection/messagesoutput.txt
+LLM Data Collection/Old/llmrawdata.txt
+LLM Data Collection/router_data/llmrawdata.txt
+LLM Data Collection/router_data/lmprocesseddata.txt
+LLM Data Collection/router_data/messagesoutput.txt

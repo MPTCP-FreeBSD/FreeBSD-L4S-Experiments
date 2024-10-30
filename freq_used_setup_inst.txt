@@ -20,6 +20,7 @@ sudo scp -P 22183 -p -i ~/.ssh/id_ed25519 -r NetLLM root@69.30.85.214:
 cp ~/.ssh/id_ed25519.pub /mnt/c/Users/deols/.ssh
 ==============================================================================================================================
 cat /var/log/messages > llmrawdata.txt
+truncate -s 0 /var/log/messages - To empty the messages file
 
 It looks like your `messages` log file was rotated because it exceeded 1000 KB in size. 
 This is a normal part of log management; the `newsyslog` utility handles rotating 
