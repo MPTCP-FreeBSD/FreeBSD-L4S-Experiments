@@ -1,0 +1,15 @@
+Statistics for 10_10_l4s_10Mbps:
+CUBIC Median: 402.187
+CUBIC Mean: 396.7569521889401
+CUBIC 25th Percentile: 314.687
+CUBIC 75th Percentile: 475.625
+CUBIC Minimum: 0.312
+CUBIC Maximum: 724.375
+Separator: ===================================================
+DCTCP Median: 295.0
+DCTCP Mean: 307.2414077696652
+DCTCP 25th Percentile: 244.531
+DCTCP 75th Percentile: 377.031
+DCTCP Minimum: 0.312
+DCTCP Maximum: 535.625
+
