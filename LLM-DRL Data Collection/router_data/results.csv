@@ -1,2 +1,0 @@
-queue_type,burst_allowance,drop_probability,current_queue_delay,accumulated_probability,average_dequeue_time,length_in_bytes,total_drops,previous_queue_delay,measurement_start_time,dequeue_count,status_flags,total_packets,total_bytes,queue_length,dequeue_action
-0,0,324823270,110000,7280362416,0,44308,416,100000.0,240932704.0,0.0,3.0,33278.0,24172308.0,42.0,1.0
