@@ -1,0 +1,15 @@
+Statistics for 5_5_l4s_8Mbps:
+NEWRENO Median: 1011.562
+NEWRENO Mean: 1007.4079607486352
+NEWRENO 25th Percentile: 816.562
+NEWRENO 75th Percentile: 1214.687
+NEWRENO Minimum: 0.312
+NEWRENO Maximum: 1963.75
+Separator: ===================================================
+DCTCP Median: 802.5
+DCTCP Mean: 814.9186277271472
+DCTCP 25th Percentile: 642.5
+DCTCP 75th Percentile: 994.062
+DCTCP Minimum: 0.312
+DCTCP Maximum: 1489.375
+
