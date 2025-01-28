@@ -1,0 +1,16 @@
+Statistics for TCP NEWRENO:
+Median: nan
+Mean: nan
+25th Percentile: nan
+75th Percentile: nan
+Minimum: nan
+Maximum: nan
+
+Statistics for TCP DCTCP:
+Median: 184.062
+Mean: 188.77080588235293
+25th Percentile: 153.125
+75th Percentile: 220.0
+Minimum: 109.375
+Maximum: 401.875
+

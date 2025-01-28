@@ -1,0 +1,15 @@
+Statistics for fq_pie_1Mbps_40ms:
+CUBIC Median: 409.375
+CUBIC Mean: 395.3555934861278
+CUBIC 25th Percentile: 317.187
+CUBIC 75th Percentile: 508.125
+CUBIC Minimum: 0.312
+CUBIC Maximum: 671.562
+Separator: ===================================================
+DCTCP Median: 400.625
+DCTCP Mean: 395.95424130434776
+DCTCP 25th Percentile: 355.625
+DCTCP 75th Percentile: 477.812
+DCTCP Minimum: 0.312
+DCTCP Maximum: 732.812
+

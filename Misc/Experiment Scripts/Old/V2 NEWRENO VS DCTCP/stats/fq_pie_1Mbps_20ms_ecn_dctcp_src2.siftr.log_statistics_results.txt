@@ -1,0 +1,96 @@
+Statistics for TCP Cubic:
+Median: 305.937
+Mean: 309.6779313432836
+25th Percentile: 265.625
+75th Percentile: 347.812
+Minimum: 180.312
+Maximum: 508.437
+
+Statistics for TCP DCTCP:
+Median: nan
+Mean: nan
+25th Percentile: nan
+75th Percentile: nan
+Minimum: nan
+Maximum: nan
+
+Statistics for TCP NEWRENO:
+Median: 305.937
+Mean: 309.6779313432836
+25th Percentile: 265.625
+75th Percentile: 347.812
+Minimum: 180.312
+Maximum: 508.437
+
+Statistics for TCP DCTCP:
+Median: nan
+Mean: nan
+25th Percentile: nan
+75th Percentile: nan
+Minimum: nan
+Maximum: nan
+
+Statistics for TCP NEWRENO:
+Median: 305.937
+Mean: 309.6779313432836
+25th Percentile: 265.625
+75th Percentile: 347.812
+Minimum: 180.312
+Maximum: 508.437
+
+Statistics for TCP DCTCP:
+Median: nan
+Mean: nan
+25th Percentile: nan
+75th Percentile: nan
+Minimum: nan
+Maximum: nan
+
+Statistics for TCP NEWRENO:
+Median: 305.937
+Mean: 309.6779313432836
+25th Percentile: 265.625
+75th Percentile: 347.812
+Minimum: 180.312
+Maximum: 508.437
+
+Statistics for TCP DCTCP:
+Median: nan
+Mean: nan
+25th Percentile: nan
+75th Percentile: nan
+Minimum: nan
+Maximum: nan
+
+Statistics for TCP NEWRENO:
+Median: 305.937
+Mean: 309.6779313432836
+25th Percentile: 265.625
+75th Percentile: 347.812
+Minimum: 180.312
+Maximum: 508.437
+
+Statistics for TCP DCTCP:
+Median: nan
+Mean: nan
+25th Percentile: nan
+75th Percentile: nan
+Minimum: nan
+Maximum: nan
+
+Statistics for TCP NEWRENO:
+Median: 305.937
+Mean: 309.6779313432836
+25th Percentile: 265.625
+75th Percentile: 347.812
+Minimum: 180.312
+Maximum: 508.437
+
+Statistics for TCP DCTCP:
+Median: nan
+Mean: nan
+25th Percentile: nan
+75th Percentile: nan
+Minimum: nan
+Maximum: nan
+

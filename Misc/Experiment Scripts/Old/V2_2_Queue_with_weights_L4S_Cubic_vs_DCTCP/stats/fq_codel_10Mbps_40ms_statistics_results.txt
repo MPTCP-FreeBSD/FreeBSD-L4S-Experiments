@@ -1,0 +1,15 @@
+Statistics for fq_codel_10Mbps_40ms:
+CUBIC Median: 206.25
+CUBIC Mean: 204.6635799658509
+CUBIC 25th Percentile: 200.937
+CUBIC 75th Percentile: 212.187
+CUBIC Minimum: 0.312
+CUBIC Maximum: 253.75
+Separator: ===================================================
+DCTCP Median: 404.375
+DCTCP Mean: 381.19105125218397
+DCTCP 25th Percentile: 356.25
+DCTCP 75th Percentile: 442.5
+DCTCP Minimum: 0.312
+DCTCP Maximum: 505.937
+
