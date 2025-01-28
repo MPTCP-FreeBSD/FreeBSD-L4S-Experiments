@@ -10,7 +10,7 @@ L4S test scripts
 
 # Introduction
 
-This repository stores the source code for customized AQM kernel. In this document, we will introduce how to build and run the customized AQM kernel on FreeBSD Version 13.1, and how to run the AQM test suite on FreeBSD Version 13. The result of the test suite generates two types of files:
+This repository stores the source code for customized AQM kernel. In this document, we will introduce how to build and run the customized AQM kernel on FreeBSD Version 14.1, and how to run the AQM test suite on FreeBSD Version 14. The result of the test suite generates two types of files:
 
 - `.pcap` file which can be opened by [Wireshark](https://www.wireshark.org/) to analyze the AQM packets.
 - `.siftr` file which is a kernel module logs a range of statistics on active AQM connections to a log file.[1] For more information please check [FreeBSD SIFTR Manual Page](https://www.freebsd.org/cgi/man.cgi?query=siftr&apropos=0&sektion=4&manpath=FreeBSD+11.0-RELEASE&arch=default&format=html).
@@ -38,7 +38,7 @@ Before building the customized AQM kernel, you need to install the following sof
   pkg install bash
   ```
 
-- FreeBSD Version 13.1: You can download from [here](http://ftp-archive.freebsd.org/mirror/FreeBSD-Archive/old-releases/ISO-IMAGES/13.1/?C=S&O=D).
+- FreeBSD Version 14.1: You can download from [here](http://ftp-archive.freebsd.org/mirror/FreeBSD-Archive/old-releases/ISO-IMAGES/14.1/?C=S&O=D).
 
 ## Build virtual machines
 
@@ -46,10 +46,10 @@ To build virtual machines for running the customized AQM kernel and the test sui
 
 ```bash
 cd setup
-sh ./VM_create.sh <FreeBSD version 13.1 iso file>
+sh ./VM_create.sh <FreeBSD version 14.1 iso file>
 ```
 
-The script will create four virtual machines and install FreeBSD on them. The virtual machines will be named `FB13.1-test1`, `FB13.1-test2`, `DummynetVM1`, and `DummynetVM2`. The script will also set up other things like network interfaces, NAT port forwarding for SSH, disk size and so on. You can also change the variables in the script to customize the virtual machines.
+The script will create four virtual machines and install FreeBSD on them. The virtual machines will be named `FB14.1-test1`, `FB14.1-test2`, `DummynetVM1`, and `DummynetVM2`. The script will also set up other things like network interfaces, NAT port forwarding for SSH, disk size and so on. You can also change the variables in the script to customize the virtual machines.
 
 \* Please notice, when installing the FreeBSD on the virtual machines, please install the _FreeBSD Ports_, and enable the _SSH_ service.
 
@@ -57,7 +57,7 @@ The script will create four virtual machines and install FreeBSD on them. The vi
 
 ### SSH
 
-The first step after FreeBSD version 13.1 is installed on the virtual machines is to set up SSH.
+The first step after FreeBSD version 14.1 is installed on the virtual machines is to set up SSH.
 
 1. Firstly, you have to enable root-level login via SSH, you can do this by editing the `/etc/ssh/sshd_config` file and changing the following line:
 
@@ -115,8 +115,8 @@ ssh -p 3322 root@localhost
 ```
 Clone the kernel source:
 ```bash
-git clone https://github.com/deolsatish/FB13.1-AQM-SRC.git <path>
-git checkout FB13.1-L4S-KERNEL-SRC
+git clone https://github.com/deolsatish/FB14.1-AQM-SRC.git <path>
+git checkout FB14.1-L4S-KERNEL-SRC
 cd <path>
 ```
 Build the world (everything but the kernel):
