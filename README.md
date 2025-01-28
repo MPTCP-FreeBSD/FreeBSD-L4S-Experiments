@@ -18,7 +18,8 @@ This repository stores the source code for customized AQM kernel. In this docume
 ## LLM-DRL Data Collection 
 This folder contains code and data collected for trianing and evaluating our L4S-LLM model.
 
-LLM-DRL Data Collection/iterative_data_collection.sh This is the main code to run the networking experiment.
+LLM-DRL Data Collection/iterative_data_collection.sh: This is the main code to run the networking experiment.
+increase dmesg size limit guide.txt: Follow this to increase Kernel Log Storage limit.
 
 # Installation
 
