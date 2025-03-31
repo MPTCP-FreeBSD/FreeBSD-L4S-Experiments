@@ -2,7 +2,7 @@
 L4S test scripts
 
 ## L4S-LLM Data Collection 
-### This folder contains code and data collected for trianing and evaluating our L4S-LLM model.
+### This folder contains code and data collected for training and evaluating our L4S-LLM model.
 
 
 
